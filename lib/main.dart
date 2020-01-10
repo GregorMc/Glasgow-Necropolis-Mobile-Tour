@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:glasgow_necropolis_tour/tour.dart';
-
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 
@@ -28,9 +26,12 @@ class Home extends StatelessWidget {
       onGenerateTitle: (BuildContext context) =>
       AppLocalizations.of(context).title,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
-      home: MyHomePage(title: 'Glasgow Necropolis'),
+      home: MyHomePage(
+        title: 'Glasgow Necropolis Tour',
+      ),
+
     );
   }
 }
@@ -46,53 +47,76 @@ class MyHomePage extends StatefulWidget {
 
 
 class _MyHomePageState extends State<MyHomePage> {
+
   @override
   Widget build(BuildContext context) {
     Locale myLocale = Localizations.localeOf(context);
 
     return Scaffold(
+      drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
         title: Text(widget.title),
       ),
 
-      drawer: new Drawer(
-          child: new ListView(
-            padding: EdgeInsets.zero,
-            children: <Widget> [
-              new DrawerHeader(
-                child: new Text(AppLocalizations.of(context).title),
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                ),
-              ),
-
-              new ListTile(
-                title: new Text('Take the Tour'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Tour()),
-                  );
-                },
-              ),
-
-              new ListTile(
-                title: new Text('Home'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) =>  Home()),
-                  );
-                },
-              ),
-
-            ],
-          )
+      body: Container(
+        decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("images/necroBG.jpg"),
+              fit: BoxFit.cover,
+            )
+        ),
       ),
     );
   }
 }
+
+class DrawerOnly extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+
+    return new Drawer (
+      child: Column(
+        children: <Widget>[
+          Expanded(
+            flex: 1,
+            child: Container(
+              child: DrawerHeader(
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("images/drawerHeaderBackground.jpg"),
+                        fit: BoxFit.cover
+                    )
+                ),
+                child: Text("Glasgow Necropolis Tour"),
+              ),
+            ),
+          ),
+
+          Expanded(
+            flex: 2,
+            child: ListView(children: [
+              ListTile(
+                title: Text("Take the Tour"),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Tour()));
+                },
+              ),
+
+              ListTile(
+                title: Text("Home"),
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));                },
+              )
+            ]),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+
 
 
 

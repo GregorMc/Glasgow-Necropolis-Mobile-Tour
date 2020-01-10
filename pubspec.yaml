@@ -39,6 +39,16 @@ dev_dependencies:
 flutter:
   assets:
     - images/gates_prototype.jpg
+    - images/bridgeofsighs.jpg
+    - images/williammillermonument.jpg
+    - images/entrancefacade.jpg
+    - images/lockhartmonument.jpg
+    - images/robertblackmausoleum.jpg
+    - images/johnkingmonument.jpg
+    - images/monteathmonument.jpg
+    - images/johnknoxmonument.jpg
+    - images/necroBG.jpg
+    - images/drawerHeaderBackground.jpg
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
