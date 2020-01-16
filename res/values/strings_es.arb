@@ -1,9 +1,0 @@
-{
-  "@@last_modified": "2019-11-25T17:11:59.469405",
-  "title": "Spain test 1",
-  "@title": {
-    "description": "Title for the Weather Application",
-    "type": "text",
-    "placeholders": {}
-  }
-}

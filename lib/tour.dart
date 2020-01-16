@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/main.dart';
+import 'package:glasgow_necropolis_tour/locale/locales.dart';
 
 class Tour extends StatelessWidget {
   @override
@@ -8,23 +9,20 @@ class Tour extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Tour Introduction'),
+        title: Text(AppLocalizations.of(context).tourIntro),
       ),
 
       body: Center(
         child:  Column(
           children: <Widget>[
 
-            Text("Welcome to the Glasgow Necropolis Mobile Tour.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text("Please press start to begin the tour.",
+            Text(AppLocalizations.of(context).tourIntroText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
             RaisedButton(
-              child: Text('Start'),
+              child: Text(AppLocalizations.of(context).start),
+              elevation: 5,
               onPressed: () {
                 Navigator.push(
                   context,
@@ -49,7 +47,7 @@ class Page2 extends StatelessWidget {
 
       appBar: AppBar(
         centerTitle: true,
-        title: Text("The Entrance Gates 1838"),
+        title: Text(AppLocalizations.of(context).entrance),
       ),
 
 
@@ -59,11 +57,7 @@ class Page2 extends StatelessWidget {
           children: <Widget>[
             Image.asset('images/gates_prototype.jpg'),
 
-            Text("The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text ("Walk through the gates and onto the bridge",
+            Text(AppLocalizations.of(context).entranceText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
@@ -72,7 +66,7 @@ class Page2 extends StatelessWidget {
              children: <Widget>[
 
                new   RaisedButton(
-                 child: Text("Back"),
+                 child: Text(AppLocalizations.of(context).back),
                  elevation: 5 ,
                  onPressed: () {
                    Navigator.pop(
@@ -82,8 +76,14 @@ class Page2 extends StatelessWidget {
                  },
                ),
 
+               new RaisedButton(
+                 child: Text(AppLocalizations.of(context).seeMore),
+                 //To Do
+                 //more info button linking to more info page
+               ),
+
                new  RaisedButton(
-                 child: Text("Next"),
+                 child: Text(AppLocalizations.of(context).next),
                  onPressed: () {
                    Navigator.push(
                      context,
@@ -111,18 +111,14 @@ class Page3 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("The Bridge Of Sighs 1834"),
+        title: Text(AppLocalizations.of(context).bridgeSighs),
       ),
       body: Center(
         child: Column(
           children: <Widget>[
             Image.asset('images/bridgeofsighs.jpg'),
 
-            Text("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text ("Continue over the bridge and look straight on",
+            Text(AppLocalizations.of(context).bridgeSighsText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
@@ -131,7 +127,7 @@ class Page3 extends StatelessWidget {
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -141,8 +137,14 @@ class Page3 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -172,7 +174,7 @@ class Page4 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("The Entrance facade 1836"),
+        title: Text(AppLocalizations.of(context).entranceFacade),
       ),
       body: Center(
         child: Column(
@@ -180,11 +182,7 @@ class Page4 extends StatelessWidget {
 
             Image.asset('images/entrancefacade.jpg'),
 
-            Text("Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text ("Turn left and follow the main path until you reach Miller Monument",
+            Text(AppLocalizations.of(context).entranceFacadeText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
@@ -193,7 +191,7 @@ class Page4 extends StatelessWidget {
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -203,8 +201,14 @@ class Page4 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -232,7 +236,7 @@ class Page5 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("William Miller Memorial 1872"),
+        title: Text(AppLocalizations.of(context).williamMiller),
       ),
       body: Center(
         child: Column(
@@ -241,20 +245,17 @@ class Page5 extends StatelessWidget {
                 fit: BoxFit.fitWidth,
                 height: MediaQuery.of(context).size.height / 2),
 
-            Text("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery.",
+            Text(AppLocalizations.of(context).williamMillerText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
-            Text ("Continue until you come to steps, go up the steps and near the top - look right",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
 
             new ButtonBar(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -264,8 +265,14 @@ class Page5 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -292,7 +299,7 @@ class Page6 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Lockhart Monument 1842"),
+        title: Text(AppLocalizations.of(context).lockhart),
       ),
       body: Center(
         child: Column(
@@ -302,20 +309,17 @@ class Page6 extends StatelessWidget {
                 fit: BoxFit.fitWidth,
                 height: MediaQuery.of(context).size.height / 2),
 
-            Text("Designed by London architect J Wallace. He was Mrs Lockhart's brother. One of many Gothic monuments in the Necropolis with cherubs front and back.",
+            Text(AppLocalizations.of(context).lockhartText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
-            Text ("Turn right at the top of the steps up a curved avenue. Look left",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
 
-        new ButtonBar(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
+           new ButtonBar(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
 
             new   RaisedButton(
-              child: Text("Back"),
+              child: Text(AppLocalizations.of(context).next),
               elevation: 5 ,
               onPressed: () {
                 Navigator.pop(
@@ -325,8 +329,14 @@ class Page6 extends StatelessWidget {
               },
             ),
 
+            new RaisedButton(
+              child: Text(AppLocalizations.of(context).seeMore),
+              //To Do
+              //more info button linking to more info page
+            ),
+
             new  RaisedButton(
-              child: Text("Next"),
+              child: Text(AppLocalizations.of(context).next),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -353,7 +363,7 @@ class Page7 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Robert Black Mausoleum 1837"),
+        title: Text(AppLocalizations.of(context).robertBlack),
       ),
       body: Center(
         child: Column(
@@ -362,20 +372,17 @@ class Page7 extends StatelessWidget {
                 fit: BoxFit.fitWidth,
                 height: MediaQuery.of(context).size.height / 2),
 
-            Text("The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21.",
+            Text(AppLocalizations.of(context).robertBlackText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
-            Text ("Keep going and look to your left",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
 
             new ButtonBar(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -385,8 +392,14 @@ class Page7 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -414,7 +427,7 @@ class Page8 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("John king Monument 1875"),
+        title: Text(AppLocalizations.of(context).johnKing),
       ),
       body: Center(
         child: Column(
@@ -423,11 +436,7 @@ class Page8 extends StatelessWidget {
                 fit: BoxFit.fitWidth,
                 height: MediaQuery.of(context).size.height / 2),
 
-            Text("An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants' House and The Glasgow Chamber of Commerce.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text ("Continue onwards until you see the Monteath on your right",
+            Text(AppLocalizations.of(context).johnKingText,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
@@ -436,7 +445,7 @@ class Page8 extends StatelessWidget {
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -446,8 +455,14 @@ class Page8 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -474,7 +489,7 @@ class Page9 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Major Archibald Douglas Monteath Mausoleum 1842"),
+        title: Text(""),
       ),
       body: Center(
         child: Column(
@@ -482,11 +497,7 @@ class Page9 extends StatelessWidget {
             Image.asset('images/monteathmonument.jpg',
                 fit: BoxFit.fitWidth,
                 height: MediaQuery.of(context).size.height / 2.2),
-            Text("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontWeight: FontWeight.bold)),
-
-            Text ("Follow the path round and turn left",
+            Text("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850. \n Follow the path round and turn left",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: FontWeight.bold)),
 
@@ -495,7 +506,7 @@ class Page9 extends StatelessWidget {
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -505,8 +516,14 @@ class Page9 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -556,7 +573,7 @@ class Page10 extends StatelessWidget {
               children: <Widget>[
 
                 new   RaisedButton(
-                  child: Text("Back"),
+                  child: Text(AppLocalizations.of(context).back),
                   elevation: 5 ,
                   onPressed: () {
                     Navigator.pop(
@@ -566,8 +583,14 @@ class Page10 extends StatelessWidget {
                   },
                 ),
 
+                new RaisedButton(
+                  child: Text(AppLocalizations.of(context).seeMore),
+                  //To Do
+                  //more info button linking to more info page
+                ),
+
                 new  RaisedButton(
-                  child: Text("Next"),
+                  child: Text(AppLocalizations.of(context).next),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -602,7 +625,7 @@ class LastPage extends StatelessWidget {
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Back'),
+          child: Text(AppLocalizations.of(context).back),
         ),
       ),
     );

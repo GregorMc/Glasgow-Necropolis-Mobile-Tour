@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/tour.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 void main() => runApp(Home());
 
 class Home extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,10 +28,13 @@ class Home extends StatelessWidget {
       onGenerateTitle: (BuildContext context) =>
       AppLocalizations.of(context).title,
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        brightness: Brightness.light,
+   //     primaryColor: Colors.redAccent[700],
+        primaryColor: Colors.white,
+
       ),
       home: MyHomePage(
-        title: 'Glasgow Necropolis Tour',
+        title: ("Glasgow Necropolis"),
       ),
 
     );
@@ -56,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text(widget.title),
+        title: Text(AppLocalizations.of(context).title)
       ),
 
       body: Container(
@@ -64,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
             image: DecorationImage(
               image: AssetImage("images/necroBG.jpg"),
               fit: BoxFit.cover,
+
             )
         ),
       ),
@@ -79,36 +85,59 @@ class DrawerOnly extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Expanded(
-            flex: 1,
-            child: Container(
-              child: DrawerHeader(
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage("images/drawerHeaderBackground.jpg"),
-                        fit: BoxFit.cover
-                    )
-                ),
-                child: Text("Glasgow Necropolis Tour"),
-              ),
-            ),
-          ),
-
-          Expanded(
             flex: 2,
-            child: ListView(children: [
+            child: ListView(
+                children: [
+
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).title,
+                    textAlign: TextAlign.center,),
+                  ),
+
               ListTile(
-                title: Text("Take the Tour"),
+                title: Text(AppLocalizations.of(context).home),
+                leading: Icon(Icons.home),
+
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));                },
+              ),
+
+              ListTile(
+                title: Text(AppLocalizations.of(context).takeTheTour),
+                leading: Icon(Icons.directions_walk),
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Tour()));
                 },
               ),
 
               ListTile(
-                title: Text("Home"),
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));                },
+                title: Text(AppLocalizations.of(context).allInfo),
+                leading: Icon(Icons.library_books),
+
+              ),
+
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).map),
+                    leading: Icon(Icons.map),
+
+                  ),
+
+              ListTile(
+                title: Text(AppLocalizations.of(context).donate),
+                leading: Icon(Icons.attach_money),
+                onTap: () async {
+                  const urlDonate = 'https://www.glasgownecropolis.org/donate/';
+
+                  if (await canLaunch(urlDonate)) {
+                    await launch(urlDonate, forceWebView: false);
+                  } else {
+                    throw 'Error loading $urlDonate';
+                  }
+                },
               )
-            ]),
+
+             ]
+            ),
           )
         ],
       ),

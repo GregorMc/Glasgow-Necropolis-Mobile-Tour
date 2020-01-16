@@ -5,6 +5,210 @@
     "description": "Title for the Glasgow Necropolis",
     "type": "text",
     "placeholders": {}
+  },
+
+  "takeTheTour": "Take the Tour",
+  "@takeTheTour": {
+    "description": "Take the Tour heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "home": "Home",
+  "@home": {
+    "description": "home heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntro": "Tour Introduction",
+  "@tourIntro": {
+    "description": "tour intro heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntroText": "Welcome to the Glasgow Necropolis Mobile Tour. \nPlease press start to begin the tour.",
+  "@tourIntroText": {
+    "description": "tour intro text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "start": "Start",
+  "@start": {
+    "description": "start",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entrance": "The Entrance Gates 1838",
+  "@entrance": {
+    "description": "entrance gates heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceText": "The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto. \n Walk through the gates and onto the bridge",
+  "@entranceText": {
+    "description": "entrance gates text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "back": "Back",
+  "@back": {
+    "description": "back",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "next": "Next",
+  "@next": {
+    "description": "next",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "seeMore": "See More",
+  "@seeMore": {
+    "description": "see more button",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighs": "The Bridge Of Sighs 1834",
+  "@bridgeSighs": {
+    "description": "The Bridge Of Sighs 1834 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsText": "D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill. \n Continue over the bridge and look straight on",
+  "@bridgeSighsText": {
+    "description": "The Bridge Of Sighs 1834 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacade": "The Entrance facade 1836",
+  "@entranceFacade": {
+    "description": "The Entrance facade 1836 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeText": "Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned. \n Turn left and follow the main path until you reach Miller Monument",
+  "@entranceFacadeText": {
+    "description": "The Entrance facade 1836 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMiller": "William Miller Memorial 1872",
+  "@williamMiller": {
+    "description": "William Miller Memorial 1872 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMillerText": "This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery. \\n Continue until you come to steps, go up the steps and near the top - look right",
+  "@williamMillerText": {
+    "description": "William Miller Memorial 1872 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "allInfo": "All Information",
+  "@allInfo": {
+    "description": "all info",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "map": "Map",
+  "@map": {
+    "description": "map",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "donate": "Donate",
+  "@donate": {
+    "description": "donate",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhart": "Lockhart Monument 1842",
+  "@lockhart": {
+    "description": "lockhart",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartText": "Designed by London architect J Wallace. He was Mrs Lockhart's brother. One of many Gothic monuments in the Necropolis with cherubs front and back. \n Turn right at the top of the steps up a curved avenue. Look left",
+  "@lockhartText": {
+    "description": "lockhart text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlack": "Robert Black Mausoleum 1837",
+  "@robertBlack": {
+    "description": "robert black heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackText": "The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21. \\n Keep going and look to your left",
+  "@robertBlackText": {
+    "description": "robert black text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKing": "John king Monument 1875",
+  "@johnKing": {
+    "description": "john king heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingText": "An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants' House and The Glasgow Chamber of Commerce. \n Continue onwards until you see the Monteath on your right",
+  "@johnKingText": {
+    "description": "john king text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archie": "Major Archibald Douglas Monteath Mausoleum 1842",
+  "@archie": {
+    "description": "archie heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieText": "Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850. \\n Follow the path round and turn left",
+  "@archieText": {
+    "description": "archie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnox": "John Knox Monument 1825",
+  "@johnKnox": {
+    "description": "john knox heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnoxText": "Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religous orders and is burried in Edinburgh.",
+  "@johnKnoxText": {
+    "description": "john Knox text",
+    "type": "text",
+    "placeholders": {}
   }
 
 }
+
