@@ -23,6 +23,8 @@ class Home extends StatelessWidget {
         Locale('en', ""),
         Locale('es', ""),
         Locale('ja', ""),
+        Locale('de', ""),
+
       ],
 
       onGenerateTitle: (BuildContext context) =>

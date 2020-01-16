@@ -1,0 +1,214 @@
+{
+  "@@last_modified": "2019-11-25T17:11:59.469405",
+  "title": "Glasgow Nekropole",
+  "@title": {
+    "description": "Title for the Glasgow Necropolis",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "takeTheTour": "Machen Sie die Tour",
+  "@takeTheTour": {
+    "description": "Take the Tour heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "home": "Zuhause",
+  "@home": {
+    "description": "home heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntro": "Tour Einführung",
+  "@tourIntro": {
+    "description": "tour intro heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntroText": "Willkommen zur Glasgow Necropolis Mobile Tour. \n Bitte drücken Sie Start, um die Tour zu starten.",
+  "@tourIntroText": {
+    "description": "tour intro text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "start": "Start",
+  "@start": {
+    "description": "start",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entrance": "Die Eingangstore 1838",
+  "@entrance": {
+    "description": "entrance gates heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceText": "Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen.\n Gehe durch die Tore und auf die Brücke",
+  "@entranceText": {
+    "description": "entrance gates text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "back": "Zurück",
+  "@back": {
+    "description": "back",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "next": "Nächster",
+  "@next": {
+    "description": "next",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "seeMore": "Mehr sehen",
+  "@seeMore": {
+    "description": "see more button",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighs": "Die Seufzerbrücke 1834",
+  "@bridgeSighs": {
+    "description": "The Bridge Of Sighs 1834 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsText": "D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen.\n Fahren Sie weiter über die Brücke und schauen Sie geradeaus",
+  "@bridgeSighsText": {
+    "description": "The Bridge Of Sighs 1834 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacade": "Die Eingangsfassade 1836",
+  "@entranceFacade": {
+    "description": "The Entrance facade 1836 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeText": "Entworfen vom Architekten John Bryce. Der vorgesehene Eingang zu Katakomben, die durch die Nekropole verlaufen sollten. Mit der Verabschiedung des Anatomiegesetzes im Jahr 1832 wurde die Idee für Katakomben aufgegeben.\n Biegen Sie links ab und folgen Sie dem Hauptweg bis zum Miller Monument",
+  "@entranceFacadeText": {
+    "description": "The Entrance facade 1836 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMiller": "William Miller Denkmal 1872",
+  "@williamMiller": {
+    "description": "William Miller Memorial 1872 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMillerText": "Dies wurde dem Autor des berühmten Kinderliedes 'Wee Willie Winkie' errichtet. Er starb 1872 und wurde auf dem Tollcross-Friedhof beigesetzt. \n Fahren Sie fort, bis Sie zu den Stufen kommen, gehen Sie die Stufen hinauf und in der Nähe der Oberseite - schauen Sie nach rechts",
+  "@williamMillerText": {
+    "description": "William Miller Memorial 1872 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "allInfo": "Alle Informationen",
+  "@allInfo": {
+    "description": "all info",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "map": "Karte",
+  "@map": {
+    "description": "map",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "donate": "Spenden",
+  "@donate": {
+    "description": "donate",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhart": "Lockhart Denkmal 1842",
+  "@lockhart": {
+    "description": "lockhart",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartText": "Entworfen vom Londoner Architekten J Wallace. Er war Mrs. Lockharts Bruder. Eines der vielen gotischen Denkmäler in der Nekropole mit Engeln vorne und hinten. \n Biegen Sie am oberen Ende der Treppe rechts in eine gekrümmte Allee ein. Guck nach links",
+  "@lockhartText": {
+    "description": "lockhart text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlack": "Robert Black Mausoleum 1837",
+  "@robertBlack": {
+    "description": "robert black heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackText": "Das erste auf dem Friedhof errichtete Mausoleum. Robert Black of Black und Wingate, Händler in Kelvinhaugh, bauten dies für seine Tochter Catherine, die im Alter von 12 Jahren starb. Fünf seiner Kinder starben vor dem 21. Lebensjahr. \\ N Geh weiter und sieh nach links",
+  "@robertBlackText": {
+    "description": "robert black text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKing": "John King Denkmal 1875",
+  "@johnKing": {
+    "description": "john king heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingText": "Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und schließlich Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce.\n Fahren Sie weiter, bis Sie den Monteath auf der rechten Seite sehen",
+  "@johnKingText": {
+    "description": "john king text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archie": "Major Archibald Douglas Monteath Mausoleum 1842",
+  "@archie": {
+    "description": "archie heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieText": "Entworfen vom Architekten David Cousin. Das 30ft Durchmesser Mausoleum wird von einigen gedacht, um auf der Kirche von Str. Sepulchre in Cambridge zu basieren. Es gibt groteske Gesichter (jetzt stark erodiert) an der Tür und unter der Traufe und jedes Fensterdesign auf der unteren Ebene ist anders. Major Douglas Monteath war bei der East India Company und starb in Helensburgh. Monteaths Bruder wurde ebenfalls 1850 hier im darunter liegenden Gewölbe beigesetzt. \n Folgen Sie dem Pfad und biegen Sie links ab",
+  "@archieText": {
+    "description": "archie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnox": "John Knox Denkmal 1825",
+  "@johnKnox": {
+    "description": "john knox heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnoxText": "Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, der eine Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule hält. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist.",
+  "@johnKnoxText": {
+    "description": "john Knox text",
+    "type": "text",
+    "placeholders": {}
+  }
+
+}
+
