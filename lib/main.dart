@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/tour.dart';
+import 'package:glasgow_necropolis_tour/map.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -54,10 +55,9 @@ class MyHomePage extends StatefulWidget {
 
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
-    Locale myLocale = Localizations.localeOf(context);
+   // Locale myLocale = Localizations.localeOf(context);
 
     return Scaffold(
       drawer: new DrawerOnly(),
@@ -96,47 +96,52 @@ class DrawerOnly extends StatelessWidget {
                     textAlign: TextAlign.center,),
                   ),
 
-              ListTile(
-                title: Text(AppLocalizations.of(context).home),
-                leading: Icon(Icons.home),
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).home),
+                    leading: Icon(Icons.home),
 
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));                },
-              ),
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+                      },
+                  ),
 
-              ListTile(
-                title: Text(AppLocalizations.of(context).takeTheTour),
-                leading: Icon(Icons.directions_walk),
-                onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Tour()));
-                },
-              ),
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).takeTheTour),
+                    leading: Icon(Icons.directions_walk),
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => Tour()));
+                    },
+                  ),
 
-              ListTile(
-                title: Text(AppLocalizations.of(context).allInfo),
-                leading: Icon(Icons.library_books),
-
-              ),
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).allInfo),
+                    leading: Icon(Icons.library_books),
+                  ),
 
                   ListTile(
                     title: Text(AppLocalizations.of(context).map),
                     leading: Icon(Icons.map),
-
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => Map()));
+                    },
                   ),
 
-              ListTile(
-                title: Text(AppLocalizations.of(context).donate),
-                leading: Icon(Icons.attach_money),
-                onTap: () async {
-                  const urlDonate = 'https://www.glasgownecropolis.org/donate/';
 
-                  if (await canLaunch(urlDonate)) {
-                    await launch(urlDonate, forceWebView: false);
-                  } else {
-                    throw 'Error loading $urlDonate';
-                  }
-                },
-              )
+
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).donate),
+                    leading: Icon(Icons.attach_money),
+                    onTap: () async {
+                      const urlDonate = 'https://www.glasgownecropolis.org/donate/';
+
+                      if (await canLaunch(urlDonate)) {
+                        await launch(urlDonate, forceWebView: false);
+                      } else {
+                        throw 'Error loading $urlDonate';
+                      }
+                    },
+                  )
+
 
              ]
             ),
