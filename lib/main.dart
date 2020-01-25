@@ -5,7 +5,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-
 void main() => runApp(Home());
 
 class Home extends StatelessWidget {
@@ -55,6 +54,7 @@ class MyHomePage extends StatefulWidget {
 
 
 class _MyHomePageState extends State<MyHomePage> {
+
   @override
   Widget build(BuildContext context) {
    // Locale myLocale = Localizations.localeOf(context);
@@ -80,6 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 class DrawerOnly extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
 
@@ -126,8 +127,6 @@ class DrawerOnly extends StatelessWidget {
                     },
                   ),
 
-
-
                   ListTile(
                     title: Text(AppLocalizations.of(context).donate),
                     leading: Icon(Icons.attach_money),
@@ -150,6 +149,9 @@ class DrawerOnly extends StatelessWidget {
       ),
     );
   }
+
+
+
 }
 
 
