@@ -28,7 +28,7 @@
     "placeholders": {}
   },
 
-  "tourIntroText": "Welcome to the Glasgow Necropolis Mobile Tour. \nPlease press start to begin the tour.",
+  "tourIntroText": "\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour.",
   "@tourIntroText": {
     "description": "tour intro text",
     "type": "text",
@@ -203,7 +203,7 @@
     "placeholders": {}
   },
 
-  "johnKnoxText": "Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religous orders and is burried in Edinburgh.",
+  "johnKnoxText": "Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religious orders and is burried in Edinburgh.",
   "@johnKnoxText": {
     "description": "john Knox text",
     "type": "text",

@@ -23,7 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Toma el recorrido"),
     "home" : MessageLookupByLibrary.simpleMessage("Hogar"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Introducción al tour"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("Bienvenido a Glasgow Necropolis Mobile Tour. \nPresione comenzar para comenzar el recorrido."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\ n Bienvenido al Glasgow Necropolis Mobile Tour. \ n Si te pierdes en el camino, revisa el mapa en la parte superior derecha de tu pantalla \ n Presiona inicio para comenzar el recorrido."),
     "start" : MessageLookupByLibrary.simpleMessage("comienzo"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema. \n Camina por las puertas y hacia el puente"),

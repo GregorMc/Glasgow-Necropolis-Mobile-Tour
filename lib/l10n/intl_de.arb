@@ -28,7 +28,7 @@
     "placeholders": {}
   },
 
-  "tourIntroText": "Willkommen zur Glasgow Necropolis Mobile Tour. \n Bitte drücken Sie Start, um die Tour zu starten.",
+  "tourIntroText": "\n Willkommen bei der Glasgow Necropolis Mobile Tour. \n Wenn Sie sich unterwegs verlaufen, überprüfen Sie die Karte oben rechts auf Ihrem Bildschirm. \n Drücken Sie auf Start, um die Tour zu starten.",
   "@tourIntroText": {
     "description": "tour intro text",
     "type": "text",

@@ -18,7 +18,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Machen Sie die Tour"),
     "home" : MessageLookupByLibrary.simpleMessage("Zuhause"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Tour Einführung"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("Willkommen zur Glasgow Necropolis Mobile Tour. \n Bitte drücken Sie Start, um die Tour zu starten."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\n Willkommen bei der Glasgow Necropolis Mobile Tour. \n Wenn Sie sich unterwegs verlaufen, überprüfen Sie die Karte oben rechts auf Ihrem Bildschirm. \n Drücken Sie auf Start, um die Tour zu starten."),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Die Eingangstore 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage("Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen. Gehe durch die Tore und auf die Brücke"),

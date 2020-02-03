@@ -23,7 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Take the Tour"),
     "home" : MessageLookupByLibrary.simpleMessage("Home"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Tour Introduction"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("Welcome to the Glasgow Necropolis Mobile Tour. \nPlease press start to begin the tour."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour."),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage("The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto. \n Walk through the gates and onto the bridge"),

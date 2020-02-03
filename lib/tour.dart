@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/main.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/map.dart';
+import 'package:glasgow_necropolis_tour/drawer.dart';
 
 class Tour extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class Tour extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           AppLocalizations.of(context).tourIntro,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)
         ),
         actions: <Widget>[
           IconButton(
@@ -32,6 +32,7 @@ class Tour extends StatelessWidget {
       body: Center(
         child: Column(
           children: <Widget>[
+            Image.asset('images/necropolis_overview.jpg'),
             Text(AppLocalizations.of(context).tourIntroText,
                 textAlign: TextAlign.center,
                ),
@@ -60,7 +61,7 @@ class Page2 extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           AppLocalizations.of(context).entrance,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
         ),
         actions: <Widget>[
           IconButton(
@@ -87,6 +88,7 @@ class Page2 extends StatelessWidget {
                 child: new SingleChildScrollView(
                   child: Text(
                     AppLocalizations.of(context).entranceText,
+                    style: TextStyle(fontSize: 17),
                     textAlign: TextAlign.center,
                   ),
                 )),
@@ -139,7 +141,7 @@ class Page3 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).bridgeSighs,
-            style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -165,6 +167,7 @@ class Page3 extends StatelessWidget {
                 child: new SingleChildScrollView(
                   child: new Text(
                     AppLocalizations.of(context).bridgeSighsText,
+                    style: TextStyle(fontSize: 17),
                     textAlign: TextAlign.center,
                   ),
                 )),
@@ -214,7 +217,7 @@ class Page4 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).entranceFacade,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -240,7 +243,8 @@ class Page4 extends StatelessWidget {
                 child: new SingleChildScrollView(
                   child: new Text(
                       AppLocalizations.of(context).entranceFacadeText,
-                      textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                   ),
                 )),
             BottomAppBar(
@@ -317,7 +321,8 @@ class Page5 extends StatelessWidget {
                 child: new SingleChildScrollView(
                   child: new Text(
                       AppLocalizations.of(context).williamMillerText,
-                      textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                     ),
                 )),
             BottomAppBar(
@@ -366,7 +371,7 @@ class Page6 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).lockhart,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -393,7 +398,8 @@ class Page6 extends StatelessWidget {
                 flex: 1,
                 child: new SingleChildScrollView(
                   child: new Text(AppLocalizations.of(context).lockhartText,
-                      textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                       ),
                 )),
             BottomAppBar(
@@ -442,7 +448,7 @@ class Page7 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).robertBlack,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+          style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -469,7 +475,8 @@ class Page7 extends StatelessWidget {
                 flex: 1,
                 child: new SingleChildScrollView(
                   child: new Text(AppLocalizations.of(context).robertBlackText,
-                      textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                       ),
                 )),
             BottomAppBar(
@@ -518,7 +525,7 @@ class Page8 extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).johnKing,
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -545,7 +552,8 @@ class Page8 extends StatelessWidget {
                 flex: 1,
                 child: new SingleChildScrollView(
                   child: new Text(AppLocalizations.of(context).johnKingText,
-                      textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                       ),
                 )),
             BottomAppBar(
@@ -593,8 +601,8 @@ class Page9 extends StatelessWidget {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text("monteath",
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+        title: Text(AppLocalizations.of(context).archie,
+          style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -620,9 +628,9 @@ class Page9 extends StatelessWidget {
             new Expanded(
                 flex: 1,
                 child: new SingleChildScrollView(
-                  child: new Text(
-                      "Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850. \n Follow the path round and turn left",
-                      textAlign: TextAlign.center,
+                  child: new Text(AppLocalizations.of(context).archieText,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                       ),
                 )),
             BottomAppBar(
@@ -670,8 +678,8 @@ class Page10 extends StatelessWidget {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text("John Knox Monument 1825",
-          style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+        title: Text(AppLocalizations.of(context).johnKnox,
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.map),
@@ -697,9 +705,9 @@ class Page10 extends StatelessWidget {
             new Expanded(
                 flex: 1,
                 child: new SingleChildScrollView(
-                  child: new Text(
-                      "Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religous orders and is burried in Edinburgh.",
-                      textAlign: TextAlign.center,
+                  child: new Text(AppLocalizations.of(context).johnKnoxText,
+                    style: TextStyle(fontSize: 17),
+                    textAlign: TextAlign.center,
                       ),
                 )),
             BottomAppBar(

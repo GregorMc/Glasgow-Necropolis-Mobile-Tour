@@ -54,7 +54,7 @@ class AppLocalizations {
 
   String get tourIntroText {
     return Intl.message(
-      'Welcome to the Glasgow Necropolis Mobile Tour. \nPlease press start to begin the tour.',
+      '\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour.',
       name: 'tourIntroText',
       desc: 'tour intro text',
     );
@@ -240,6 +240,22 @@ class AppLocalizations {
       'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850. \n Follow the path round and turn left',
       name: 'archieText',
       desc: 'archie text',
+    );
+  }
+
+  String get johnKnox {
+    return Intl.message(
+      'John Knox Monument 1825',
+      name: 'johnKnox',
+      desc: 'john knox heading',
+    );
+  }
+
+  String get johnKnoxText {
+    return Intl.message(
+      'Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religious orders and is burried in Edinburgh.',
+      name: 'johnKnoxText',
+      desc: 'john knox text',
     );
   }
 
