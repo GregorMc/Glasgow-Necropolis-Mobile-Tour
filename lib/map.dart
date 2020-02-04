@@ -8,7 +8,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/tour.dart';
 import 'package:glasgow_necropolis_tour/drawer.dart';
-
+import 'package:flutter_compass/flutter_compass.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -19,6 +19,7 @@ class Map extends StatefulWidget {
 
 class MyLocationState extends State<Map> with TickerProviderStateMixin {
   AnimationController _controller;
+  double _direction;
 
   /// Icons List
   List<IconData> icons = [
@@ -76,6 +77,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       vsync: this,
       duration: const Duration(milliseconds: 500),
     );
+
+    FlutterCompass.events.listen((double direction) {
+      setState(() {
+        _direction = direction;
+      });
+    });
   }
 
   @override
@@ -169,17 +176,21 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     height: 50.0,
                     point: new LatLng(lat, long),
                     builder: (ctx) => new Container(
-                      child: Column(
-                        children: <Widget>[
-                          IconButton(
-                              icon: Icon(
-                                Icons.adjust,
-                                color: Colors.blue,
-                              ),
-                              tooltip: 'You are here',
-                              onPressed: null),
-                        ],
+                      child: new Transform.rotate(
+                        angle: ((_direction ?? 0) * (3.14159265359 / 180)),
+                        child: Column(
+                          children: <Widget>[
+                            IconButton(
+                                icon: Icon(
+                                  Icons.navigation,
+                                  color: Colors.blue,
+                                ),
+                                tooltip: 'You are here',
+                                onPressed: null),
+                          ],
+                        ),
                       ),
+
                       decoration: new BoxDecoration(
                         borderRadius: new BorderRadius.circular(30.0),
                         color: Colors.blue[100].withOpacity(0.7),

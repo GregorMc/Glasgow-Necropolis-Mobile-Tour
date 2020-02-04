@@ -27,6 +27,7 @@ dependencies:
   geolocator: ^5.0.1
   app_settings: ^1.0.6
   permission_handler: any
+  flutter_compass: ^0.3.4
 
 dev_dependencies:
   flutter_test:
