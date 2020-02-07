@@ -6,9 +6,9 @@ import 'package:glasgow_necropolis_tour/globals.dart' as globals;
 import 'package:app_settings/app_settings.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/tour.dart';
 import 'package:glasgow_necropolis_tour/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
+import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -20,12 +20,6 @@ class Map extends StatefulWidget {
 class MyLocationState extends State<Map> with TickerProviderStateMixin {
   AnimationController _controller;
   double _direction;
-
-  /// Icons List
-  List<IconData> icons = [
-    Icons.gps_fixed,
-    Icons.room,
-  ];
 
   final geolocator = Geolocator()..forceAndroidLocationManager = true;
   var locationOptions = LocationOptions(accuracy: LocationAccuracy.best, distanceFilter: 0);
@@ -94,7 +88,6 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
   _moveCamera() {
     isMoving = true;
     mapController.move(LatLng(necropolisLat, necropolisLong), _inZoom);
-    icons[0] = Icons.gps_fixed;
   }
 
   _checkGPS() async {
@@ -104,11 +97,11 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
         long = globals.long;
       });
     }
+
     var status = await geolocator.checkGeolocationPermissionStatus();
     bool isGPSOn = await geolocator.isLocationServiceEnabled();
     if (status == GeolocationStatus.granted && isGPSOn) {
       localize();
-
       _moveCamera();
     } else if (isGPSOn == false) {
       _showDialog("Turn On Your GPS");
@@ -201,11 +194,26 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   new Marker(
                     width: 35.0,
                     height: 35.0,
-                    point: new LatLng(55.862400, -4.235680),
+                    point: new LatLng(55.862400, -4.235593),
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).entrance,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page1()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.862238, -4.233830),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).bridgeSighs,
                         onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => Page2()));
                         },
@@ -216,13 +224,118 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   new Marker(
                     width: 35.0,
                     height: 35.0,
-                    point: new LatLng(55.862370, -4.234854),
+                    point: new LatLng(55.862157, -4.233188),
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: AppLocalizations.of(context).bridgeSighs,
+                        tooltip: AppLocalizations.of(context).entranceFacade,
                         onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => Page3()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.8627, -4.2331),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).williamMiller,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page4()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863118, -4.232912),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: "Jews' Enclosure",
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page5()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863616, -4.231904),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).lockhart,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page6()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863042, -4.231947),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).robertBlack,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page7()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.862830, -4.232252),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).johnKing,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page8()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.861590, -4.232531),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).archie,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page9()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.8627, -4.2320),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: AppLocalizations.of(context).johnKnox,
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page10()));
                         },
                       ),
                     ),
@@ -235,7 +348,6 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
         );
       } else {
         setState(() {
-          icons[0] = Icons.gps_not_fixed;
         });
 
         ///Map shown if gps location not found or still loading
@@ -275,6 +387,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       ),
 
       drawer: new DrawerOnly(),
+
       appBar: AppBar(
         centerTitle: true,
         title: Text(

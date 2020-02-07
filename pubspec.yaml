@@ -53,6 +53,7 @@ flutter:
     - images/necroBG.jpg
     - images/drawerHeaderBackground.jpg
     - images/necropolis_overview.jpg
+    - images/jews_enclosure.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

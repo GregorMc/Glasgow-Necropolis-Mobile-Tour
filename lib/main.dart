@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
@@ -6,37 +7,29 @@ import 'package:glasgow_necropolis_tour/drawer.dart';
 void main() => runApp(Home());
 
 class Home extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
       localizationsDelegates: [
         AppLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-
       supportedLocales: [
         Locale('en', ""),
         Locale('es', ""),
         Locale('ja', ""),
         Locale('de', ""),
-
       ],
-
       onGenerateTitle: (BuildContext context) =>
-      AppLocalizations.of(context).title,
+          AppLocalizations.of(context).title,
       theme: ThemeData(
         brightness: Brightness.light,
-   //     primaryColor: Colors.redAccent[700],
         primaryColor: Colors.white,
-
       ),
       home: MyHomePage(
         title: ("Glasgow Necropolis"),
       ),
-
     );
   }
 }
@@ -50,35 +43,27 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
-   // Locale myLocale = Localizations.localeOf(context);
-
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        centerTitle: true,
-        title: Text(AppLocalizations.of(context).title)
-      ),
+          centerTitle: true, title: Text(AppLocalizations.of(context).title)),
 
-      body: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage("images/necroBG.jpg"),
+      body: Stack(
+        children: <Widget>[
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("images/monteathmonument.jpg"),
               fit: BoxFit.cover,
-
-            )
-        ),
+              ),
+            ),
+          ),
+        ],
       ),
+
     );
   }
 }
-
-
-
-
-
-
