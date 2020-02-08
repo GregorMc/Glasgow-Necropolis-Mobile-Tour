@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/drawer.dart';
+import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 
 class AllInfo extends StatelessWidget {
   @override

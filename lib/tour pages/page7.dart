@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/drawer.dart';
+import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
-import 'package:glasgow_necropolis_tour/map.dart';
 
 class Page7 extends StatelessWidget {
   @override
@@ -13,19 +13,8 @@ class Page7 extends StatelessWidget {
         title: Text(AppLocalizations.of(context).robertBlack,
             style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
         actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.map),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Map()),
-              );
-            },
-          ),
-          IconButton(
-            icon: new Icon(Icons.arrow_back),
-            onPressed: () => Navigator.of(context).pop(),
-          )
+          MapIconButton(),
+          BackIconButton(),
         ],
       ),
       body: Center(
@@ -47,16 +36,7 @@ class Page7 extends StatelessWidget {
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).back),
-                    elevation: 5,
-                    onPressed: () {
-                      Navigator.pop(
-                        context,
-                        MaterialPageRoute(builder: (context) => Page6()),
-                      );
-                    },
-                  ),
+                  BackRaisedButton(),
                   new RaisedButton(
                     child: Text(AppLocalizations.of(context).seeMore),
                     //To Do

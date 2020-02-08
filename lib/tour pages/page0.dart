@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/drawer.dart';
-import 'package:glasgow_necropolis_tour/map.dart';
+import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
 class Page0 extends StatelessWidget {
   @override
@@ -16,15 +16,7 @@ class Page0 extends StatelessWidget {
           style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
         ),
         actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.map),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => Map()),
-              );
-            },
-          ),
+          MapIconButton(),
         ],
       ),
       body: Center(

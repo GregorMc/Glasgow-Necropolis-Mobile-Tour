@@ -6,7 +6,7 @@ import 'package:glasgow_necropolis_tour/globals.dart' as globals;
 import 'package:app_settings/app_settings.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/drawer.dart';
+import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
 
@@ -76,7 +76,8 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       setState(() {
         _direction = direction;
       });
-    });
+    }
+    );
   }
 
   @override
