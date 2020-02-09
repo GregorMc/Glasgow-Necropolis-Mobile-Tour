@@ -31,7 +31,8 @@ class Page1 extends StatelessWidget {
                     style: TextStyle(fontSize: 17),
                     textAlign: TextAlign.center,
                   ),
-                )),
+                )
+            ),
             BottomAppBar(
               child: Row(
                 mainAxisSize: MainAxisSize.max,

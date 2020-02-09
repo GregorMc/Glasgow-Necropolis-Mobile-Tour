@@ -4,9 +4,8 @@ import 'expand_arrow.dart';
 /// Default animation duration
 const Duration _kExpand = Duration(milliseconds: 300);
 
-/// This widget is used to show parcial text, if the text is too big for the parent size.
-/// You can specify the [maxLenght] parameter. If the text is short enough,
-/// no 'expand arrow' widget will be shown.
+/// This widget is used to show partial text, if the text is too big for the parent size.
+/// You can specify the [maxLenght] parameter. If the text is short enough, no 'expand arrow' widget will be shown.
 class ExpandText extends StatefulWidget {
   /// Message used as a tooltip when the widget is minimized
   final String minMessage;
@@ -102,8 +101,7 @@ class _ExpandTextState extends State<ExpandText>
   }
 
   /// Builds the widget itself. If the [_isExpanded] parameter is 'true',
-  /// the [child] parameter will contain the child information, passed to
-  /// this instance of the object.
+  /// the [child] parameter will contain the child information, passed to this instance of the object.
   Widget _buildChildren(BuildContext context, Widget child) {
     return LayoutBuilder(builder: (context, size) {
       final TextPainter textPainter = TextPainter(
@@ -153,8 +151,7 @@ class _ExpandTextState extends State<ExpandText>
 
   /// Returns the actual maximun number of allowed lines,
   /// depending on [_isExpanded].
-  /// If [overflow] is set to ellipsis, it must not return null,
-  /// otherwise the entire app could explode :)
+  /// If [overflow] is set to ellipsis, it must not return null
   int get _maxLines {
     if (_isExpanded) {
       return (widget.overflow == TextOverflow.ellipsis) ? 2 ^ 64 : null;

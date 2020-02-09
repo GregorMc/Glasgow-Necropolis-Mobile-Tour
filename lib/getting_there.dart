@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/controllers/expand_text.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
+import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
 class GettingThere extends StatelessWidget {
   @override
@@ -10,6 +11,9 @@ class GettingThere extends StatelessWidget {
       drawer: new DrawerOnly(),
       appBar: AppBar(
         title: Text('Getting There'),
+        actions: <Widget>[
+          BackIconButton(),
+        ],
       ),
       body: ListView(
         padding: EdgeInsets.all(8),
@@ -22,7 +26,8 @@ class GettingThere extends StatelessWidget {
 
 The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
 
-The Postcode of the Necropolis is G4 0UZ.'''
+The Postcode of the Necropolis is G4 0UZ.
+'''
 
               ),
             ),
@@ -118,6 +123,3 @@ Pay-and-display car parks are available in the vicinity.''',
   }
 }
 
-//"\n Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. \n\n The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel. \n\n\ The Postcode of the Necropolis is G4 0UZ.
-//"
-//,

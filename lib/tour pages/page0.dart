@@ -17,6 +17,7 @@ class Page0 extends StatelessWidget {
         ),
         actions: <Widget>[
           MapIconButton(),
+          BackIconButton(),
         ],
       ),
       body: Center(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/allInfo.dart';
+import 'package:glasgow_necropolis_tour/all_info/all_info_menu.dart';
 import 'package:glasgow_necropolis_tour/getting_there.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
 import 'package:glasgow_necropolis_tour/map.dart';
