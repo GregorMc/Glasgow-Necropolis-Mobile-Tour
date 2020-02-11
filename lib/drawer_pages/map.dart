@@ -76,8 +76,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       setState(() {
         _direction = direction;
       });
-    }
-    );
+    });
   }
 
   @override
@@ -159,7 +158,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
                 additionalOptions: {
                   'accessToken':
-                  'pk.eyJ1IjoiaG91c3NlbXRuIiwiYSI6ImNqc3hvOG82NTA0Ym00YnI1dW40M2hjMjAifQ.VlQl6uacopBKX__qg6cf3w',
+                      'pk.eyJ1IjoiaG91c3NlbXRuIiwiYSI6ImNqc3hvOG82NTA0Ym00YnI1dW40M2hjMjAifQ.VlQl6uacopBKX__qg6cf3w',
                   'id': 'mapbox.streets',
                 },
               ),
@@ -184,14 +183,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                           ],
                         ),
                       ),
-
                       decoration: new BoxDecoration(
                         borderRadius: new BorderRadius.circular(30.0),
                         color: Colors.blue[100].withOpacity(0.7),
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -201,12 +198,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).entrance,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page1()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page1()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -216,12 +213,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).bridgeSighs,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page2()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page2()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -231,12 +228,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).entranceFacade,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page3()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page3()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -246,12 +243,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).williamMiller,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page4()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page4()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -261,12 +258,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: "Jews' Enclosure",
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page5()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page5()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -276,12 +273,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).lockhart,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page6()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page6()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -291,12 +288,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).robertBlack,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page7()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page7()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -306,12 +303,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).johnKing,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page8()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page8()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -321,12 +318,12 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).archie,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page9()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page9()));
                         },
                       ),
                     ),
                   ),
-
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -336,20 +333,252 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).johnKnox,
                         onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page10()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page10()));
                         },
                       ),
                     ),
                   ),
 
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.863559, -4.230897),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('alpha',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('alpha',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861984, -4.232692),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('beta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('beta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862586, -4.229591),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('epsilon',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('epsilon',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861406, -4.230986),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('eta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('eta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861488, -4.231783),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('theta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('theta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861165, -4.233304),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('iota',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('iota',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.863290, -4.232810),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('lambda',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('lambda',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 55.0,
+                      height: 35.0,
+                      point: new LatLng(55.861747, -4.233590),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('omicron',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('omicron',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862036, -4.232257),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('sigma',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('sigma',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862891, -4.231906),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('omega',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('omega',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  )
                 ],
               ),
             ],
           ),
         );
       } else {
-        setState(() {
-        });
+        setState(() {});
 
         ///Map shown if gps location not found or still loading
         return Expanded(
@@ -365,9 +594,8 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
                 additionalOptions: {
                   'accessToken':
-                  'pk.eyJ1IjoiZ2xhc2dvd25lY3JvcG9saXN0b3VyIiwiYSI6ImNrNWNtM3F2ajAzNDIzZnMwOGd6eWNrNDMifQ.X5x659DbZxYDqdeoBksKDA',
+                      'pk.eyJ1IjoiZ2xhc2dvd25lY3JvcG9saXN0b3VyIiwiYSI6ImNrNWNtM3F2ajAzNDIzZnMwOGd6eWNrNDMifQ.X5x659DbZxYDqdeoBksKDA',
                   'id': 'mapbox.streets',
-
                 },
               ),
             ],
@@ -376,25 +604,17 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       }
     }
 
-
     /// returned build
     return Scaffold(
       key: mykey,
-
       body: Column(
-        children: <Widget>[
-          _loadBuild()
-        ],
+        children: <Widget>[_loadBuild()],
       ),
-
       drawer: new DrawerOnly(),
-
       appBar: AppBar(
         centerTitle: true,
-        title: Text(
-            AppLocalizations.of(context).map,
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)
-        ),
+        title: Text(AppLocalizations.of(context).map,
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           IconButton(
             icon: new Icon(Icons.arrow_back),
@@ -402,7 +622,6 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
           )
         ],
       ),
-
     );
   }
 }

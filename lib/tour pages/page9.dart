@@ -10,50 +10,72 @@ class Page9 extends StatelessWidget {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context).archie,
-            style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
+        title: Text(AppLocalizations.of(context).archie, maxLines: 2,
+            style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)
+        ),
         actions: <Widget>[
-          MapIconButton(),
           BackIconButton(),
         ],
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Image.asset('images/monteathmonument.jpg',
-                fit: BoxFit.fitWidth,
-                height: MediaQuery.of(context).size.height / 2.2),
-            new Expanded(
-                flex: 1,
-                child: new SingleChildScrollView(
-                  child: new Text(AppLocalizations.of(context).archieText,
-                    style: TextStyle(fontSize: 17),
-                    textAlign: TextAlign.center,
-                  ),
-                )),
-            BottomAppBar(
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+
+      body: ListView(
+        padding: EdgeInsets.all(8),
+        children: <Widget>[
+          Card(
+            child: Image.asset('images/monteathmonument.jpg', fit: BoxFit.fitWidth, height: MediaQuery.of(context).size.height / 2),
+          ),
+          Card(
+            child: Padding(
+              padding: EdgeInsets.all(8),
+              child: Column(
                 children: <Widget>[
-                  BackRaisedButton(),
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).seeMore),
-                    //To Do
-                    //more info button linking to more info page
-                  ),
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).next),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Page10()),
-                      );
-                    },
+                  Text(
+                    AppLocalizations.of(context).archieText,
+                    style: Theme.of(context).textTheme.body1,
+                  )
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: Padding(
+              padding: EdgeInsets.all(8),
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    '''
+Instructions
+
+''',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.blue),
+                    textAlign: TextAlign.center,
                   ),
                 ],
               ),
-            )
+            ),
+          ),
+        ],
+      ),
+
+      bottomSheet:  BottomAppBar(
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            BackRaisedButton(),
+            LostFlatButton(),
+            new RaisedButton(
+              child: Text(AppLocalizations.of(context).next),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Page10()),
+                );
+              },
+            ),
           ],
         ),
       ),

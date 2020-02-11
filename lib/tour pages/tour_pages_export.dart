@@ -9,3 +9,4 @@ export 'package:glasgow_necropolis_tour/tour pages/page7.dart';
 export 'package:glasgow_necropolis_tour/tour pages/page8.dart';
 export 'package:glasgow_necropolis_tour/tour pages/page9.dart';
 export 'package:glasgow_necropolis_tour/tour pages/page10.dart';
+export 'package:glasgow_necropolis_tour/tour pages/last_page.dart';

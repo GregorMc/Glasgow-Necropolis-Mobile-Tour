@@ -28,7 +28,6 @@ The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adj
 
 The Postcode of the Necropolis is G4 0UZ.
 '''
-
               ),
             ),
           ),
@@ -52,7 +51,9 @@ The Postcode of the Necropolis is G4 0UZ.
                   ExpandText(
                     '''
 From George Square go north along the side of Queen Street Station until you come to High Street.
+
 At the traffic lights, turn left and follow signs to Glasgow Cathedral til the next set of lights.
+
 Cross the road at the junction with Castle Street. Look for the magnificent cast iron gates - the entrance to the Glasgow Necropolis just to the right of Glasgow Cathedral.''',
                     textAlign: TextAlign.justify,
                   ),
@@ -82,6 +83,7 @@ Cross the road at the junction with Castle Street. Look for the magnificent cast
 Turn right out of the station and walk north up High Street to Glasgow Cathedral in Cathedral Precinct.
 
 The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
+
 You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.''',
                     textAlign: TextAlign.justify,
                   ),
@@ -108,6 +110,7 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
                   SizedBox(height: 8),
                   ExpandText(
                     '''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral. 
+
 Pay-and-display car parks are available in the vicinity.''',
                     textAlign: TextAlign.justify,
                   ),

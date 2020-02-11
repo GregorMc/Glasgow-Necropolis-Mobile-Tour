@@ -26,6 +26,11 @@ class Home extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.white,
+        accentColor: Colors.blue,
+        textTheme: TextTheme(
+          body1: TextStyle(fontSize: 16),
+          subtitle: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)
+        )
       ),
       home: MyHomePage(
         title: ("Glasgow Necropolis"),

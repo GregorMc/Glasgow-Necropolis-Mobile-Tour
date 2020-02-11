@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/all_info/all_info_menu.dart';
-import 'package:glasgow_necropolis_tour/getting_there.dart';
+import 'package:glasgow_necropolis_tour/drawer_pages/getting_there.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
-import 'package:glasgow_necropolis_tour/map.dart';
+import 'package:glasgow_necropolis_tour/drawer_pages/map.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:glasgow_necropolis_tour/main.dart';
+import 'package:glasgow_necropolis_tour/drawer_pages/history.dart';
 
 class DrawerOnly extends StatelessWidget {
   @override
@@ -49,10 +49,10 @@ class DrawerOnly extends StatelessWidget {
                   ),
 
                   ListTile(
-                    title: Text(AppLocalizations.of(context).allInfo),
+                    title: Text("History"),
                     leading: Icon(Icons.library_books),
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => AllInfo()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => History()));
                     },
                   ),
 

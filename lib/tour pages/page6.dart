@@ -13,47 +13,70 @@ class Page6 extends StatelessWidget {
         title: Text(AppLocalizations.of(context).lockhart,
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
-          MapIconButton(),
           BackIconButton(),
         ],
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Image.asset('images/lockhartmonument.jpg',
-                fit: BoxFit.fitWidth,
-                height: MediaQuery.of(context).size.height / 2),
-            new Expanded(
-                flex: 1,
-                child: new SingleChildScrollView(
-                  child: new Text(AppLocalizations.of(context).lockhartText,
-                    style: TextStyle(fontSize: 17),
-                    textAlign: TextAlign.center,
-                  ),
-                )),
-            BottomAppBar(
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+
+      body: ListView(
+        padding: EdgeInsets.all(8),
+        children: <Widget>[
+          Card(
+            child: Image.asset('images/lockhartmonument.jpg',fit: BoxFit.fitWidth,
+                 height: MediaQuery.of(context).size.height / 2)
+    ),
+
+          Card(
+            child: Padding(
+              padding: EdgeInsets.all(8),
+              child: Column(
                 children: <Widget>[
-                  BackRaisedButton(),
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).seeMore),
-                    //To Do
-                    //more info button linking to more info page
-                  ),
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).next),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Page7()),
-                      );
-                    },
+                  Text(
+                    AppLocalizations.of(context).lockhartText,
+                    style: Theme.of(context).textTheme.body1,
+                  )
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: Padding(
+              padding: EdgeInsets.all(8),
+              child: Column(
+                children: <Widget>[
+                  Text(
+                    '''
+Instructions
+
+''',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.blue),
+                    textAlign: TextAlign.center,
                   ),
                 ],
               ),
-            )
+            ),
+          ),
+        ],
+      ),
+
+      bottomSheet: BottomAppBar(
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            BackRaisedButton(),
+            LostFlatButton(),
+            new RaisedButton(
+              child: Text(AppLocalizations.of(context).next),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Page7()),
+                );
+              },
+            ),
           ],
         ),
       ),
