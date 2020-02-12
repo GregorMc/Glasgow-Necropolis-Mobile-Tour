@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
@@ -98,13 +97,12 @@ If you would like more information on any of the monuments you have seen today, 
                   ],
                 ),
                 onPressed: () async {
-                  const urlDonate =
+                  const urlBooks =
                       'https://www.glasgownecropolis.org/books-guides/';
-
-                  if (await canLaunch(urlDonate)) {
-                    await launch(urlDonate, forceWebView: true);
+                  if (await canLaunch(urlBooks)) {
+                    await launch(urlBooks, forceWebView: true);
                   } else {
-                    throw 'Error loading $urlDonate';
+                    throw 'Error loading $urlBooks';
                   }
                 },
               )

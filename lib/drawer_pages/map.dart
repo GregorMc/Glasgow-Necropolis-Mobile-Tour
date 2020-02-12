@@ -9,6 +9,7 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -20,10 +21,6 @@ class Map extends StatefulWidget {
 class MyLocationState extends State<Map> with TickerProviderStateMixin {
   AnimationController _controller;
   double _direction;
-
-  final geolocator = Geolocator()..forceAndroidLocationManager = true;
-  var locationOptions = LocationOptions(accuracy: LocationAccuracy.best, distanceFilter: 0);
-
   double lat;
   double long;
   double necropolisLat;
@@ -31,6 +28,10 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
   double _inZoom = 16.0;
   MapController mapController = new MapController();
   bool isMoving = false;
+
+  final geolocator = Geolocator()..forceAndroidLocationManager = true;
+  var locationOptions = LocationOptions(accuracy: LocationAccuracy.best, distanceFilter: 0);
+  final GlobalKey<ScaffoldState> myKey = new GlobalKey<ScaffoldState>();
 
   /// Alert box for User Permissions
   void _showDialog(String body) {
@@ -138,11 +139,9 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
     });
   }
 
-  final GlobalKey<ScaffoldState> mykey = new GlobalKey<ScaffoldState>();
-
   @override
   Widget build(BuildContext context) {
-    Widget _loadBuild() {
+    Widget _loadMap() {
       ///[Position Found Render Marker]
       if (lat != null && long != null) {
         return Expanded(
@@ -151,6 +150,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
             options: new MapOptions(
               center: new LatLng(55.862554, -4.231027),
               zoom: _inZoom,
+              plugins: [MarkerClusterPlugin()]
             ),
             layers: [
               new TileLayerOptions(
@@ -162,33 +162,245 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   'id': 'mapbox.streets',
                 },
               ),
-              new MarkerLayerOptions(
+
+              MarkerClusterLayerOptions(
+                maxClusterRadius: 70,
+                size: Size(40,40),
+                anchor: AnchorPos.align(AnchorAlign.center),
+                fitBoundsOptions: FitBoundsOptions(padding: EdgeInsets.all(50)),
                 markers: [
                   new Marker(
-                    width: 50.0,
-                    height: 50.0,
-                    point: new LatLng(lat, long),
-                    builder: (ctx) => new Container(
-                      child: new Transform.rotate(
-                        angle: ((_direction ?? 0) * (3.14159265359 / 180)),
-                        child: Column(
-                          children: <Widget>[
-                            IconButton(
-                                icon: Icon(
-                                  Icons.navigation,
-                                  color: Colors.blue,
-                                ),
-                                tooltip: 'You are here',
-                                onPressed: null),
-                          ],
-                        ),
-                      ),
-                      decoration: new BoxDecoration(
-                        borderRadius: new BorderRadius.circular(30.0),
-                        color: Colors.blue[100].withOpacity(0.7),
-                      ),
-                    ),
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.863559, -4.230897),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('alpha',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('alpha',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
                   ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861984, -4.232692),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('beta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('beta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862488, -4.229281),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('epsilon',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('epsilon',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861406, -4.230986),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('eta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('eta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861488, -4.231783),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('theta',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('theta',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.861165, -4.233304),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('iota',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('iota',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.863290, -4.232810),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('lambda',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('lambda',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 55.0,
+                      height: 35.0,
+                      point: new LatLng(55.861747, -4.233590),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('omicron',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('omicron',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862036, -4.232257),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('sigma',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('sigma',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  ),
+                  new Marker(
+                      width: 40.0,
+                      height: 35.0,
+                      point: new LatLng(55.862891, -4.231906),
+                      builder: (ctx) => new Stack(
+                        children: <Widget>[
+                          Text('omega',
+                            style: TextStyle(fontSize: 12,
+                              foreground: Paint()
+                                ..style = PaintingStyle.stroke
+                                ..strokeWidth = 2
+                                ..color = Colors.white,
+                            ),
+                          ),
+                          Text('omega',
+                            style: TextStyle(fontSize: 12,
+                              color: Colors.black.withOpacity(0.7),
+                            ),
+                          ),
+                        ],
+                      )
+                  )
+                ],
+                  builder: (context, markers) {
+                  return Text('');
+                  }
+                ),
+
+              MarkerClusterLayerOptions(
+                maxClusterRadius: 35,
+                size: Size(40,40),
+                anchor: AnchorPos.align(AnchorAlign.center),
+                fitBoundsOptions: FitBoundsOptions(padding: EdgeInsets.all(50)),
+                markers: [
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -341,239 +553,55 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                       ),
                     ),
                   ),
+                ],
 
+                polygonOptions: PolygonOptions(
+                  borderColor: Colors.red,
+                    color: Colors.black12,
+                    borderStrokeWidth: 2
+                ),
 
+                builder: (context, markers) {
+                  return FloatingActionButton(
+                    tooltip: ('Monument Markers'),
+                    backgroundColor: Colors.red,
+
+                    child: Text(markers.length.toString()),
+                    onPressed: null,
+                  );
+                }
+              ),
+
+              new MarkerLayerOptions(
+                markers: [
                   new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.863559, -4.230897),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('alpha',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('alpha',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
+                    width: 50.0,
+                    height: 50.0,
+                    point: new LatLng(lat, long),
+                    builder: (ctx) => new Container(
+                      child: new Transform.rotate(
+                        angle: ((_direction ?? 0) * (3.14159265359 / 180)),
+                        child: Column(
+                          children: <Widget>[
+                            IconButton(
+                                icon: Icon(
+                                  Icons.navigation,
+                                  color: Colors.blue,
+                                ),
+                                tooltip: 'You are here',
+                                onPressed: null),
+                          ],
+                        ),
+                      ),
+                      decoration: new BoxDecoration(
+                        borderRadius: new BorderRadius.circular(30.0),
+                        color: Colors.blue[100].withOpacity(0.7),
+                      ),
+                    ),
                   ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.861984, -4.232692),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('beta',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('beta',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.862586, -4.229591),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('epsilon',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('epsilon',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.861406, -4.230986),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('eta',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('eta',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.861488, -4.231783),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('theta',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('theta',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.861165, -4.233304),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('iota',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('iota',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.863290, -4.232810),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('lambda',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('lambda',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 55.0,
-                      height: 35.0,
-                      point: new LatLng(55.861747, -4.233590),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('omicron',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('omicron',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.862036, -4.232257),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('sigma',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('sigma',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  ),
-
-                  new Marker(
-                      width: 40.0,
-                      height: 35.0,
-                      point: new LatLng(55.862891, -4.231906),
-                      builder: (ctx) => new Stack(
-                        children: <Widget>[
-                          Text('omega',
-                            style: TextStyle(fontSize: 12,
-                              foreground: Paint()
-                                ..style = PaintingStyle.stroke
-                                ..strokeWidth = 2
-                                ..color = Colors.white,
-                            ),
-                          ),
-                          Text('omega',
-                            style: TextStyle(fontSize: 12,
-                              color: Colors.black.withOpacity(0.7),
-                            ),
-                          ),
-                        ],
-                      )
-                  )
                 ],
               ),
+              
             ],
           ),
         );
@@ -604,13 +632,9 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       }
     }
 
-    /// returned build
+    /// return Map page build
     return Scaffold(
-      key: mykey,
-      body: Column(
-        children: <Widget>[_loadBuild()],
-      ),
-      drawer: new DrawerOnly(),
+      key: myKey,
       appBar: AppBar(
         centerTitle: true,
         title: Text(AppLocalizations.of(context).map,
@@ -622,6 +646,13 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
           )
         ],
       ),
+      drawer: new DrawerOnly(),
+      body: Column(
+        children: <Widget>[
+          _loadMap()
+        ],
+      ),
+
     );
   }
 }

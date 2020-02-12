@@ -69,7 +69,6 @@ class DrawerOnly extends StatelessWidget {
                     leading: Icon(Icons.attach_money),
                     onTap: () async {
                       const urlDonate = 'https://www.glasgownecropolis.org/donate/';
-
                       if (await canLaunch(urlDonate)) {
                         await launch(urlDonate, forceWebView: true);
                       } else {
