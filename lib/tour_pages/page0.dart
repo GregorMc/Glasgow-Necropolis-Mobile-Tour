@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
@@ -70,7 +70,6 @@ In winter months (or any time of year) the weather can be unpredictable so pleas
 If you have to rest please use some of the low walls to sit on. Please do not climb on the memorials and keep to the paths. 
 Dogs must be kept on a leash. 
 There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.
-
 ''',
                       style:
                           TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
@@ -80,6 +79,8 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
                 ),
               ),
             ),
+            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
+            ListTile(title: Text(''' ''')),
           ],
         ),
         bottomSheet: BottomAppBar(
@@ -88,17 +89,8 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               new RaisedButton(
-                child: Text("Quick Tour"),
+                child: Text("Start Tour"),
                 elevation: 5,
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Page1()),
-                  );
-                },
-              ),
-              new RaisedButton(
-                child: Text("Full Tour"),
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -108,6 +100,8 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
               ),
             ],
           ),
-        ));
+        )
+    );
   }
 }
+

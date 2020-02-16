@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
 import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
 
-class Page2 extends StatelessWidget {
+class Page4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context).bridgeSighs,
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+        title: Text(AppLocalizations.of(context).williamMiller,
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           BackIconButton(),
         ],
@@ -22,7 +22,9 @@ class Page2 extends StatelessWidget {
         padding: EdgeInsets.all(8),
         children: <Widget>[
           Card(
-            child: Image.asset('images/bridgeofsighs.jpg'),
+              child:  Image.asset('images/tour_images/williammillermonument.jpg',
+                  fit: BoxFit.fitWidth,
+                  height: MediaQuery.of(context).size.height / 2)
           ),
           Card(
             child: Padding(
@@ -30,7 +32,7 @@ class Page2 extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    AppLocalizations.of(context).bridgeSighsText,
+                    AppLocalizations.of(context).williamMillerText,
                     style: Theme.of(context).textTheme.body1,
                   )
                 ],
@@ -43,9 +45,7 @@ class Page2 extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    '''
-Instructions
-
+                    '''Veer down left - follow this path until you reach steps leading up right and down left...
 ''',
                     style: TextStyle(
                         fontSize: 16,
@@ -57,27 +57,29 @@ Instructions
               ),
             ),
           ),
+          ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
+          ListTile(title: Text(''' ''')),
         ],
       ),
 
-      bottomSheet:  BottomAppBar(
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: <Widget>[
-                  BackRaisedButton(),
-                  LostFlatButton(),
-                  new RaisedButton(
-                    child: Text(AppLocalizations.of(context).next),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => Page3()),
-                      );
-                    }
-                  )
-                ]
-              )
+      bottomSheet: BottomAppBar(
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            BackRaisedButton(),
+            MapFlatButton(),
+            new RaisedButton(
+              child: Text(AppLocalizations.of(context).next),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Page5()),
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

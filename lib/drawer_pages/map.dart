@@ -8,7 +8,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 
 class Map extends StatefulWidget {
@@ -601,7 +601,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   ),
                 ],
               ),
-              
+
             ],
           ),
         );

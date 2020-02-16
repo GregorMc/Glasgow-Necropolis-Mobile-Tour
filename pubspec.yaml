@@ -29,6 +29,7 @@ dependencies:
   permission_handler: any
   flutter_compass: ^0.3.4
   flutter_map_marker_cluster: any
+  audioplayers: any
 
 dev_dependencies:
   flutter_test:
@@ -47,20 +48,26 @@ flutter_icons:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - images/gates_prototype.jpg
-    - images/bridgeofsighs.jpg
-    - images/williammillermonument.jpg
-    - images/entrancefacade.jpg
-    - images/lockhartmonument.jpg
-    - images/robertblackmausoleum.jpg
-    - images/johnkingmonument.jpg
-    - images/monteathmonument.jpg
-    - images/johnknoxmonument.jpg
-    - images/necroBG.jpg
-    - images/drawerHeaderBackground.jpg
-    - images/necropolis_overview.jpg
-    - images/jews_enclosure.jpg
+    - images/tour_images/gates_prototype.jpg
+    - images/tour_images/bridgeofsighs.jpg
+    - images/tour_images/williammillermonument.jpg
+    - images/tour_images/entrancefacade.jpg
+    - images/tour_images/lockhartmonument.jpg
+    - images/tour_images/robertblackmausoleum.jpg
+    - images/tour_images/johnkingmonument.jpg
+    - images/tour_images/monteathmonument.jpg
+    - images/tour_images/johnknoxmonument.jpg
+    - images/tour_images/jews_enclosure.jpg
+    - images/tour_images/aiken_dalmoak.jpg
+    - images/tour_images/buchanan_dowanhill.jpg
+    - images/tour_images/houldsworth.jpg
+    - images/tour_images/hutchison.jpg
+    - images/tour_images/ogilvie_beattie.jpg
+    - images/tour_images/rae_wilson.jpg
     - images/gnlogo.png
+    - images/necropolis_overview.jpg
+
+    - assets/audio.mp3
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

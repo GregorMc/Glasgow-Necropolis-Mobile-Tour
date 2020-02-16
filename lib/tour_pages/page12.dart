@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
 
-class Page5 extends StatelessWidget {
+class Page12 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text("Jewsish Enclosure",
-            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+        title: Text(AppLocalizations.of(context).archie, maxLines: 2,
+            style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)
+        ),
         actions: <Widget>[
           BackIconButton(),
         ],
@@ -21,7 +22,7 @@ class Page5 extends StatelessWidget {
         padding: EdgeInsets.all(8),
         children: <Widget>[
           Card(
-            child: Image.asset('images/jews_enclosure.jpg'),
+            child: Image.asset('images/tour_images/monteathmonument.jpg', fit: BoxFit.fitWidth, height: MediaQuery.of(context).size.height / 2),
           ),
           Card(
             child: Padding(
@@ -29,7 +30,7 @@ class Page5 extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    'Jewish enclosure',
+                    AppLocalizations.of(context).archieText,
                     style: Theme.of(context).textTheme.body1,
                   )
                 ],
@@ -42,10 +43,7 @@ class Page5 extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   Text(
-                    '''
-Instructions
-
-''',
+                    '''Continue along the path and take the first left then the first right. On your left...''',
                     style: TextStyle(
                         fontSize: 16,
                         fontStyle: FontStyle.italic,
@@ -56,22 +54,24 @@ Instructions
               ),
             ),
           ),
+          ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
+          ListTile(title: Text(''' ''')),
         ],
       ),
 
-      bottomSheet: BottomAppBar(
+      bottomSheet:  BottomAppBar(
         child: Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             BackRaisedButton(),
-            LostFlatButton(),
+            MapFlatButton(),
             new RaisedButton(
               child: Text(AppLocalizations.of(context).next),
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Page6()),
+                  MaterialPageRoute(builder: (context) => Page13()),
                 );
               },
             ),

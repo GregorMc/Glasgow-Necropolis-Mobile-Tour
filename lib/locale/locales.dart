@@ -78,7 +78,7 @@ class AppLocalizations {
 
   String get entranceText {
     return Intl.message(
-      'The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants House symbol (a clipper on top of the world) and motto. \n Walk through the gates and onto the bridge',
+      'The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants House symbol (a clipper on top of the world) and motto.',
       name: 'entranceText',
       desc: 'entrance text',
     );
@@ -117,7 +117,7 @@ class AppLocalizations {
 
   String get bridgeSighsText {
     return Intl.message(
-      'D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill. \n Continue over the bridge and look straight on',
+      'D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.',
       name: 'bridgeSighsText',
       desc: 'The Bridge Of Sighs 1834 text',
     );
@@ -133,7 +133,7 @@ class AppLocalizations {
 
   String get entranceFacadeText {
     return Intl.message(
-      'Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned. \n Turn left and follow the main path until you reach Miller Monument',
+      'Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.',
       name: 'entranceFacadeText',
       desc: 'The Entrance Facade 1836 text',
     );
@@ -149,7 +149,7 @@ class AppLocalizations {
 
   String get williamMillerText {
     return Intl.message(
-      'This was erected to the author of the famous nursery rhyme "Wee Willie Winkie". He died in 1872 and was burried in Tollcross cemetery. \n Continue until you come to steps, go up the steps and near the top - look right',
+      'This was erected to the author of the famous nursery rhyme "Wee Willie Winkie". He died in 1872 and was burried in Tollcross cemetery.',
       name: 'williamMillerText',
       desc: 'William Miller Memorial 1872 text',
     );

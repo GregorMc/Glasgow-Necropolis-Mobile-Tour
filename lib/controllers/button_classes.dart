@@ -40,13 +40,13 @@ class BackRaisedButton extends StatelessWidget {
   }
 }
 
-class LostFlatButton extends StatelessWidget {
+class MapFlatButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
       child: Row(
         children: <Widget>[
-          Text('Lost? '),
+          Text('Map '),
           Icon(Icons.map)
         ],
       ),
@@ -59,3 +59,4 @@ class LostFlatButton extends StatelessWidget {
     );
   }
 }
+

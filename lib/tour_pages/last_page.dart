@@ -91,7 +91,7 @@ If you would like more information on any of the monuments you have seen today, 
                 child: Row(
                   children: <Widget>[
                     Text(
-                      'Books & Guides',
+                      'Books & Guides ',
                     ),
                     Icon(Icons.library_books)
                   ],

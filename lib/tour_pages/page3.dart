@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/tour pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
+import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
 
-class Page6 extends StatelessWidget {
+class Page3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context).lockhart,
+        title: Text(AppLocalizations.of(context).entranceFacade,
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
         actions: <Widget>[
           BackIconButton(),
@@ -21,17 +21,15 @@ class Page6 extends StatelessWidget {
         padding: EdgeInsets.all(8),
         children: <Widget>[
           Card(
-            child: Image.asset('images/lockhartmonument.jpg',fit: BoxFit.fitWidth,
-                 height: MediaQuery.of(context).size.height / 2)
-    ),
-
+            child: Image.asset('images/tour_images/entrancefacade.jpg'),
+          ),
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
               child: Column(
                 children: <Widget>[
                   Text(
-                    AppLocalizations.of(context).lockhartText,
+                    AppLocalizations.of(context).entranceFacadeText,
                     style: Theme.of(context).textTheme.body1,
                   )
                 ],
@@ -43,11 +41,7 @@ class Page6 extends StatelessWidget {
               padding: EdgeInsets.all(8),
               child: Column(
                 children: <Widget>[
-                  Text(
-                    '''
-Instructions
-
-''',
+                  Text('''Turn left and follow the main path until you reach Miller Monument...''',
                     style: TextStyle(
                         fontSize: 16,
                         fontStyle: FontStyle.italic,
@@ -58,6 +52,8 @@ Instructions
               ),
             ),
           ),
+          ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
+          ListTile(title: Text(''' ''')),
         ],
       ),
 
@@ -67,13 +63,13 @@ Instructions
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             BackRaisedButton(),
-            LostFlatButton(),
+            MapFlatButton(),
             new RaisedButton(
               child: Text(AppLocalizations.of(context).next),
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Page7()),
+                  MaterialPageRoute(builder: (context) => Page4()),
                 );
               },
             ),
