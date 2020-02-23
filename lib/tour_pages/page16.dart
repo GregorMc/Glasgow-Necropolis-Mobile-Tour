@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/last_page.dart';
 
-class Page8 extends StatefulWidget {
+class Page16 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page16State createState() => Page16State();
 }
 
-class Page8State extends State<Page8> {
+class Page16State extends State<Page16> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('Aiken of Dalmoak Mausoleum',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -92,32 +92,17 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/aiken_dalmoak.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''Designed by architect James Hamilton.
+This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
-                  ],
-                ),
-              ),
-            ),
-            Card(
-              child: Padding(
-                padding: EdgeInsets.all(8),
-                child: Column(
-                  children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
-                      style: TextStyle(
-                          fontSize: 16,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.blue),
-                      textAlign: TextAlign.center,
-                    ),
                   ],
                 ),
               ),
@@ -143,7 +128,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => LastPage()),
                   );
                 },
               ),
@@ -156,13 +141,14 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = '''Designed by architect James Hamilton.
+This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. ''';
     return  FlatButton(
-      onPressed: () {
-        setState(() {
-          isPlaying ? _stop() : _speak(audio);
-        });
-      },
+        onPressed: () {
+          setState(() {
+            isPlaying ? _stop() : _speak(audio);
+          });
+        },
         child: isPlaying
             ? StopIcon()
             : PlayIcon()

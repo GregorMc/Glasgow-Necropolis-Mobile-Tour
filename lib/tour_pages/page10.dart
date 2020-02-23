@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page11.dart';
 
-class Page8 extends StatefulWidget {
+class Page10 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page10State createState() => Page10State();
 }
 
-class Page8State extends State<Page8> {
+class Page10State extends State<Page10> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('Buchanan of Dowanhill Monument 1844',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -92,14 +92,15 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/buchanan_dowanhill.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''Designed by architect James Brown. Sculptor James Shanks
+Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +112,7 @@ class Page8State extends State<Page8> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
+                    Text('''Keep going up. Next on the left...''',
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -143,7 +144,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => Page11()),
                   );
                 },
               ),
@@ -156,13 +157,13 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = AppLocalizations.of(context).entranceText;
     return  FlatButton(
-      onPressed: () {
-        setState(() {
-          isPlaying ? _stop() : _speak(audio);
-        });
-      },
+        onPressed: () {
+          setState(() {
+            isPlaying ? _stop() : _speak(audio);
+          });
+        },
         child: isPlaying
             ? StopIcon()
             : PlayIcon()

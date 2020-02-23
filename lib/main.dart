@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
+import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 
 void main() => runApp(Home());
 

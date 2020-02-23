@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page12.dart';
 
-class Page8 extends StatefulWidget {
+class Page11 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page11State createState() => Page11State();
 }
 
-class Page8State extends State<Page8> {
+class Page11State extends State<Page11> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('Hutchison Family Mausoleum',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -92,14 +92,15 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/hutchison.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''An imposing structure with interesting Moorish motif on the cast iron gates.
+First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD who was buried 26th April 1870. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +112,7 @@ class Page8State extends State<Page8> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
+                    Text('''Carry on down the path and on the right in the corner...''',
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -143,7 +144,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => Page12()),
                   );
                 },
               ),
@@ -156,13 +157,13 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = AppLocalizations.of(context).entranceText;
     return  FlatButton(
-      onPressed: () {
-        setState(() {
-          isPlaying ? _stop() : _speak(audio);
-        });
-      },
+        onPressed: () {
+          setState(() {
+            isPlaying ? _stop() : _speak(audio);
+          });
+        },
         child: isPlaying
             ? StopIcon()
             : PlayIcon()

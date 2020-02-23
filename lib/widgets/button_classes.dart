@@ -17,6 +17,26 @@ class MapIconButton extends StatelessWidget {
   }
 }
 
+class MapFlatButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return RaisedButton(
+      child: Row(
+        children: <Widget>[
+          Text('Map '),
+          Icon(Icons.map)
+        ],
+      ),
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Map()),
+        );
+      },
+    );
+  }
+}
+
 class BackIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -40,22 +60,24 @@ class BackRaisedButton extends StatelessWidget {
   }
 }
 
-class MapFlatButton extends StatelessWidget {
+class StopIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
-      child: Row(
-        children: <Widget>[
-          Text('Map '),
-          Icon(Icons.map)
-        ],
-      ),
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Map()),
-        );
-      },
+      return new Icon(
+        Icons.stop,
+        size: 30,
+        color: Colors.red,
+      );
+  }
+}
+
+class PlayIcon extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Icon(
+      Icons.play_arrow,
+      size: 30,
+      color: Colors.green,
     );
   }
 }

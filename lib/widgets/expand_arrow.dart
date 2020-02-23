@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 
-/// This widget is used in both [ExpandChild] & [ExpandText] widgets to show
-/// the hidden information to the user. It posses an [animation] parameter.
-/// Most widget parameters, such as [size] & [color] are customizable.
+/// This widget is used in both [ExpandChild] & [ExpandText] widgets to show the hidden information to the user
 class ExpandArrow extends StatefulWidget {
   /// Message used as a tooltip when the widget is minimized or maximised
   final String minMessage;
   final String maxMessage;
-  /// Controlls the arrow fluid(TM) animation
+  /// Controls the arrow fluid(TM) animation
   final Animation<double> animation;
-  /// Callback to controll what happeds when the arrow is clicked
+  /// Callback to control what happens when the arrow is clicked
   final Function onTap;
   final Color color;
   final double size;

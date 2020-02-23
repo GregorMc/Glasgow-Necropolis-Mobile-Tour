@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page8.dart';
 
-class Page8 extends StatefulWidget {
+class Page7 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page7State createState() => Page7State();
 }
 
-class Page8State extends State<Page8> {
+class Page7State extends State<Page7> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('Reverend Alexander Ogilvie Beattie Monument 1858',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -83,7 +83,6 @@ class Page8State extends State<Page8> {
             bottom: TabBar(
               tabs: <Widget>[
                 playButton(context)
-
               ],
             )
         ),
@@ -92,14 +91,15 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/oglivie.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
+The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +111,7 @@ class Page8State extends State<Page8> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
+                    Text('''Turn right and first left up a curved avenue. On the left......''',
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -143,7 +143,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => Page8()),
                   );
                 },
               ),
@@ -156,7 +156,8 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = '''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
+The monument consists of an obelisk and urn, with a tomb chest on a base. ''';
     return  FlatButton(
       onPressed: () {
         setState(() {

@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page16.dart';
 
-class Page8 extends StatefulWidget {
+class Page15 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page15State createState() => Page15State();
 }
 
-class Page8State extends State<Page8> {
+class Page15State extends State<Page15> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('John Houldsworth Family Mausoleum 1845',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -92,14 +92,16 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/john_houldsworth.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''Designed by architect and sculptor John Thomas. 
+On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
+John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +113,7 @@ class Page8State extends State<Page8> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
+                    Text('''Turn right down the grassy pathand turn right back on to the main path. Continue straight through and turn left down towards the mausoleum. Before you reach it, take the first right. On your right...''',
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -143,7 +145,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => Page16()),
                   );
                 },
               ),
@@ -156,13 +158,15 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = '''Designed by architect and sculptor John Thomas. 
+On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
+John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''';
     return  FlatButton(
-      onPressed: () {
-        setState(() {
-          isPlaying ? _stop() : _speak(audio);
-        });
-      },
+        onPressed: () {
+          setState(() {
+            isPlaying ? _stop() : _speak(audio);
+          });
+        },
         child: isPlaying
             ? StopIcon()
             : PlayIcon()

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:glasgow_necropolis_tour/controllers/expand_text.dart';
-import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
-import 'package:glasgow_necropolis_tour/controllers/button_classes.dart';
+import 'package:glasgow_necropolis_tour/widgets/expand_text.dart';
+import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
+import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 
 class GettingThere extends StatelessWidget {
   @override

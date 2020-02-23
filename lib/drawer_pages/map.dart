@@ -6,10 +6,25 @@ import 'package:glasgow_necropolis_tour/globals.dart' as globals;
 import 'package:app_settings/app_settings.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:glasgow_necropolis_tour/locale/locales.dart';
-import 'package:glasgow_necropolis_tour/controllers/drawer.dart';
+import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
-import 'package:glasgow_necropolis_tour/tour_pages/tour_pages_export.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page1.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page2.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page3.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page4.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page5.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page6.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page7.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page8.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page10.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page11.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page12.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page13.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page14.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page15.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page16.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -84,6 +99,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
   void dispose() {
     super.dispose();
     _controller.dispose();
+
   }
 
   _moveCamera() {
@@ -163,6 +179,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                 },
               ),
 
+              /// Necropolis compartment markers
               MarkerClusterLayerOptions(
                 maxClusterRadius: 70,
                 size: Size(40,40),
@@ -390,11 +407,14 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                       )
                   )
                 ],
+                  /// "Invisible" cluster marker for text when map is zoomed out
                   builder: (context, markers) {
                   return Text('');
                   }
                 ),
 
+              /// Monument markers
+              /// Press and hold to display tooltip, tap to navigate to relevant page
               MarkerClusterLayerOptions(
                 maxClusterRadius: 35,
                 size: Size(40,40),
@@ -494,6 +514,21 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   new Marker(
                     width: 35.0,
                     height: 35.0,
+                    point: new LatLng(55.863612, -4.231220),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'Reverend Alexander Ogilvie Beattie Monument 1858',
+                        onPressed: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page7()));
+                        },
+                      ),
+                    ),
+                  ),
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
                     point: new LatLng(55.863042, -4.231947),
                     builder: (ctx) => new Container(
                       child: new IconButton(
@@ -501,7 +536,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         tooltip: AppLocalizations.of(context).robertBlack,
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Page7()));
+                              MaterialPageRoute(builder: (context) => Page8()));
                         },
                       ),
                     ),
@@ -516,11 +551,46 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         tooltip: AppLocalizations.of(context).johnKing,
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Page8()));
+                              MaterialPageRoute(builder: (context) => Page9()));
                         },
                       ),
                     ),
                   ),
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.862181, -4.232414),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'Buchanan of Dowanhill Monument 1844',
+                        onPressed: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Page10()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863027, -4.232008),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'Hutchison Family Mausoleum',
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page11()));
+                        },
+                      ),
+                    ),
+                  ),
+
+
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -530,12 +600,15 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
                         tooltip: AppLocalizations.of(context).archie,
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Page9()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page12()));
                         },
                       ),
                     ),
                   ),
+
                   new Marker(
                     width: 35.0,
                     height: 35.0,
@@ -548,7 +621,61 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => Page10()));
+                                  builder: (context) => Page13()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863211, -4.230999),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'William Rae Wilson Monument 1849',
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page14()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.863145, -4.231010),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'John Houldsworth Family Mausoleum 1845',
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page15()));
+                        },
+                      ),
+                    ),
+                  ),
+
+                  new Marker(
+                    width: 35.0,
+                    height: 35.0,
+                    point: new LatLng(55.862672, -4.232630),
+                    builder: (ctx) => new Container(
+                      child: new IconButton(
+                        icon: Icon(Icons.room, color: Colors.red, size: 35.0),
+                        tooltip: 'Aiken of Dalmoak Mausoleum',
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Page16()));
                         },
                       ),
                     ),
@@ -561,13 +688,22 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     borderStrokeWidth: 2
                 ),
 
-                builder: (context, markers) {
-                  return FloatingActionButton(
-                    tooltip: ('Monument Markers'),
-                    backgroundColor: Colors.red,
 
-                    child: Text(markers.length.toString()),
-                    onPressed: null,
+
+                builder: (context, markers) {
+                  return Container(
+                    width: 25,
+                    height: 25,
+                    decoration: new BoxDecoration(
+                      color: Colors.red.withOpacity(0.85),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Text(markers.length.toString(),
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold))
+                    )
                   );
                 }
               ),

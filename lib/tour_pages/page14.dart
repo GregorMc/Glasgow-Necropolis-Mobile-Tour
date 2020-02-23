@@ -3,14 +3,14 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page9.dart';
+import'package:glasgow_necropolis_tour/tour_pages/page15.dart';
 
-class Page8 extends StatefulWidget {
+class Page14 extends StatefulWidget {
   @override
-  Page8State createState() => Page8State();
+  Page14State createState() => Page14State();
 }
 
-class Page8State extends State<Page8> {
+class Page14State extends State<Page14> {
   bool isPlaying = false;
   FlutterTts _flutterTts;
 
@@ -74,7 +74,7 @@ class Page8State extends State<Page8> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text(AppLocalizations.of(context).robertBlack,
+            title: Text('William Rae Wilson Monument 1849',
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -92,14 +92,18 @@ class Page8State extends State<Page8> {
           padding: EdgeInsets.all(8),
           children: <Widget>[
             Card(
-              child: Image.asset('images/tour_images/robertblackmausoleum.jpg'),
+              child: Image.asset('images/tour_images/rae_wilson.jpg'),
             ),
             Card(
               child: Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(AppLocalizations.of(context).robertBlackText,
+                    Text('''Designed by architect J A Bell.
+An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
+William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
+He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+He died in London but is burried here. ''',
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +115,7 @@ class Page8State extends State<Page8> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
+                    Text('''Next monument...''',
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -143,7 +147,7 @@ class Page8State extends State<Page8> {
                   }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Page9()),
+                    MaterialPageRoute(builder: (context) => Page15()),
                   );
                 },
               ),
@@ -156,13 +160,17 @@ class Page8State extends State<Page8> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).robertBlackText;
+    String audio = '''Designed by architect J A Bell.
+An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
+William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
+He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+He died in London but is burried here. ''';
     return  FlatButton(
-      onPressed: () {
-        setState(() {
-          isPlaying ? _stop() : _speak(audio);
-        });
-      },
+        onPressed: () {
+          setState(() {
+            isPlaying ? _stop() : _speak(audio);
+          });
+        },
         child: isPlaying
             ? StopIcon()
             : PlayIcon()
