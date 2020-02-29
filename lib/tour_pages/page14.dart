@@ -139,7 +139,7 @@ He died in London but is burried here. ''',
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {

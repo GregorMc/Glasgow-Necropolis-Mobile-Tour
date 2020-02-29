@@ -136,7 +136,7 @@ class Page3State extends State<Page3> {
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {

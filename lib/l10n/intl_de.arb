@@ -208,7 +208,84 @@
     "description": "john Knox text",
     "type": "text",
     "placeholders": {}
-  }
+  },
 
+  "johnKnox": "Tour Starten",
+      "@startTour": {
+        "description": "start tour",
+        "type": "text",
+        "placeholders": {}
+      },
+
+       "gettingThere": "Anreise",
+              "@gettingThere": {
+                "description": "getting there",
+                "type": "text",
+                "placeholders": {}
+              },
+
+    "byFoot": "Zu Fuß",
+                "@byFoot": {
+                  "description": "by foot",
+                  "type": "text",
+                  "placeholders": {}
+                },
+
+   "byPublic: "Mit öffentlichen Verkehrsmitteln",
+                  "@byPublic": {
+                    "description": "by public",
+                    "type": "text",
+                    "placeholders": {}
+                  },
+
+
+     "byCar": "Mit dem Autor",
+          "@byCar": {
+          "description": "by car",
+          "type": "text",
+          "placeholders": {}
+          },
+
+           "location": '''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von 7.00 bis 16.30 Uhr geöffnet.
+                                                     
+Die Haupttore befinden sich hinter dem St. Mungo Museum für religiöses Leben und Kunst und neben der Kathedrale von Glasgow. Es gibt jedoch ein Tor in der Wishart Street und einen Eingang in der John Knox Street gegenüber dem Cathedral House Hotel.
+                                                     
+Die Postleitzahl der Nekropole lautet G4 0UZ.''',
+                    "@location": {
+                    "description": "location text",
+                    "type": "text",
+                    "placeholders": {}
+                    },
+
+"carDirections": '''Verlassen Sie die M8 an der Ausfahrt 15 und folgen Sie den Schildern zur Kathedrale von Glasgow.
+
+In der Nähe stehen kostenpflichtige Parkplätze zur Verfügung.''',
+               "@carDirections": {
+               "description": "car Directions",
+               "type": "text",
+               "placeholders": {}
+               },
+
+               "walkDirections": '''Fahren Sie vom George Square entlang der Queen Street Station nach Norden, bis Sie zur High Street kommen.
+
+Biegen Sie an der Ampel links ab und folgen Sie den Schildern zur Kathedrale von Glasgow bis zur nächsten Ampel.
+
+Überqueren Sie die Straße an der Kreuzung mit der Castle Street. Suchen Sie nach den prächtigen gusseisernen Toren - dem Eingang zur Nekropole von Glasgow rechts von der Kathedrale von Glasgow.''',
+                                             "@walkDirections": {
+                                             "description": "walk Directions",
+                                             "type": "text",
+                                             "placeholders": {}
+                                             },
+"publicDirections": '''Der nächste Bahnhof ist die Glasgow High Street - eine Haltestelle vom Bahnhof Queen Street entfernt.
+                       Biegen Sie rechts vom Bahnhof ab und gehen Sie die High Street nach Norden zur Glasgow Cathedral im Cathedral Precinct.
+
+                       Der Touristenbus Hop on Hop off hält an der Kathedrale und es gibt eine Reihe von Bussen, die vom Stadtzentrum abfahren und in der Nähe der Kathedrale fahren.
+
+                       Informationen zu Bussen und Bahnen erhalten Sie auf der Website oder App von Traveline Scotland, First Bus Glasgow oder National Rail Inquiries.''',
+                                              "@publicDirections": {
+                                              "description": "public Directions",
+                                              "type": "text",
+                                              "placeholders": {}
+                                              },
 }
 

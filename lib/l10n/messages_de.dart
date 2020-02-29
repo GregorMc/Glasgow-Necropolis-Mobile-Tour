@@ -44,6 +44,34 @@ class MessageLookup extends MessageLookupByLibrary {
     "archieText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten David Cousin. Das 30ft Durchmesser Mausoleum wird von einigen gedacht, um auf der Kirche von Str. Sepulchre in Cambridge zu basieren. Es gibt groteske Gesichter (jetzt stark erodiert) an der Tür und unter der Traufe und jedes Fensterdesign auf der unteren Ebene ist anders. Major Douglas Monteath war bei der East India Company und starb in Helensburgh. Monteaths Bruder wurde ebenfalls 1850 hier im darunter liegenden Gewölbe beigesetzt. \n Folgen Sie dem Pfad und biegen Sie links ab"),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Denkmal 1825"),
     "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, der eine Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule hält. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist."),
+    "startTour" : MessageLookupByLibrary.simpleMessage("Tour starten"),
+    "gettingThere" : MessageLookupByLibrary.simpleMessage("Anreise"),
+    "byFoot" : MessageLookupByLibrary.simpleMessage("Zu Fuß"),
+    "byPublic" : MessageLookupByLibrary.simpleMessage("Mit öffentlichen Verkehrsmitteln"),
+    "byPublic" : MessageLookupByLibrary.simpleMessage("Mit dem Auto"),
+    "location" : MessageLookupByLibrary.simpleMessage('''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von 7.00 bis 16.30 Uhr geöffnet.
+                             
+Die Haupttore befinden sich hinter dem St. Mungo Museum für religiöses Leben und Kunst und neben der Kathedrale von Glasgow. Es gibt jedoch ein Tor in der Wishart Street und einen Eingang in der John Knox Street gegenüber dem Cathedral House Hotel.
+                             
+Die Postleitzahl der Nekropole lautet G4 0UZ.'''),
+    "carDirections" : MessageLookupByLibrary.simpleMessage('''Verlassen Sie die M8 an der Ausfahrt 15 und folgen Sie den Schildern zur Kathedrale von Glasgow.
+
+In der Nähe stehen kostenpflichtige Parkplätze zur Verfügung.'''),
+    "walkDirections" : MessageLookupByLibrary.simpleMessage('''Fahren Sie vom George Square entlang der Queen Street Station nach Norden, bis Sie zur High Street kommen.
+
+Biegen Sie an der Ampel links ab und folgen Sie den Schildern zur Kathedrale von Glasgow bis zur nächsten Ampel.
+
+Überqueren Sie die Straße an der Kreuzung mit der Castle Street. Suchen Sie nach den prächtigen gusseisernen Toren - dem Eingang zur Nekropole von Glasgow rechts von der Kathedrale von Glasgow.'''),
+    "publicDirections" : MessageLookupByLibrary.simpleMessage('''Der nächste Bahnhof ist die Glasgow High Street - eine Haltestelle vom Bahnhof Queen Street entfernt.
+Biegen Sie rechts vom Bahnhof ab und gehen Sie die High Street nach Norden zur Glasgow Cathedral im Cathedral Precinct.
+
+Der Touristenbus Hop on Hop off hält an der Kathedrale und es gibt eine Reihe von Bussen, die vom Stadtzentrum abfahren und in der Nähe der Kathedrale fahren.
+
+Informationen zu Bussen und Bahnen erhalten Sie auf der Website oder App von Traveline Scotland, First Bus Glasgow oder National Rail Inquiries.'''),
+
+
+
+
 
 
   };

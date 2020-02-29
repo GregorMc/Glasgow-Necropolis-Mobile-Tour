@@ -136,7 +136,7 @@ First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {

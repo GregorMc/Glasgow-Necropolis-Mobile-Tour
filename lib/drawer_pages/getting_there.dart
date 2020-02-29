@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/expand_text.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
@@ -10,7 +11,7 @@ class GettingThere extends StatelessWidget {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-        title: Text('Getting There'),
+        title: Text(AppLocalizations.of(context).gettingThere),
         actions: <Widget>[
           BackIconButton(),
         ],
@@ -21,17 +22,9 @@ class GettingThere extends StatelessWidget {
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
-              child: Text(
-                '''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. 
-
-The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
-
-The Postcode of the Necropolis is G4 0UZ.
-'''
-              ),
+              child: Text(AppLocalizations.of(context).location),
             ),
           ),
-
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
@@ -39,29 +32,18 @@ The Postcode of the Necropolis is G4 0UZ.
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(
-                          Icons.directions_walk
-                      ),
-                      Text(
-                        ' By Foot',
-                      )
+                      Icon(Icons.directions_walk),
+                      Text(AppLocalizations.of(context).byFoot)
                     ],
                   ),
                   SizedBox(height: 8),
-                  ExpandText(
-                    '''
-From George Square go north along the side of Queen Street Station until you come to High Street.
-
-At the traffic lights, turn left and follow signs to Glasgow Cathedral til the next set of lights.
-
-Cross the road at the junction with Castle Street. Look for the magnificent cast iron gates - the entrance to the Glasgow Necropolis just to the right of Glasgow Cathedral.''',
+                  ExpandText(AppLocalizations.of(context).walkDirections,
                     textAlign: TextAlign.justify,
                   ),
                 ],
               ),
             ),
           ),
-
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
@@ -69,29 +51,18 @@ Cross the road at the junction with Castle Street. Look for the magnificent cast
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(
-                          Icons.directions_railway
-                      ),
-                      Text(
-                        ' By Public Transport',
-                      )
+                      Icon(Icons.directions_railway),
+                      Text(AppLocalizations.of(context).byPublic)
                     ],
                   ),
                   SizedBox(height: 8),
-                  ExpandText(
-                    '''The nearest train station is Glasgow High Street – one stop from Queen Street Station.
-Turn right out of the station and walk north up High Street to Glasgow Cathedral in Cathedral Precinct.
-
-The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
-
-You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.''',
+                  ExpandText(AppLocalizations.of(context).publicDirections,
                     textAlign: TextAlign.justify,
                   ),
                 ],
               ),
             ),
           ),
-
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
@@ -99,30 +70,20 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(
-                          Icons.directions_car
-                      ),
-                      Text(
-                        ' By Car',
-                      )
+                      Icon(Icons.directions_car),
+                      Text(AppLocalizations.of(context).byCar)
                     ],
                   ),
                   SizedBox(height: 8),
-                  ExpandText(
-                    '''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral. 
-
-Pay-and-display car parks are available in the vicinity.''',
+                  ExpandText(AppLocalizations.of(context).carDirections,
                     textAlign: TextAlign.justify,
                   ),
                 ],
               ),
             ),
           ),
-
-
         ],
       ),
     );
   }
 }
-

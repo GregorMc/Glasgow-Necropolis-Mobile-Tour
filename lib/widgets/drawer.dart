@@ -58,7 +58,7 @@ class DrawerOnly extends StatelessWidget {
                   ),
 
                   ListTile(
-                    title: Text("Getting There"),
+                    title: Text(AppLocalizations.of(context).gettingThere),
                     leading: Icon(Icons.departure_board),
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => GettingThere()));

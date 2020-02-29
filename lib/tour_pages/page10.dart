@@ -136,7 +136,7 @@ Based on the Monument of Lysicrates - one of many in the Necropolis. The upper s
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {

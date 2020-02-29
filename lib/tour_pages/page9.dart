@@ -135,7 +135,7 @@ class Page9State extends State<Page9> {
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {
@@ -156,7 +156,7 @@ class Page9State extends State<Page9> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).entranceText;
+    String audio = AppLocalizations.of(context).johnKing;
     return  FlatButton(
       onPressed: () {
         setState(() {

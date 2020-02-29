@@ -89,7 +89,7 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               new RaisedButton(
-                child: Text("Start Tour"),
+                child: Text(AppLocalizations.of(context).startTour),
                 elevation: 5,
                 onPressed: () {
                   Navigator.push(

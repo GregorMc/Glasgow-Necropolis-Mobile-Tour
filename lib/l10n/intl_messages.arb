@@ -208,4 +208,82 @@
     "placeholders": {}
   }
 
+  "johnKnox": "Start Tour",
+      "@startTour": {
+        "description": "start tour",
+        "type": "text",
+        "placeholders": {}
+      },
+
+      "gettingThere": "Getting There",
+              "@gettingThere": {
+                "description": "getting there",
+                "type": "text",
+                "placeholders": {}
+              },
+
+    "byFoot": "By Foot",
+                       "@byFoot": {
+                         "description": "by foot",
+                         "type": "text",
+                         "placeholders": {}
+                       },
+
+  "byPublic": "By Public Transport",
+         "@byPublic": {
+           "description": "public transport",
+           "type": "text",
+           "placeholders": {}
+         },
+
+  "byCar": "By Car",
+          "@byCar": {
+          "description": "by car",
+          "type": "text",
+          "placeholders": {}
+          },
+
+  "location": '''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily.
+
+                   The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
+
+                   The Postcode of the Necropolis is G4 0UZ.''',
+            "@location": {
+            "description": "location text",
+            "type": "text",
+            "placeholders": {}
+            },
+
+"carDirections": '''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral.
+
+Pay-and-display car parks are available in the vicinity.''',
+                           "@carDirections": {
+                           "description": "car Directions",
+                           "type": "text",
+                           "placeholders": {}
+                           },
+
+            "walkDirections": '''From George Square go north along the side of Queen Street Station until you come to High Street.
+
+At the traffic lights, turn left and follow signs to Glasgow Cathedral til the next set of lights.
+
+Cross the road at the junction with Castle Street. Look for the magnificent cast iron gates - the entrance to the Glasgow Necropolis just to the right of Glasgow Cathedral.''',
+                            "@walkDirections": {
+                           "description": "walk Directions",
+                   "type": "text",
+                      "placeholders": {}
+                    },
+
+             "publicDirections": '''The nearest train station is Glasgow High Street – one stop from Queen Street Station.
+Turn right out of the station and walk north up High Street to Glasgow Cathedral in Cathedral Precinct.
+
+The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
+
+You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.''',
+                               "@publicDirections": {
+                              "description": "public Directions",
+                               "type": "text",
+                                    "placeholders": {}
+                                  },
+
 }

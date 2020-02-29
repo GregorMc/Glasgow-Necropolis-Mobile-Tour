@@ -25,6 +25,7 @@ import'package:glasgow_necropolis_tour/tour_pages/page13.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page14.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page15.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page16.dart';
+import'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -164,6 +165,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
           child: new FlutterMap(
             mapController: mapController,
             options: new MapOptions(
+              ///centers map to Glasgow Necropolis GPS coordinates
               center: new LatLng(55.862554, -4.231027),
               zoom: _inZoom,
               plugins: [MarkerClusterPlugin()]
@@ -181,6 +183,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
 
               /// Necropolis compartment markers
               MarkerClusterLayerOptions(
+                /// MarkerClusterLayerOptions used so when zoomed out markers merge into one marker
                 maxClusterRadius: 70,
                 size: Size(40,40),
                 anchor: AnchorPos.align(AnchorAlign.center),
@@ -688,8 +691,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     borderStrokeWidth: 2
                 ),
 
-
-
+                ///Cluster for monument markers
                 builder: (context, markers) {
                   return Container(
                     width: 25,
@@ -700,6 +702,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     ),
                     child: Align(
                       alignment: Alignment.center,
+                      ///number of markers displayed inside Marker Cluster at the time
                       child: Text(markers.length.toString(),
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold))
@@ -708,6 +711,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                 }
               ),
 
+              ///Marker for user location
               new MarkerLayerOptions(
                 markers: [
                   new Marker(
@@ -715,6 +719,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     height: 50.0,
                     point: new LatLng(lat, long),
                     builder: (ctx) => new Container(
+                      ///handles user changing direction
                       child: new Transform.rotate(
                         angle: ((_direction ?? 0) * (3.14159265359 / 180)),
                         child: Column(
@@ -744,7 +749,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       } else {
         setState(() {});
 
-        ///Map shown if gps location not found or still loading
+        ///Map shown if GPS location not found or still loading
         return Expanded(
           child: new FlutterMap(
             mapController: mapController,
@@ -776,10 +781,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
         title: Text(AppLocalizations.of(context).map,
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
         actions: <Widget>[
-          IconButton(
-            icon: new Icon(Icons.arrow_back),
-            onPressed: () => Navigator.of(context).pop(),
-          )
+          BackIconButton(),
         ],
       ),
       drawer: new DrawerOnly(),
@@ -788,7 +790,6 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
           _loadMap()
         ],
       ),
-
     );
   }
 }

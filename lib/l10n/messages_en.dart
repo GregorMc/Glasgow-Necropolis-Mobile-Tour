@@ -49,6 +49,32 @@ class MessageLookup extends MessageLookupByLibrary {
     "archieText" : MessageLookupByLibrary.simpleMessage("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850. \n Follow the path round and turn left"),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Monument 1825"),
     "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religous orders and is burried in Edinburgh."),
+    "startTour" : MessageLookupByLibrary.simpleMessage("Start Tour"),
+    "gettingThere" : MessageLookupByLibrary.simpleMessage("Getting There"),
+    "byFoot" : MessageLookupByLibrary.simpleMessage("By Foot"),
+    "byPublic" : MessageLookupByLibrary.simpleMessage("By Public Transport"),
+    "byCar" : MessageLookupByLibrary.simpleMessage("By Car"),
+    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. 
+                           
+The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
+                           
+The Postcode of the Necropolis is G4 0UZ.'''),
+    "carDirections" : MessageLookupByLibrary.simpleMessage('''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral. 
+
+Pay-and-display car parks are available in the vicinity.'''),
+    "walkDirections" : MessageLookupByLibrary.simpleMessage('''From George Square go north along the side of Queen Street Station until you come to High Street.
+
+At the traffic lights, turn left and follow signs to Glasgow Cathedral til the next set of lights.
+
+Cross the road at the junction with Castle Street. Look for the magnificent cast iron gates - the entrance to the Glasgow Necropolis just to the right of Glasgow Cathedral.'''),
+    "publicDirections" : MessageLookupByLibrary.simpleMessage('''The nearest train station is Glasgow High Street – one stop from Queen Street Station.
+Turn right out of the station and walk north up High Street to Glasgow Cathedral in Cathedral Precinct.
+
+The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
+
+You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.'''),
+
+
 
 
   };

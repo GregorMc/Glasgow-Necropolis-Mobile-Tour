@@ -89,13 +89,8 @@ The Glasgow Necropolis still has a wonderful atmosphere and still attracts many 
               ),
             ),
           ),
-
-
-
-
         ],
       )
-
     );
   }
 }

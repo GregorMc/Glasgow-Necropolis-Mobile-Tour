@@ -5,7 +5,6 @@ import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page2.dart';
 
-
 class Page1 extends StatefulWidget {
   @override
   Page1State createState() => Page1State();
@@ -136,7 +135,7 @@ class Page1State extends State<Page1> {
               BackRaisedButton(),
               MapFlatButton(),
               RaisedButton(
-                child: Text("next"),
+                child: Text(AppLocalizations.of(context).next),
                 onPressed: () {
                   ///if audio is playing, then stop
                   if (isPlaying) {
