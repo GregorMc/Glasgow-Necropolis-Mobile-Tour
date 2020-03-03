@@ -111,7 +111,7 @@ class Page4State extends State<Page4> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Veer down left - follow this path until you reach steps leading up right and down left...''',
+                    Text(AppLocalizations.of(context).williamMillerInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -122,8 +122,7 @@ class Page4State extends State<Page4> {
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

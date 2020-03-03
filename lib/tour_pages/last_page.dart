@@ -11,8 +11,7 @@ class LastPage extends StatelessWidget {
     return Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-          title: Text(
-            "Tour Complete",
+          title: Text(AppLocalizations.of(context).tourComplete,
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
           ),
           actions: <Widget>[
@@ -70,9 +69,7 @@ If you would like more information on any of the monuments you have seen today, 
               RaisedButton(
                 child: Row(
                   children: <Widget>[
-                    Text(
-                      'Donate ',
-                    ),
+                    Text(AppLocalizations.of(context).donate),
                     Icon(Icons.attach_money)
                   ],
                 ),
@@ -108,6 +105,7 @@ If you would like more information on any of the monuments you have seen today, 
               )
             ],
           ),
-        ));
+        )
+    );
   }
 }

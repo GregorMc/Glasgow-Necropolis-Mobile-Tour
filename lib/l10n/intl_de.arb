@@ -28,7 +28,9 @@
     "placeholders": {}
   },
 
-  "tourIntroText": "\n Willkommen bei der Glasgow Necropolis Mobile Tour. \n Wenn Sie sich unterwegs verlaufen, überprüfen Sie die Karte oben rechts auf Ihrem Bildschirm. \n Drücken Sie auf Start, um die Tour zu starten.",
+  "tourIntroText": '''Die Glasgow Necropolis befindet sich ganz in der Nähe der Glasgow Cathedral und auf einem der höchsten Hügel mit herrlichem Blick über die Stadt Glasgow.
+
+Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über eine begrenzte Zeit verfügen, können Sie mit dieser App 30 der besonderen Denkmäler und Mausoleen sehen. Wenn Sie mehr sehen möchten, kontaktieren Sie die Freunde der Nekropole von Glasgow, um eine geführte Wanderung zu arrangieren - ''',
   "@tourIntroText": {
     "description": "tour intro text",
     "type": "text",
@@ -49,12 +51,19 @@
     "placeholders": {}
   },
 
-  "entranceText": "Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen.\n Gehe durch die Tore und auf die Brücke",
+  "entranceText": "Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen.",
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
     "placeholders": {}
   },
+
+  "entranceInstructions": '''Gehe durch die Tore und auf die Brücke''',
+      "@entranceInstructions": {
+        "description": "entrance gates instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "back": "Zurück",
   "@back": {
@@ -84,12 +93,19 @@
     "placeholders": {}
   },
 
-  "bridgeSighsText": "D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen.\n Fahren Sie weiter über die Brücke und schauen Sie geradeaus",
+  "bridgeSighsText": "D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen.",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
     "placeholders": {}
   },
+
+   "bridgeSighsInstructions": "Geradeaus und dir zugewandt ...",
+      "@bridgeSighsInstructions": {
+        "description": "The Bridge Of Sighs 1834 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "entranceFacade": "Die Eingangsfassade 1836",
   "@entranceFacade": {
@@ -98,12 +114,19 @@
     "placeholders": {}
   },
 
-  "entranceFacadeText": "Entworfen vom Architekten John Bryce. Der vorgesehene Eingang zu Katakomben, die durch die Nekropole verlaufen sollten. Mit der Verabschiedung des Anatomiegesetzes im Jahr 1832 wurde die Idee für Katakomben aufgegeben.\n Biegen Sie links ab und folgen Sie dem Hauptweg bis zum Miller Monument",
+  "entranceFacadeText": "Entworfen vom Architekten John Bryce. Der vorgesehene Eingang zu Katakomben, die durch die Nekropole verlaufen sollten. Mit der Verabschiedung des Anatomiegesetzes im Jahr 1832 wurde die Idee für Katakomben aufgegeben.",
   "@entranceFacadeText": {
     "description": "The Entrance facade 1836 text",
     "type": "text",
     "placeholders": {}
   },
+
+    "entranceFacadeInstructions": "The Entrance facade 1836",
+      "@entranceFacadeInstructions": {
+        "description": 'Biegen Sie links ab und folgen Sie dem Hauptweg...',
+        "type": "text",
+        "placeholders": {}
+      },
 
   "williamMiller": "William Miller Denkmal 1872",
   "@williamMiller": {
@@ -112,12 +135,19 @@
     "placeholders": {}
   },
 
-  "williamMillerText": "Dies wurde dem Autor des berühmten Kinderliedes 'Wee Willie Winkie' errichtet. Er starb 1872 und wurde auf dem Tollcross-Friedhof beigesetzt. \n Fahren Sie fort, bis Sie zu den Stufen kommen, gehen Sie die Stufen hinauf und in der Nähe der Oberseite - schauen Sie nach rechts",
+  "williamMillerText": "Dies wurde dem Autor des berühmten Kinderliedes 'Wee Willie Winkie' errichtet. Er starb 1872 und wurde auf dem Tollcross-Friedhof beigesetzt.",
   "@williamMillerText": {
     "description": "William Miller Memorial 1872 text",
     "type": "text",
     "placeholders": {}
   },
+
+   "williamMillerInstructions": "Biegen Sie links ab - folgen Sie diesem Pfad, bis Sie die Stufen erreichen, die rechts oben und links unten führen ...",
+      "@williamMillerInstructions": {
+        "description": "William Miller Memorial 1872 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "allInfo": "Alle Informationen",
   "@allInfo": {
@@ -287,5 +317,40 @@ Biegen Sie an der Ampel links ab und folgen Sie den Schildern zur Kathedrale von
                                               "type": "text",
                                               "placeholders": {}
                                               },
+"history": "Geschichte",
+          "@history": {
+          "description": "history heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"tourComplete": "Tour abgeschlossen",
+          "@tourComplete": {
+          "description": "tour complete",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jews": "Jüdische Anlage 1836",
+          "@jews": {
+          "description": "jews heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsText": '''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszüge aus der Schrift, Lord Byrons 'Hebräische Melodien') und Symbole.
+Die erste Beerdigung war Joseph Levi im Jahre 1832.''',
+          "@jews": {
+          "description": "jews text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsInstructions": '''Folgen Sie dem Pfad und gehen Sie die Stufen rechts hinauf. Schauen Sie rechts oben auf der Treppe nach rechts...''',
+          "@jews": {
+          "description": "jews instructions",
+          "type": "text",
+          "placeholders": {}
+          },
 }
 

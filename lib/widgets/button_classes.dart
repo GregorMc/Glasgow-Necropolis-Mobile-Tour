@@ -82,3 +82,11 @@ class PlayIcon extends StatelessWidget {
   }
 }
 
+/// Provides a blank line so text at the bottom of Cards is not overlapped with the BottomAppBar
+class EmptySpace extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new ListTile(title: Text(''' '''));
+  }
+}
+

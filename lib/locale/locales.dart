@@ -54,7 +54,9 @@ class AppLocalizations {
 
   String get tourIntroText {
     return Intl.message(
-      '\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour.',
+      '''The Glasgow Necropolis is located very close to Glasgow Cathedral and is on one of the highest hills with great views over the City of Glasgow.
+
+The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited time you can see 30 of the most special monuments and mausolea with this app. If you want to see more contact the Friends of Glasgow Necropolis to arrange a guided walking tour -  ''',
       name: 'tourIntroText',
       desc: 'tour intro text',
     );
@@ -83,6 +85,15 @@ class AppLocalizations {
       desc: 'entrance text',
     );
   }
+
+  String get entranceInstructions {
+    return Intl.message(
+      'Walk through the gates and onto the bridge...',
+      name: 'entranceInstructions',
+      desc: 'entrance instructions',
+    );
+  }
+
   String get back {
     return Intl.message(
       'Back',
@@ -123,6 +134,14 @@ class AppLocalizations {
     );
   }
 
+  String get bridgeSighsInstructions {
+    return Intl.message(
+      'Straight on and facing you...',
+      name: 'bridgeSighsInstructions',
+      desc: 'The Bridge Of Sighs 1834 instructions',
+    );
+  }
+
   String get entranceFacade {
     return Intl.message(
       'The Entrance Facade 1836',
@@ -139,6 +158,14 @@ class AppLocalizations {
     );
   }
 
+  String get entranceFacadeInstructions {
+    return Intl.message(
+      'Turn left and follow the main path...',
+      name: 'entranceFacade',
+      desc: 'The Entrance Facade 1836 instructions',
+    );
+  }
+
   String get williamMiller {
     return Intl.message(
       'William Miller Memorial 1872',
@@ -152,6 +179,14 @@ class AppLocalizations {
       'This was erected to the author of the famous nursery rhyme "Wee Willie Winkie". He died in 1872 and was burried in Tollcross cemetery.',
       name: 'williamMillerText',
       desc: 'William Miller Memorial 1872 text',
+    );
+  }
+
+  String get williamMillerInstructions {
+    return Intl.message(
+      'Veer down left - follow this path until you reach steps leading up right and down left...',
+      name: 'williamMiller',
+      desc: 'William Miller Memorial 1872 instructions',
     );
   }
 
@@ -343,6 +378,47 @@ The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of 
 You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.''',
       name: 'publicDirections',
       desc: 'public directions',
+    );
+  }
+
+  String get history {
+    return Intl.message(
+      'History',
+      name: 'history',
+      desc: 'history heading',
+    );
+  }
+
+  String get tourComplete {
+    return Intl.message(
+      'Tour Complete',
+      name: 'tourComplete',
+      desc: 'tour complete heading',
+    );
+  }
+
+  String get jews {
+    return Intl.message(
+      "Jewish Enclosure 1836",
+      name: 'jews',
+      desc: 'jew heading',
+    );
+  }
+
+  String get jewsText {
+    return Intl.message(
+      ''''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
+The first burial was Joseph Levi in 1832.''',
+      name: 'jewsText',
+      desc: 'jews Text',
+    );
+  }
+
+  String get jewsInstructions {
+    return Intl.message(
+      '''Follow the path and go up the steps on the right. Near the top of the steps, look right...''',
+      name: 'jewsInstructions',
+      desc: 'jews heading',
     );
   }
 

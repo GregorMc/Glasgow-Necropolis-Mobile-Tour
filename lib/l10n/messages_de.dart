@@ -18,19 +18,25 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Machen Sie die Tour"),
     "home" : MessageLookupByLibrary.simpleMessage("Zuhause"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Tour Einführung"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\n Willkommen bei der Glasgow Necropolis Mobile Tour. \n Wenn Sie sich unterwegs verlaufen, überprüfen Sie die Karte oben rechts auf Ihrem Bildschirm. \n Drücken Sie auf Start, um die Tour zu starten."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage('''Die Glasgow Necropolis befindet sich ganz in der Nähe der Glasgow Cathedral und auf einem der höchsten Hügel mit herrlichem Blick über die Stadt Glasgow.
+
+Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über eine begrenzte Zeit verfügen, können Sie mit dieser App 30 der besonderen Denkmäler und Mausoleen sehen. Wenn Sie mehr sehen möchten, kontaktieren Sie die Freunde der Nekropole von Glasgow, um eine geführte Wanderung zu arrangieren - '''),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Die Eingangstore 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen. Gehe durch die Tore und auf die Brücke"),
+    "entranceText" : MessageLookupByLibrary.simpleMessage("Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen."),
+    "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Gehe durch die Tore und auf die Brücke...'),
     "back" : MessageLookupByLibrary.simpleMessage("Zurück"),
     "next" : MessageLookupByLibrary.simpleMessage("Nächster"),
     "seeMore" : MessageLookupByLibrary.simpleMessage("Mehr sehen"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("Die Seufzerbrücke 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen. Fahren Sie weiter über die Brücke und schauen Sie geradeaus"),
+    "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Geradeaus und dir zugewandt...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("Die Eingangsfassade 1836"),
-    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten John Bryce. Der vorgesehene Eingang zu Katakomben, die durch die Nekropole verlaufen sollten. Mit der Verabschiedung des Anatomiegesetzes im Jahr 1832 wurde die Idee für Katakomben aufgegeben. Biegen Sie links ab und folgen Sie dem Hauptweg bis zum Miller Monument"),
+    "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Biegen Sie links ab und folgen Sie dem Hauptweg..."),
+    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten John Bryce. Der vorgesehene Eingang zu Katakomben, die durch die Nekropole verlaufen sollten. Mit der Verabschiedung des Anatomiegesetzes im Jahr 1832 wurde die Idee für Katakomben aufgegeben."),
     "williamMiller" : MessageLookupByLibrary.simpleMessage("William Miller Denkmal 1872"),
-    "williamMillerText" : MessageLookupByLibrary.simpleMessage("Dies wurde dem Autor des berühmten Kinderliedes 'Wee Willie Winkie' errichtet. Er starb 1872 und wurde auf dem Tollcross-Friedhof beigesetzt. \n Fahren Sie fort, bis Sie zu den Stufen kommen, gehen Sie die Stufen hinauf und in der Nähe der Oberseite - schauen Sie nach rechts"),
+    "williamMillerInstructions" : MessageLookupByLibrary.simpleMessage("VBiegen Sie links ab - folgen Sie diesem Pfad, bis Sie die Stufen erreichen, die rechts oben und links unten führen..."),
+    "williamMillerText" : MessageLookupByLibrary.simpleMessage("Dies wurde dem Autor des berühmten Kinderliedes 'Wee Willie Winkie' errichtet. Er starb 1872 und wurde auf dem Tollcross-Friedhof beigesetzt."),
     "allInfo" : MessageLookupByLibrary.simpleMessage("Alle Informationen"),
     "map" : MessageLookupByLibrary.simpleMessage("Karte"),
     "donate" : MessageLookupByLibrary.simpleMessage("Spenden"),
@@ -68,6 +74,12 @@ Biegen Sie rechts vom Bahnhof ab und gehen Sie die High Street nach Norden zur G
 Der Touristenbus Hop on Hop off hält an der Kathedrale und es gibt eine Reihe von Bussen, die vom Stadtzentrum abfahren und in der Nähe der Kathedrale fahren.
 
 Informationen zu Bussen und Bahnen erhalten Sie auf der Website oder App von Traveline Scotland, First Bus Glasgow oder National Rail Inquiries.'''),
+    "history" : MessageLookupByLibrary.simpleMessage("Geschichte"),
+    "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour abgeschlossen"),
+    "jews" : MessageLookupByLibrary.simpleMessage("Jüdische Anlage 1836"),
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszüge aus der Schrift, Lord Byrons 'Hebräische Melodien') und Symbole.
+Die erste Beerdigung war Joseph Levi im Jahre 1832.'''),
+    "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Pfad und gehen Sie die Stufen rechts hinauf. Schauen Sie rechts oben auf der Treppe nach rechts...'''),
 
 
 

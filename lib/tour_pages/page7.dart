@@ -122,8 +122,7 @@ The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

@@ -27,7 +27,9 @@
     "placeholders": {}
   },
 
-  "tourIntroText": "\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour.",
+  "tourIntroText": '''The Glasgow Necropolis is located very close to Glasgow Cathedral and is on one of the highest hills with great views over the City of Glasgow.
+
+The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited time you can see 30 of the most special monuments and mausolea with this app. If you want to see more contact the Friends of Glasgow Necropolis to arrange a guided walking tour -  ''',
   "@tourIntroText": {
     "description": "tour intro text",
     "type": "text",
@@ -53,6 +55,13 @@
     "type": "text",
     "placeholders": {}
   },
+
+  "entranceInstructions": '''Walk through the gates and onto the bridge...''',
+      "@entranceInstructions": {
+        "description": "entrance gates instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "back": "Back",
   "@back": {
@@ -89,6 +98,13 @@
     "placeholders": {}
   },
 
+   "bridgeSighsInstructions": "Straight on and facing you...",
+      "@bridgeSighsInstructions": {
+        "description": "The Bridge Of Sighs 1834 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
+
   "entranceFacade": "The Entrance facade 1836",
   "@entranceFacade": {
     "description": "The Entrance facade 1836 text",
@@ -96,12 +112,19 @@
     "placeholders": {}
   },
 
-  "entranceFacadeText": "Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned. \\n Turn left and follow the main path until you reach Miller Monument",
+  "entranceFacadeText": "Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.",
   "@entranceFacadeText": {
     "description": "The Entrance facade 1836 text",
     "type": "text",
     "placeholders": {}
   },
+
+    "entranceFacadeInstructions": "The Entrance facade 1836",
+      "@entranceFacadeInstructions": {
+        "description": 'Turn left and follow the main path...',
+        "type": "text",
+        "placeholders": {}
+      },
 
   "williamMiller": "William Miller Memorial 1872",
   "@williamMiller": {
@@ -110,12 +133,19 @@
     "placeholders": {}
   },
 
-  "williamMillerText": "This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery. \\n Continue until you come to steps, go up the steps and near the top - look right",
+  "williamMillerText": "This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery.",
   "@williamMillerText": {
     "description": "William Miller Memorial 1872 text",
     "type": "text",
     "placeholders": {}
   },
+
+   "williamMillerInstructions": "Veer down left - follow this path until you reach steps leading up right and down left...",
+      "@williamMillerInstructions": {
+        "description": "William Miller Memorial 1872 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "allInfo": "All Information",
   "@allInfo": {
@@ -286,4 +316,39 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
                                     "placeholders": {}
                                   },
 
+"history": "History",
+          "@history": {
+          "description": "history heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"tourComplete": "Tour Complete",
+          "@tourComplete": {
+          "description": "tour complete",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jews": "Jewish Enclosure 1836",
+          "@jews": {
+          "description": "jews heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsText": '''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
+The first burial was Joseph Levi in 1832.''',
+          "@jews": {
+          "description": "jews text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsInstructions": '''Follow the path and go up the steps on the right. Near the top of the steps, look right...''',
+          "@jews": {
+          "description": "jews instructions",
+          "type": "text",
+          "placeholders": {}
+          },
 }

@@ -123,8 +123,7 @@ First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

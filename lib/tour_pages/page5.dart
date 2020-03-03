@@ -5,7 +5,6 @@ import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page6.dart';
 
-
 class Page5 extends StatefulWidget {
   @override
   Page5State createState() => Page5State();
@@ -75,7 +74,7 @@ class Page5State extends State<Page5> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text("Jewish Enclosure 1836",
+            title: Text(AppLocalizations.of(context).jews,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -100,8 +99,7 @@ class Page5State extends State<Page5> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
-The first burial was Joseph Levi in 1832.''',
+                    Text(AppLocalizations.of(context).jewsText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -113,7 +111,7 @@ The first burial was Joseph Levi in 1832.''',
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Follow the path and go up the steps on the right. Near the top of the steps, look right...''',
+                    Text(AppLocalizations.of(context).jewsInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -124,8 +122,7 @@ The first burial was Joseph Levi in 1832.''',
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

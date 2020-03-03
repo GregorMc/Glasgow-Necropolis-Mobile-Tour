@@ -112,18 +112,14 @@ class Page9State extends State<Page9> {
                 child: Column(
                   children: <Widget>[
                     Text('''Continue going up...''',
-                      style: TextStyle(
-                          fontSize: 16,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.blue),
+                      style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic, color: Colors.blue),
                       textAlign: TextAlign.center,
                     ),
                   ],
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

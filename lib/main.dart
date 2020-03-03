@@ -55,7 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
       drawer: new DrawerOnly(),
       appBar: AppBar(
           centerTitle: true, title: Text(AppLocalizations.of(context).title)),
-
       body: Stack(
         children: <Widget>[
           Container(

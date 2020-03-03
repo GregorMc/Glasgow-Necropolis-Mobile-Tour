@@ -3,7 +3,7 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page7.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/page7.dart';
 
 class Page6 extends StatefulWidget {
   @override
@@ -122,8 +122,7 @@ class Page6State extends State<Page6> {
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

@@ -123,8 +123,7 @@ Based on the Monument of Lysicrates - one of many in the Necropolis. The upper s
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

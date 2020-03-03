@@ -12,10 +12,8 @@ class Page0 extends StatelessWidget {
     return Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-          title: Text(
-            "Welcome to the tour",
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
-          ),
+          title: Text("Welcome to the Tour",
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
           actions: <Widget>[
             MapIconButton(),
             BackIconButton(),
@@ -32,21 +30,13 @@ class Page0 extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(
-                      '''The Glasgow Necropolis is located very close to Glasgow Cathedral and is on one of the highest hills with great views over the City of Glasgow.
-
-The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited time you can see 30 of the most special monuments and mausolea with this app. If you want to see more contact the Friends of Glasgow Necropolis to arrange a guided walking tour -  ''',
-                      style: Theme.of(context).textTheme.body1,
-                    ),
+                    Text(AppLocalizations.of(context).tourIntroText,
+                      style: Theme.of(context).textTheme.body1),
                     InkWell(
-                      child: Text(
-                        '''tours@glasgownecropolis.org''',
-                        style: TextStyle(fontSize: 16, color: Colors.blue),
-                      ),
+                      child: Text('''tours@glasgownecropolis.org''',
+                        style: TextStyle(fontSize: 16, color: Colors.blue, decoration: TextDecoration.underline)),
                       onTap: () async {
-                        const urlBookTour =
-                            'https://www.glasgownecropolis.org/tours-events/';
-
+                        const urlBookTour = 'https://www.glasgownecropolis.org/tours-events/';
                         if (await canLaunch(urlBookTour)) {
                           await launch(urlBookTour, forceWebView: true);
                         } else {
@@ -64,13 +54,10 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
                 child: Column(
                   children: <Widget>[
                     Text(
-                      '''
-
-In winter months (or any time of year) the weather can be unpredictable so please wear clothing and footwear suitable for some of the uneven and steep paths. 
+                      '''In winter months (or any time of year) the weather can be unpredictable so please wear clothing and footwear suitable for some of the uneven and steep paths. 
 If you have to rest please use some of the low walls to sit on. Please do not climb on the memorials and keep to the paths. 
 Dogs must be kept on a leash. 
-There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.
-''',
+There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.''',
                       style:
                           TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
                       textAlign: TextAlign.center,
@@ -79,8 +66,7 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
         bottomSheet: BottomAppBar(

@@ -23,19 +23,25 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Take the Tour"),
     "home" : MessageLookupByLibrary.simpleMessage("Home"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Tour Introduction"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\n Welcome to the Glasgow Necropolis Mobile Tour. \n If you get lost along the way, check the map on the top right of your screen \n Press start to begin the tour."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage('''The Glasgow Necropolis is located very close to Glasgow Cathedral and is on one of the highest hills with great views over the City of Glasgow.
+
+The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited time you can see 30 of the most special monuments and mausolea with this app. If you want to see more contact the Friends of Glasgow Necropolis to arrange a guided walking tour -  '''),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("The Entrance Gates 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto. \n Walk through the gates and onto the bridge"),
+    "entranceText" : MessageLookupByLibrary.simpleMessage("The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto."),
+    "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Walk through the gates and onto the bridge...'),
     "back" : MessageLookupByLibrary.simpleMessage("Back"),
     "next" : MessageLookupByLibrary.simpleMessage("Next"),
     "seeMore" : MessageLookupByLibrary.simpleMessage("See more"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("The Bridge Of Sighs 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill. \n Continue over the bridge and look straight on"),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
+    "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Straight on and facing you...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("The Entrance Facade 1836"),
-    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned. \n Turn left and follow the main path until you reach Miller Monument"),
+    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned."),
+    "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Turn left and follow the main path..."),
     "williamMiller" : MessageLookupByLibrary.simpleMessage("William Miller Memorial 1872"),
-    "williamMillerText" : MessageLookupByLibrary.simpleMessage("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery. \n Continue until you come to steps, go up the steps and near the top - look right"),
+    "williamMillerText" : MessageLookupByLibrary.simpleMessage("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery."),
+    "williamMillerInstructions" : MessageLookupByLibrary.simpleMessage("Veer down left - follow this path until you reach steps leading up right and down left..."),
     "allInfo" : MessageLookupByLibrary.simpleMessage("All Information"),
     "map" : MessageLookupByLibrary.simpleMessage("Map"),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
@@ -73,6 +79,13 @@ Turn right out of the station and walk north up High Street to Glasgow Cathedral
 The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
 
 You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.'''),
+    "history" : MessageLookupByLibrary.simpleMessage("History"),
+    "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour Complete"),
+    "jews" : MessageLookupByLibrary.simpleMessage("Jewish Enclosure 1836"),
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
+The first burial was Joseph Levi in 1832.'''),
+    "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Follow the path and go up the steps on the right. Near the top of the steps, look right...'''),
+
 
 
 

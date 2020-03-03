@@ -7,7 +7,6 @@ import 'package:glasgow_necropolis_tour/main.dart';
 import 'package:glasgow_necropolis_tour/drawer_pages/history.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page0.dart';
 
-
 class DrawerOnly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,13 +20,13 @@ class DrawerOnly extends StatelessWidget {
 
                   ListTile(
                     title: Text(AppLocalizations.of(context).title,
-                      textAlign: TextAlign.center,),
+                      textAlign: TextAlign.center,
+                        style: TextStyle(color: Colors.blue))
                   ),
 
                   ListTile(
                     title: Text(AppLocalizations.of(context).home),
                     leading: Icon(Icons.home),
-
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
                     },
@@ -50,7 +49,7 @@ class DrawerOnly extends StatelessWidget {
                   ),
 
                   ListTile(
-                    title: Text("History"),
+                    title: Text(AppLocalizations.of(context).history),
                     leading: Icon(Icons.library_books),
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => History()));
@@ -77,7 +76,6 @@ class DrawerOnly extends StatelessWidget {
                       }
                     },
                   ),
-
                 ]
             ),
           )

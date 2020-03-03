@@ -28,7 +28,9 @@
     "placeholders": {}
   },
 
-  "tourIntroText": "\n Bienvenido al Glasgow Necropolis Mobile Tour. \n Si te pierdes en el camino, revisa el mapa en la parte superior derecha de tu pantalla \n Presiona inicio para comenzar el recorrido.",
+  "tourIntroText": '''La necrópolis de Glasgow se encuentra muy cerca de la catedral de Glasgow y se encuentra en una de las colinas más altas con excelentes vistas de la ciudad de Glasgow.
+
+La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo limitado, puede ver 30 de los monumentos y mausoleas más especiales con esta aplicación. Si desea ver más, comuníquese con la Necrópolis de Friends of Glasgow para organizar una visita guiada a pie - ''',
   "@tourIntroText": {
     "description": "tour intro text",
     "type": "text",
@@ -49,12 +51,19 @@
     "placeholders": {}
   },
 
-  "entranceText": "Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema. \n Camina por las puertas y hacia el puente",
+  "entranceText": "Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema.",
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
     "placeholders": {}
   },
+
+  "entranceInstructions": '''Camina por las puertas y hacia el puente''',
+        "@entranceInstructions": {
+          "description": "entrance gates instructions",
+          "type": "text",
+          "placeholders": {}
+        },
 
   "back": "atrás",
   "@back": {
@@ -84,12 +93,19 @@
     "placeholders": {}
   },
 
-  "bridgeSighsText": "D & J Hamilton diseñó el puente sobre Molindinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco lo suficientemente ancho para caballo y carro y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill. \n Continúa por el puente y mira de frente",
+  "bridgeSighsText": "D & J Hamilton diseñó el puente sobre Molindinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco lo suficientemente ancho para caballo y carro y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill.",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
     "placeholders": {}
   },
+
+   "bridgeSighsInstructions": "Directamente y frente a ti ...",
+      "@bridgeSighsInstructions": {
+        "description": "The Bridge Of Sighs 1834 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
 
   "entranceFacade": "La fachada de entrada 1836",
   "@entranceFacade": {
@@ -98,7 +114,14 @@
     "placeholders": {}
   },
 
-  "entranceFacadeText": "Diseñado por el arquitecto John Bryce. La entrada prevista a las catacumbas que atravesarían la necrópolis. Cuando se aprobó la Ley de anatomía en 1832, se abandonó la idea de las catacumbas. \n Gire a la izquierda y siga el camino principal hasta llegar al Monumento a Miller",
+    "entranceFacadeInstructions": "The Entrance facade 1836",
+      "@entranceFacadeInstructions": {
+        "description": 'Gira a la izquierda y sigue el camino principal...',
+        "type": "text",
+        "placeholders": {}
+      },
+
+  "entranceFacadeText": "Diseñado por el arquitecto John Bryce. La entrada prevista a las catacumbas que atravesarían la necrópolis. Cuando se aprobó la Ley de anatomía en 1832, se abandonó la idea de las catacumbas.",
   "@entranceFacadeText": {
     "description": "The Entrance facade 1836 text",
     "type": "text",
@@ -112,7 +135,14 @@
     "placeholders": {}
   },
 
-  "williamMillerText": "Esto fue erigido al autor de la famosa canción infantil 'Wee Willie Winkie'. Murió en 1872 y fue enterrado en el cementerio de Tollcross. \n Continúa hasta llegar a los pasos, sube los pasos y cerca de la parte superior - mira a la derecha",
+   "williamMillerInstructions": "Gire hacia abajo a la izquierda: siga este camino hasta llegar a los pasos que conducen hacia la derecha y hacia la izquierda...",
+      "@williamMillerInstructions": {
+        "description": "William Miller Memorial 1872 instructions",
+        "type": "text",
+        "placeholders": {}
+      },
+
+  "williamMillerText": "Esto fue erigido al autor de la famosa canción infantil 'Wee Willie Winkie'. Murió en 1872 y fue enterrado en el cementerio de Tollcross.",
   "@williamMillerText": {
     "description": "William Miller Memorial 1872 text",
     "type": "text",
@@ -286,6 +316,42 @@ Puede obtener información sobre autobuses y trenes en el sitio web o aplicació
                                               "type": "text",
                                               "placeholders": {}
                                               },
+"history": "Historia",
+          "@history": {
+          "description": "history heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"tourComplete": "Tour completo",
+          "@tourComplete": {
+          "description": "tour complete",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jews": "Recinto judío 1836",
+          "@jews": {
+          "description": "jews heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsText": '''Diseñado por el arquitecto John Bryce. El diseño se inspiró en el pilar de Absalón, Jerusalén. Hay varias inscripciones (extractos de las escrituras, 'Melodías hebreas' de Lord Byron) y símbolos.
+El primer entierro fue Joseph Levi en 1832.''',
+          "@jews": {
+          "description": "jews text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsInstructions": '''Sigue el camino y sube los escalones de la derecha. Cerca de la parte superior de los escalones, mira a la derecha...''',
+          "@jews": {
+          "description": "jews instructions",
+          "type": "text",
+          "placeholders": {}
+          },
+
 }
 
 

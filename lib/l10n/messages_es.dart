@@ -23,19 +23,25 @@ class MessageLookup extends MessageLookupByLibrary {
     "takeTheTour" : MessageLookupByLibrary.simpleMessage("Toma el recorrido"),
     "home" : MessageLookupByLibrary.simpleMessage("Hogar"),
     "tourIntro" : MessageLookupByLibrary.simpleMessage("Introducción al tour"),
-    "tourIntroText" : MessageLookupByLibrary.simpleMessage("\ n Bienvenido al Glasgow Necropolis Mobile Tour. \ n Si te pierdes en el camino, revisa el mapa en la parte superior derecha de tu pantalla \ n Presiona inicio para comenzar el recorrido."),
+    "tourIntroText" : MessageLookupByLibrary.simpleMessage('''La necrópolis de Glasgow se encuentra muy cerca de la catedral de Glasgow y se encuentra en una de las colinas más altas con excelentes vistas de la ciudad de Glasgow.
+
+La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo limitado, puede ver 30 de los monumentos y mausoleas más especiales con esta aplicación. Si desea ver más, comuníquese con la Necrópolis de Friends of Glasgow para organizar una visita guiada a pie - '''),
     "start" : MessageLookupByLibrary.simpleMessage("comienzo"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema. \n Camina por las puertas y hacia el puente"),
+    "entranceText" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema."),
+    "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Camina por las puertas y hacia el puente...'),
     "back" : MessageLookupByLibrary.simpleMessage("atrás"),
     "next" : MessageLookupByLibrary.simpleMessage("Próxima"),
     "seeMore" : MessageLookupByLibrary.simpleMessage("Ver más"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("El puente de los suspiros 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton diseñó el puente sobre Molindinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco lo suficientemente ancho para caballo y carro y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill. \ n Continúa por el puente y mira de frente"),
+    "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Directamente y frente a ti...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("La fachada de entrada 1836"),
-    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Diseñado por el arquitecto John Bryce. La entrada prevista a las catacumbas que atravesarían la necrópolis. Cuando se aprobó la Ley de anatomía en 1832, se abandonó la idea de las catacumbas. \n Gire a la izquierda y siga el camino principal hasta llegar al Monumento a Miller"),
+    "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Gira a la izquierda y sigue el camino principal..."),
+    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Diseñado por el arquitecto John Bryce. La entrada prevista a las catacumbas que atravesarían la necrópolis. Cuando se aprobó la Ley de anatomía en 1832, se abandonó la idea de las catacumbas."),
     "williamMiller" : MessageLookupByLibrary.simpleMessage("William Miller Monumento 1872"),
-    "williamMillerText" : MessageLookupByLibrary.simpleMessage("Esto fue erigido al autor de la famosa canción infantil 'Wee Willie Winkie'. Murió en 1872 y fue enterrado en el cementerio de Tollcross. \n Continúa hasta llegar a los pasos, sube los pasos y cerca de la parte superior - mira a la derecha"),
+    "williamMillerText" : MessageLookupByLibrary.simpleMessage("Esto fue erigido al autor de la famosa canción infantil 'Wee Willie Winkie'. Murió en 1872 y fue enterrado en el cementerio de Tollcross."),
+    "williamMillerInstructions" : MessageLookupByLibrary.simpleMessage("Gire hacia abajo a la izquierda: siga este camino hasta llegar a los pasos que conducen hacia la derecha y hacia la izquierda..."),
     "allInfo" : MessageLookupByLibrary.simpleMessage("Toda la informacion"),
     "map" : MessageLookupByLibrary.simpleMessage("Mapa"),
     "donate" : MessageLookupByLibrary.simpleMessage("Donar"),
@@ -73,6 +79,12 @@ Gire a la derecha fuera de la estación y camine hacia el norte por High Street 
 El autobús turístico Hop on Hop off se detiene en la Catedral y hay una serie de autobuses que salen del centro de la ciudad que pasan cerca de la Catedral.
 
 Puede obtener información sobre autobuses y trenes en el sitio web o aplicación de Traveline Scotland, First Bus Glasgow o National Rail Enquiries.'''),
+    "history" : MessageLookupByLibrary.simpleMessage("Historia"),
+    "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour completo"),
+    "jews" : MessageLookupByLibrary.simpleMessage("Recinto judío 1836"),
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el arquitecto John Bryce. El diseño se inspiró en el pilar de Absalón, Jerusalén. Hay varias inscripciones (extractos de las escrituras, 'Melodías hebreas' de Lord Byron) y símbolos.
+El primer entierro fue Joseph Levi en 1832.'''),
+    "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Sigue el camino y sube los escalones de la derecha. Cerca de la parte superior de los escalones, mira a la derecha...'''),
 
 
 

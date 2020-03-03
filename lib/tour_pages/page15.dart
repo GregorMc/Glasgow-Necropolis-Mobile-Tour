@@ -124,8 +124,7 @@ John Houldsworth established the Anderston Foundry Company and was a senior Bail
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

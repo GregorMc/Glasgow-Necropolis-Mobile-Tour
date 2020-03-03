@@ -111,19 +111,15 @@ class Page1State extends State<Page1> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Walk through the gates and onto the bridge...''',
-                      style: TextStyle(
-                          fontSize: 16,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.blue),
+                    Text(AppLocalizations.of(context).entranceInstructions,
+                      style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic, color: Colors.blue),
                       textAlign: TextAlign.center,
                     ),
                   ],
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 
@@ -150,7 +146,6 @@ class Page1State extends State<Page1> {
             ],
           ),
         ),
-
       ),
     );
   }

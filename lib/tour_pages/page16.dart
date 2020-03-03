@@ -107,8 +107,7 @@ This mausoleum is the largest in the cemetery. Restoration works were carried ou
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 

@@ -5,7 +5,6 @@ import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import'package:glasgow_necropolis_tour/tour_pages/page3.dart';
 
-
 class Page2 extends StatefulWidget {
   @override
   Page2State createState() => Page2State();
@@ -112,7 +111,7 @@ class Page2State extends State<Page2> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Straight on and facing you...''',
+                    Text(AppLocalizations.of(context).bridgeSighsInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -123,8 +122,7 @@ class Page2State extends State<Page2> {
                 ),
               ),
             ),
-            ///Empty space at bottom of page so tour information doesn't overlap BottomAppBar
-            ListTile(title: Text(''' ''')),
+            EmptySpace()
           ],
         ),
 
@@ -151,7 +149,6 @@ class Page2State extends State<Page2> {
             ],
           ),
         ),
-
       ),
     );
   }
