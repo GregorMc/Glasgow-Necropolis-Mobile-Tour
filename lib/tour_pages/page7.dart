@@ -74,7 +74,7 @@ class Page7State extends State<Page7> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('Reverend Alexander Ogilvie Beattie Monument 1858',
+            title: Text(AppLocalizations.of(context).ogilvie,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -98,8 +98,7 @@ class Page7State extends State<Page7> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
-The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
+                    Text(AppLocalizations.of(context).ogilvieText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -111,7 +110,7 @@ The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Turn right and first left up a curved avenue. On the left......''',
+                    Text(AppLocalizations.of(context).ogilvieInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -155,8 +154,7 @@ The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
   }
 
   Widget playButton(BuildContext context) {
-    String audio = '''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
-The monument consists of an obelisk and urn, with a tomb chest on a base. ''';
+    String audio = AppLocalizations.of(context).ogilvieText;
     return  FlatButton(
       onPressed: () {
         setState(() {

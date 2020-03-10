@@ -224,7 +224,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get lockhartText {
     return Intl.message(
-      'Designed by London architect J Wallace. He was Mrs Lockhart''s brother. One of many Gothic monuments in the Necropolis with cherubs front and back. \n Turn right at the top of the steps up a curved avenue. Look left',
+      'Designed by London architect J Wallace. He was Mrs Lockhart''s brother. One of many Gothic monuments in the Necropolis with cherubs front and back.',
       name: 'lockhartText',
       desc: 'lockhart text',
     );
@@ -238,9 +238,17 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     );
   }
 
+  String get robertBlackInstructions {
+    return Intl.message(
+      'Keep going and look to your left...',
+      name: 'robertBlackInstructions',
+      desc: 'robert black instructions',
+    );
+  }
+
   String get robertBlackText {
     return Intl.message(
-      'The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21. \n Keep going and look to your left',
+      'The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21.',
       name: 'robertBlackText',
       desc: 'robert black text',
     );
@@ -256,9 +264,17 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get johnKingText {
     return Intl.message(
-      'An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.Continue onwards until you see the Monteath on your right',
+      'An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.',
       name: 'johnKingText',
       desc: 'john King text',
+    );
+  }
+
+  String get johnKingInstructions {
+    return Intl.message(
+      'Continue on up the path...',
+      name: 'johnKingInstructions',
+      desc: 'john King instructions',
     );
   }
 
@@ -272,9 +288,17 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get archieText {
     return Intl.message(
-      'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850. \n Follow the path round and turn left',
+      'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.',
       name: 'archieText',
       desc: 'archie text',
+    );
+  }
+
+  String get archieInstructions {
+    return Intl.message(
+      'Continue along the path and take the first left then the first right. On your left...',
+      name: 'archieInstructions',
+      desc: 'archie instructions',
     );
   }
 
@@ -291,6 +315,14 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
       'Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religious orders and is burried in Edinburgh.',
       name: 'johnKnoxText',
       desc: 'john knox text',
+    );
+  }
+
+  String get johnKnoxInstructions {
+    return Intl.message(
+      'Continue along the path...',
+      name: 'johnKnoxInstructions',
+      desc: 'john knox instructions',
     );
   }
 
@@ -422,6 +454,303 @@ The first burial was Joseph Levi in 1832.''',
     );
   }
 
+  String get disclaimer {
+    return Intl.message(
+      '''In winter months (or any time of year) the weather can be unpredictable so please wear clothing and footwear suitable for some of the uneven and steep paths. 
+
+If you have to rest please use some of the low walls to sit on. Please do not climb on the memorials and keep to the paths. 
+
+Dogs must be kept on a leash. 
+
+There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.''',
+      name: 'disclaimer',
+      desc: 'disclaimer',
+    );
+  }
+
+  String get welcome {
+    return Intl.message(
+      '''Welcome to the Tour''',
+      name: 'welcome',
+      desc: 'welcome',
+    );
+  }
+
+  String get lockhartInstructions {
+    return Intl.message(
+      '''Look left at the top of the steps...''',
+      name: 'lockhartInstructions',
+      desc: 'lockhart Instructions',
+    );
+  }
+
+  String get ogilvie {
+    return Intl.message(
+      "Reverend Alexander Ogilvie Beattie Monument 1858",
+      name: 'ogilvie',
+      desc: 'ogilvie heading',
+    );
+  }
+
+  String get ogilvieText {
+    return Intl.message(
+      '''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
+The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
+      name: 'ogilvieText',
+      desc: 'ogilvie Text',
+    );
+  }
+
+  String get ogilvieInstructions {
+    return Intl.message(
+      '''Turn right and first left up a curved avenue. On the left...''',
+      name: 'ogilvieInstructions',
+      desc: 'ogilvie Instructions',
+    );
+  }
+
+  String get dowanhill {
+    return Intl.message(
+      'Buchanan of Dowanhill Monument 1844',
+      name: 'dowanhill',
+      desc: 'dowanhill heading',
+    );
+  }
+
+  String get dowanhillText {
+    return Intl.message(
+      '''Designed by architect James Brown. Sculptor James Shanks
+Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod. ''',
+      name: 'dowanhillText',
+      desc: 'dowanhill text',
+    );
+  }
+
+  String get dowanhillInstructions {
+    return Intl.message(
+      'Keep going up. Next on the left...',
+      name: 'dowanhillInstructions',
+      desc: 'dowanhill instructions',
+    );
+  }
+
+  String get hutchison {
+    return Intl.message(
+      'Hutchison Family Mausoleum',
+      name: 'hutchison',
+      desc: 'hutchison heading',
+    );
+  }
+
+  String get hutchisonText {
+    return Intl.message(
+      '''An imposing structure with interesting Moorish motif on the cast iron gates.
+First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD who was buried 26th April 1870.''',
+      name: 'hutchisonText',
+      desc: 'hutchison text',
+    );
+  }
+
+  String get hutchisonInstructions {
+    return Intl.message(
+      'Carry on down the path and on the right in the corner...',
+      name: 'hutchisonInstructions',
+      desc: 'hutchison instructions',
+    );
+  }
+
+  String get raeWilson {
+    return Intl.message(
+      'William Rae Wilson Monument 1849',
+      name: 'raeWilson',
+      desc: 'raeWilson heading',
+    );
+  }
+
+  String get raeWilsonText {
+    return Intl.message(
+      '''Designed by architect J A Bell.
+
+An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
+
+William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
+
+He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+
+He died in London but is burried here. ''',
+      name: 'raeWilsonText',
+      desc: 'raeWilson text',
+    );
+  }
+
+  String get raeWilsonInstructions {
+    return Intl.message(
+      '''Next monument...''',
+      name: 'raeWilsonInstructions',
+      desc: 'raeWilson instructions',
+    );
+  }
+
+  String get houldsworth {
+    return Intl.message(
+      'John Houldsworth Family Mausoleum 1845',
+      name: 'houldsworth',
+      desc: 'houldsworth heading',
+    );
+  }
+
+  String get houldsworthText {
+    return Intl.message(
+      '''Designed by architect and sculptor John Thomas. 
+                     
+On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
+                   
+John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''',
+      name: 'houldsworthText',
+      desc: 'houldsworth text',
+    );
+  }
+
+  String get houldsworthInstructions {
+    return Intl.message(
+      '''Turn right down the grassy pathand turn right back on to the main path. Continue straight through and turn left down towards the mausoleum. Before you reach it, take the first right. On your right...''',
+      name: 'houldsworthInstructions',
+      desc: 'houldsworth instructions',
+    );
+  }
+
+  String get dalmoak {
+    return Intl.message(
+      'Aiken of Dalmoak Mausoleum',
+      name: 'dalmoak',
+      desc: 'dalmoak heading',
+    );
+  }
+
+  String get dalmoakText {
+    return Intl.message(
+      '''Designed by architect James Hamilton.
+
+This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. ''',
+      name: 'dalmoakText',
+      desc: 'dalmoak text',
+    );
+  }
+
+  String get completionText {
+    return Intl.message(
+      '''Thank you for completing the Glasgow Necropolis Mobile Tour!
+                      
+If you enjoyed the tour, please consider leaving a donation.
+
+All donations are hugely welcome and we do ask if you can be generous as all donations go entirely towards the conservation and restoration of the Glasgow Necropolis.''',
+      name: 'completionText',
+      desc: 'completion Text',
+    );
+  }
+
+  String get books {
+    return Intl.message(
+      'Books & Guides',
+      name: 'books',
+      desc: 'books heading',
+    );
+  }
+
+  String get booksText {
+    return Intl.message(
+      '''If you would like more information on any of the monuments you have seen today, check out our Books & Guides page''',
+      name: 'booksText',
+      desc: 'books text',
+    );
+  }
+
+  String get firPark {
+    return Intl.message(
+      '''Fir Park – Now Glasgow Necropolis
+''',
+      name: 'firPark',
+      desc: 'firPark heading',
+    );
+  }
+
+  String get firParkText {
+    return Intl.message(
+      '''In 1650 the Merchants’ House bought the land, part of the estate of Wester Craigs, now known as the Glasgow Necropolis. As the west side was rocky and not able to be developed it was subsequently planted with fir trees and became known as Fir Park. However, in 1804, the Scots Firs in the park started to die and were replaced by mainly elm and willow and the area became a Victorian park and arboretum. In 1825 the foundation stone of the John Knox monument was laid in Fir Park.
+''',
+      name: 'firParkText',
+      desc: 'firPark text',
+    );
+  }
+
+  String get design {
+    return Intl.message(
+      '''The Design For Glasgow Necropolis
+''',
+      name: 'design',
+      desc: 'design heading',
+    );
+  }
+
+  String get designText1 {
+    return Intl.message(
+      '''In 1831, John Strang, Chamberlain at the Merchants’ House, wrote “Necropolis Glasguensis”, or “Thoughts on Death and Moral Stimulus” and commented:
+''',
+      name: 'designText1',
+      desc: 'designText1 text',
+    );
+  }
+
+  String get designTextItalics {
+    return Intl.message(
+      '''“The Fir Park appears admirably adapted for a Pere la Chaise, which would harmonise beautifully with the adjacent scenery, and constitute a solemn and appropriate appendage to the venerable structure (the Cathedral) in front of which, while it will afford a much wanted accommodation to the higher classes, would at the same time convert an unproductive property into a general and lucrative source of profit, to a charitable institution” it was to be “respectful to the dead, safe and sanitary to the living, dedicated to the Genius of Memory and to extend religious and moral feeling.”
+''',
+      name: 'designTextItalics',
+      desc: 'designTextItalics',
+    );
+  }
+
+  String get designText2 {
+    return Intl.message(
+      '''The Merchants’ House asked architect David Hamilton, Stuart Murray, Curator of the Botanical Gardens, and James Clelland, Superintendent of Public Works, to produce a feasibility study for forming the Glasgow Necropolis and in 1828 the committee of Directors of Lands and Quarries agreed to the proposal. In 1831, a competition for converting the Fir Park into a cemetery with 5 prizes of £10 – £50 was advertised in the newspapers. Sixteen plans were received and they were put on exhibition in the Dilettante Society’s Exhibition Rooms in Argyll Arcade. David Bryce of Edinburgh won first prize and his brother John Bryce of Glasgow second. The judges decided however that the work would best be undertaken by a landscape gardener. As a result, George Mylne was made Superintendent and head gardener and work began.
+''',
+      name: 'designText2',
+      desc: 'designText2 text',
+    );
+  }
+
+  String get victorian {
+    return Intl.message(
+      '''The Victorian Glasgow Necropolis
+''',
+      name: 'victorian',
+      desc: 'victorian heading',
+    );
+  }
+
+  String get victorianText {
+    return Intl.message(
+      '''This burial ground was always intended to be interdenominational and the first burial in 1832 was that of a Jew, Joseph Levi, a jeweller. In 1833 the first Christian burial was of Elizabeth Miles, stepmother of the Superintendent, George Mylne. After 1860, the first extensions east and south were to take up the Ladywell quarry and in 1877 and 1892/3, the final extensions to the north and south-east were constructed, doubling the size of the cemetery. The Necropolis is now 37 acres (15 ha).
+                 
+50,000 burials have taken place at the Necropolis and most of 3,500 tombs have been constructed up to 14 feet deep, with stone walls and brickpartitions. On the top of the Necropolis tombs were blasted out of the rockface. In 1877 the Molendinar Burn, running under the Bridge of Sighs, was culverted. This burn in which St Mungo was said to have fished for salmon is now underground on its way to the Clyde.
+                 
+The Necropolis was one of the few cemeteries to keep records of the dead, including profession, ages, sex and cause of death. In July 1878 the visitors book shows that 13,733 people visited the Glasgow Necropolis – 12,400 citizens and 1,333 other visitors.
+                 
+In 1966, the Merchants’ House gave the Necropolis to the Glasgow City Council which now administers and maintains it. The benches and grave surrounds have been removed and most of the area put to grass for maintenance purposes. There are monuments here designed by major architects and sculptors of the time, including Alexander ‘Greek’ Thomson, Charles Rennie Macintosh and JT Rochead, in every architectural style, created for the prominent and wealthy entrepreneurs of the ‘Second City of the Empire’.
+                 
+The Glasgow Necropolis still has a wonderful atmosphere and still attracts many visitors both locally and from all over the world.''',
+      name: 'victorianText',
+      desc: 'victorian text',
+    );
+  }
+
+  String get you {
+    return Intl.message(
+      '''You are here''',
+      name: 'you',
+      desc: 'your location',
+    );
+  }
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

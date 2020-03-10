@@ -74,7 +74,7 @@ class Page14State extends State<Page14> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('William Rae Wilson Monument 1849',
+            title: Text(AppLocalizations.of(context).raeWilson,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -99,11 +99,7 @@ class Page14State extends State<Page14> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by architect J A Bell.
-An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
-William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
-He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
-He died in London but is burried here. ''',
+                    Text(AppLocalizations.of(context).raeWilsonText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -115,7 +111,7 @@ He died in London but is burried here. ''',
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Next monument...''',
+                    Text(AppLocalizations.of(context).raeWilsonInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -159,11 +155,7 @@ He died in London but is burried here. ''',
   }
 
   Widget playButton(BuildContext context) {
-    String audio = '''Designed by architect J A Bell.
-An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
-William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
-He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
-He died in London but is burried here. ''';
+    String audio = AppLocalizations.of(context).raeWilsonText;
     return  FlatButton(
         onPressed: () {
           setState(() {

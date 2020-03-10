@@ -27,13 +27,7 @@ class LastPage extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(
-                      ''''Thank you for completing the Glasgow Necropolis Mobile Tour!
-                      
-If you enjoyed the tour, please consider leaving a donation.
-
-All donations are hugely welcome and we do ask if you can be generous as all donations go entirely towards the conservation and restoration of the Glasgow Necropolis.
-''',
+                    Text(AppLocalizations.of(context).completionText,
                       style: Theme.of(context).textTheme.body1,
                       textAlign: TextAlign.center,
                     ),
@@ -47,11 +41,7 @@ All donations are hugely welcome and we do ask if you can be generous as all don
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(
-                      '''
-
-If you would like more information on any of the monuments you have seen today, check out our Books & Guides page 
-''',
+                    Text(AppLocalizations.of(context).booksText,
                       style: Theme.of(context).textTheme.body1,
                       textAlign: TextAlign.center,
                     ),
@@ -87,9 +77,7 @@ If you would like more information on any of the monuments you have seen today, 
               RaisedButton(
                 child: Row(
                   children: <Widget>[
-                    Text(
-                      'Books & Guides ',
-                    ),
+                    Text(AppLocalizations.of(context).books),
                     Icon(Icons.library_books)
                   ],
                 ),

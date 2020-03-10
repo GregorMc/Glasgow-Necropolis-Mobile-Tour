@@ -491,7 +491,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: "Jews' Enclosure",
+                        tooltip: AppLocalizations.of(context).jews,
                         onPressed: () {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (context) => Page5()));
@@ -521,7 +521,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'Reverend Alexander Ogilvie Beattie Monument 1858',
+                        tooltip: AppLocalizations.of(context).ogilvie,
                         onPressed: () {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (context) => Page7()));
@@ -566,7 +566,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'Buchanan of Dowanhill Monument 1844',
+                        tooltip: AppLocalizations.of(context).dowanhill,
                         onPressed: () {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (context) => Page10()));
@@ -582,7 +582,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'Hutchison Family Mausoleum',
+                        tooltip: AppLocalizations.of(context).hutchison,
                         onPressed: () {
                           Navigator.push(
                               context,
@@ -637,7 +637,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'William Rae Wilson Monument 1849',
+                        tooltip: AppLocalizations.of(context).raeWilson,
                         onPressed: () {
                           Navigator.push(
                               context,
@@ -655,7 +655,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'John Houldsworth Family Mausoleum 1845',
+                        tooltip: AppLocalizations.of(context).houldsworth,
                         onPressed: () {
                           Navigator.push(
                               context,
@@ -673,7 +673,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     builder: (ctx) => new Container(
                       child: new IconButton(
                         icon: Icon(Icons.room, color: Colors.red, size: 35.0),
-                        tooltip: 'Aiken of Dalmoak Mausoleum',
+                        tooltip: AppLocalizations.of(context).dalmoak,
                         onPressed: () {
                           Navigator.push(
                               context,
@@ -729,7 +729,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                                   Icons.navigation,
                                   color: Colors.blue,
                                 ),
-                                tooltip: 'You are here',
+                                tooltip: AppLocalizations.of(context).you,
                                 onPressed: null),
                           ],
                         ),

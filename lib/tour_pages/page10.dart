@@ -74,7 +74,7 @@ class Page10State extends State<Page10> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('Buchanan of Dowanhill Monument 1844',
+            title: Text(AppLocalizations.of(context).dowanhill,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -99,8 +99,7 @@ class Page10State extends State<Page10> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by architect James Brown. Sculptor James Shanks
-Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod. ''',
+                    Text(AppLocalizations.of(context).dowanhillText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -112,7 +111,7 @@ Based on the Monument of Lysicrates - one of many in the Necropolis. The upper s
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Keep going up. Next on the left...''',
+                    Text(AppLocalizations.of(context).dowanhillInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -156,7 +155,7 @@ Based on the Monument of Lysicrates - one of many in the Necropolis. The upper s
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).entranceText;
+    String audio = AppLocalizations.of(context).dowanhillText;
     return  FlatButton(
         onPressed: () {
           setState(() {

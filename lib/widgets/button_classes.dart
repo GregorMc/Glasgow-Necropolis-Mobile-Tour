@@ -23,7 +23,7 @@ class MapFlatButton extends StatelessWidget {
     return RaisedButton(
       child: Row(
         children: <Widget>[
-          Text('Map '),
+          Text(AppLocalizations.of(context).map),
           Icon(Icons.map)
         ],
       ),

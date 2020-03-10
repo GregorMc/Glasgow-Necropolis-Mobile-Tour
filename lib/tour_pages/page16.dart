@@ -74,7 +74,7 @@ class Page16State extends State<Page16> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('Aiken of Dalmoak Mausoleum',
+            title: Text(AppLocalizations.of(context).dalmoak,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -99,8 +99,7 @@ class Page16State extends State<Page16> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by architect James Hamilton.
-This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. ''',
+                    Text(AppLocalizations.of(context).dalmoakText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -140,8 +139,7 @@ This mausoleum is the largest in the cemetery. Restoration works were carried ou
   }
 
   Widget playButton(BuildContext context) {
-    String audio = '''Designed by architect James Hamilton.
-This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. ''';
+    String audio = AppLocalizations.of(context).dalmoakText;
     return  FlatButton(
         onPressed: () {
           setState(() {

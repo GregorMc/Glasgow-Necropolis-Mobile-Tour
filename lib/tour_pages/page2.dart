@@ -140,10 +140,7 @@ class Page2State extends State<Page2> {
                   if (isPlaying) {
                     _stop();
                   }
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Page3()),
-                  );
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page3()));
                 },
               ),
             ],

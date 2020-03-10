@@ -111,7 +111,7 @@ class Page12State extends State<Page12> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Continue along the path and take the first left then the first right. On your left...''',
+                    Text(AppLocalizations.of(context).archieInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,

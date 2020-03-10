@@ -111,7 +111,7 @@ class Page13State extends State<Page13> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Continue along the path...''',
+                    Text(AppLocalizations.of(context).johnKnoxInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,

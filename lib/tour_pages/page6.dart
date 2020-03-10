@@ -111,7 +111,7 @@ class Page6State extends State<Page6> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Look left at the top of the steps...''',
+                    Text(AppLocalizations.of(context).lockhartInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,

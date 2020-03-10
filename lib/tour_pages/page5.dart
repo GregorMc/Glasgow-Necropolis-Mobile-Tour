@@ -140,10 +140,7 @@ class Page5State extends State<Page5> {
                   if (isPlaying) {
                     _stop();
                   }
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Page6()),
-                  );
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page6()));
                 },
               ),
             ],
@@ -155,8 +152,7 @@ class Page5State extends State<Page5> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = '''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
-The first burial was Joseph Levi in 1832.''';
+    String audio = AppLocalizations.of(context).jewsText;
     return  FlatButton(
       onPressed: () {
         setState(() {

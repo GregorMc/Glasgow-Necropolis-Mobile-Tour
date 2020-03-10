@@ -111,7 +111,7 @@ class Page9State extends State<Page9> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Continue going up...''',
+                    Text(AppLocalizations.of(context).johnKingInstructions,
                       style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic, color: Colors.blue),
                       textAlign: TextAlign.center,
                     ),
@@ -152,7 +152,7 @@ class Page9State extends State<Page9> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).johnKing;
+    String audio = AppLocalizations.of(context).johnKingText;
     return  FlatButton(
       onPressed: () {
         setState(() {

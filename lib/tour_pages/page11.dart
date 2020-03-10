@@ -74,7 +74,7 @@ class Page11State extends State<Page11> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('Hutchison Family Mausoleum',
+            title: Text(AppLocalizations.of(context).hutchison,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -99,8 +99,7 @@ class Page11State extends State<Page11> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''An imposing structure with interesting Moorish motif on the cast iron gates.
-First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD who was buried 26th April 1870. ''',
+                    Text(AppLocalizations.of(context).hutchisonText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -112,7 +111,7 @@ First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Carry on down the path and on the right in the corner...''',
+                    Text(AppLocalizations.of(context).hutchisonInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,

@@ -12,7 +12,7 @@ class Page0 extends StatelessWidget {
     return Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-          title: Text("Welcome to the Tour",
+          title: Text(AppLocalizations.of(context).welcome,
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
           actions: <Widget>[
             MapIconButton(),
@@ -53,13 +53,8 @@ class Page0 extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text(
-                      '''In winter months (or any time of year) the weather can be unpredictable so please wear clothing and footwear suitable for some of the uneven and steep paths. 
-If you have to rest please use some of the low walls to sit on. Please do not climb on the memorials and keep to the paths. 
-Dogs must be kept on a leash. 
-There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.''',
-                      style:
-                          TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
+                    Text(AppLocalizations.of(context).disclaimer,
+                      style: TextStyle(fontSize: 14, fontStyle: FontStyle.italic),
                       textAlign: TextAlign.center,
                     ),
                   ],
@@ -78,9 +73,7 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
                 child: Text(AppLocalizations.of(context).startTour),
                 elevation: 5,
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Page1()),
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Page1()),
                   );
                 },
               ),

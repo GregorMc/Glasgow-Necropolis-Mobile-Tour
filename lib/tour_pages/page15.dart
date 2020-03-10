@@ -74,7 +74,7 @@ class Page15State extends State<Page15> {
       child: Scaffold(
         drawer: new DrawerOnly(),
         appBar: AppBar(
-            title: Text('John Houldsworth Family Mausoleum 1845',
+            title: Text(AppLocalizations.of(context).houldsworth,
               style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             ),
             actions: <Widget>[
@@ -99,9 +99,7 @@ class Page15State extends State<Page15> {
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Designed by architect and sculptor John Thomas. 
-On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
-John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''',
+                    Text(AppLocalizations.of(context).houldsworthText,
                       style: Theme.of(context).textTheme.body1,
                     )
                   ],
@@ -113,7 +111,7 @@ John Houldsworth established the Anderston Foundry Company and was a senior Bail
                 padding: EdgeInsets.all(8),
                 child: Column(
                   children: <Widget>[
-                    Text('''Turn right down the grassy pathand turn right back on to the main path. Continue straight through and turn left down towards the mausoleum. Before you reach it, take the first right. On your right...''',
+                    Text(AppLocalizations.of(context).houldsworthInstructions,
                       style: TextStyle(
                           fontSize: 16,
                           fontStyle: FontStyle.italic,
@@ -157,9 +155,7 @@ John Houldsworth established the Anderston Foundry Company and was a senior Bail
   }
 
   Widget playButton(BuildContext context) {
-    String audio = '''Designed by architect and sculptor John Thomas. 
-On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
-John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''';
+    String audio = AppLocalizations.of(context).houldsworth;
     return  FlatButton(
         onPressed: () {
           setState(() {

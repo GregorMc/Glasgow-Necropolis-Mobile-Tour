@@ -43,13 +43,17 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "lockhart" : MessageLookupByLibrary.simpleMessage("Lockhart Denkmal 1842"),
     "lockhartText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Londoner Architekten J Wallace. Er war Mrs. Lockharts Bruder. Eines der vielen gotischen Denkmäler in der Nekropole mit Engeln vorne und hinten. \n Biegen Sie am oberen Ende der Treppe rechts in eine gekrümmte Allee ein. Guck nach links"),
     "robertBlack" : MessageLookupByLibrary.simpleMessage("Robert Black mausoleum 1837"),
-    "robertBlackText" : MessageLookupByLibrary.simpleMessage("Das erste auf dem Friedhof errichtete Mausoleum. Robert Black of Black und Wingate, Händler in Kelvinhaugh, bauten dies für seine Tochter Catherine, die im Alter von 12 Jahren starb. Fünf seiner Kinder starben vor dem 21. Lebensjahr. \n Geh weiter und sieh nach links"),
+    "robertBlackText" : MessageLookupByLibrary.simpleMessage("Das erste auf dem Friedhof errichtete Mausoleum. Robert Black of Black und Wingate, Händler in Kelvinhaugh, bauten dies für seine Tochter Catherine, die im Alter von 12 Jahren starb. Fünf seiner Kinder starben vor dem 21. Lebensjahr."),
+    "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Mach weiter und schau nach links..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("John King Denkmal 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und schließlich Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce. Fahren Sie weiter, bis Sie den Monteath auf der rechten Seite sehen"),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage("Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und schließlich Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce."),
+    "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Weiter auf dem Weg..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Major Archibald Douglas Monteath Mausoleum 1842"),
-    "archieText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten David Cousin. Das 30ft Durchmesser Mausoleum wird von einigen gedacht, um auf der Kirche von Str. Sepulchre in Cambridge zu basieren. Es gibt groteske Gesichter (jetzt stark erodiert) an der Tür und unter der Traufe und jedes Fensterdesign auf der unteren Ebene ist anders. Major Douglas Monteath war bei der East India Company und starb in Helensburgh. Monteaths Bruder wurde ebenfalls 1850 hier im darunter liegenden Gewölbe beigesetzt. \n Folgen Sie dem Pfad und biegen Sie links ab"),
+    "archieText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten David Cousin. Das 30ft Durchmesser Mausoleum wird von einigen gedacht, um auf der Kirche von Str. Sepulchre in Cambridge zu basieren. Es gibt groteske Gesichter (jetzt stark erodiert) an der Tür und unter der Traufe und jedes Fensterdesign auf der unteren Ebene ist anders. Major Douglas Monteath war bei der East India Company und starb in Helensburgh. Monteaths Bruder wurde ebenfalls 1850 hier im darunter liegenden Gewölbe beigesetzt."),
+    "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Pfad und nehmen Sie die erste Straße links und dann die erste Straße rechts. Zu deiner Linken...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Denkmal 1825"),
     "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, der eine Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule hält. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist."),
+    "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Weiter auf dem Weg..."),
     "startTour" : MessageLookupByLibrary.simpleMessage("Tour starten"),
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Anreise"),
     "byFoot" : MessageLookupByLibrary.simpleMessage("Zu Fuß"),
@@ -80,11 +84,80 @@ Informationen zu Bussen und Bahnen erhalten Sie auf der Website oder App von Tra
     "jewsText" : MessageLookupByLibrary.simpleMessage('''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszüge aus der Schrift, Lord Byrons 'Hebräische Melodien') und Symbole.
 Die erste Beerdigung war Joseph Levi im Jahre 1832.'''),
     "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Pfad und gehen Sie die Stufen rechts hinauf. Schauen Sie rechts oben auf der Treppe nach rechts...'''),
+    "disclaimer" : MessageLookupByLibrary.simpleMessage('''In den Wintermonaten (oder zu jeder Jahreszeit) kann das Wetter unvorhersehbar sein. Tragen Sie daher bitte Kleidung und Schuhe, die für einige der unebenen und steilen Wege geeignet sind.
 
+Wenn Sie sich ausruhen müssen, benutzen Sie bitte einige der niedrigen Wände, um darauf zu sitzen. Bitte klettern Sie nicht auf die Denkmäler und halten Sie sich an die Wege.
 
+Hunde müssen an der Leine gehalten werden.
 
+Außer dem nahe gelegenen St. Mungo Museum gibt es keine Toiletten. Das Cathedral House Hotel befindet sich in der Nähe.'''),
+    "welcome" : MessageLookupByLibrary.simpleMessage('''Willkommen zur Tour'''),
+    "lockhartInstructions" : MessageLookupByLibrary.simpleMessage('''Schauen Sie oben links nach ...'''),
+    "ogilvie" : MessageLookupByLibrary.simpleMessage('Reverend Alexander Ogilvie Beattie Denkmal 1858'),
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Pfarrer der St. Vincent St UP Church. Thomson ist in Glasgows südlicher Nekropole begraben.
+Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf einem Sockel.'''),
+    "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Biegen Sie rechts und zuerst links in eine kurvenreiche Straße ab. Links...'''),
+    "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan of Dowanhill Monument 1844"),
+    "dowanhillText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten James Brown. Bildhauer James Shanks
+Basierend auf dem Denkmal des Lysikrates - eines von vielen in der Nekropole. Der obere Teil besteht aus sechs korinthischen Säulen, die ein festes Zentrum umgeben. Die unteren Spalten sind korinthisch vereinfacht. Die Oberseite wird von Schriftrollen abgedeckt, die ein Stativ tragen sollen.'''),
+    "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Steigen weiter an. Weiter links...'''),
+    "hutchison" : MessageLookupByLibrary.simpleMessage('Mausoleum der Familie Hutchison'),
+    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Eine imposante Struktur mit interessantem maurischen Motiv auf den gusseisernen Toren.
+Die erste Beerdigung fand 1849 statt, aber ein interessanter Amtsinhaber ist Dr. Francis Hay Thomson, der am 26. April 1870 beerdigt wurde.'''),
+    "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage('''Fahren Sie den Weg entlang und rechts in der Ecke...'''),
+    "raeWilson" : MessageLookupByLibrary.simpleMessage("William Rae Wilson Denkmal 1849"),
+    "raeWilsonText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten J A Bell.
 
+Eine achteckige Form im maurischen Stil, ähnlich den Denkmälern in Palästina. 27 Fuß hoch und aus Lebergestein aus dem Binnie-Steinbruch hergestellt. In den verdeckten Fugen wurde kein Holz, Eisen oder Blei verwendet.
 
+William Rae praktizierte als Anwalt und nannte den Namen Wilson, als er von seinem Onkel John Wilson erbte.
+
+Er ging nach Osten, um sich vom Tod seiner Frau zu erholen, die 18 Monate nach ihrer Heirat starb, und schrieb das Buch 'Reisen durch das Heilige Land'. Er schrieb auch andere bewunderte Reisebücher.
+
+Er starb in London, ist aber hier begraben.'''),
+    "raeWilsonInstructions" : MessageLookupByLibrary.simpleMessage('''Nächstes Denkmal...'''),
+    "houldsworth" : MessageLookupByLibrary.simpleMessage("Mausoleum der Familie John Houldsworth 1845"),
+    "houldsworthText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten und Bildhauer John Thomas.
+                     
+Rechts Charity mit Kind und links Hope mit Anker. Im Inneren befinden sich drei Marmorfiguren - Glaube in der Mitte mit einem Engel auf jeder Seite.
+                   
+John Houldsworth gründete die Anderston Foundry Company und war Senior Baille der Stadt Glasgow.'''),
+    "houldsworthInstructions" : MessageLookupByLibrary.simpleMessage('''Biegen Sie rechts auf den grasbewachsenen Weg ab und biegen Sie rechts wieder auf den Hauptweg ab. Fahren Sie geradeaus weiter und biegen Sie links ab in Richtung Mausoleum. Bevor Sie es erreichen, biegen Sie rechts ab. Zu deiner Rechten...'''),
+    "dalmoak" : MessageLookupByLibrary.simpleMessage('Aiken des Dalmoak-Mausoleums'),
+    "dalmoakText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten James Hamilton.
+
+Dieses Mausoleum ist das größte auf dem Friedhof. Restaurierungsarbeiten wurden im Jahr 2017 durchgeführt.'''),
+    "completionText" : MessageLookupByLibrary.simpleMessage('''Vielen Dank, dass Sie die Glasgow Necropolis Mobile Tour abgeschlossen haben!
+                      
+Wenn Ihnen die Tour gefallen hat, können Sie eine Spende hinterlassen.
+
+Alle Spenden sind herzlich willkommen und wir bitten Sie, großzügig zu sein, da alle Spenden ausschließlich für die Erhaltung und Wiederherstellung der Nekropole von Glasgow verwendet werden.'''),
+    "books" : MessageLookupByLibrary.simpleMessage('Bücher & Anleitungen'),
+    "booksText" : MessageLookupByLibrary.simpleMessage('''Wenn Sie weitere Informationen zu den Denkmälern wünschen, die Sie heute gesehen haben, besuchen Sie unsere Seite Bücher und Leitfäden'''),
+    "firPark" : MessageLookupByLibrary.simpleMessage('''Fir Park - Jetzt Glasgow Necropolis
+'''),
+    "firParkText" : MessageLookupByLibrary.simpleMessage('''1650 kaufte das Merchants 'House das Land, das zum Anwesen von Wester Craigs gehört und heute als Glasgow Necropolis bekannt ist. Da die Westseite felsig war und nicht erschlossen werden konnte, wurde sie anschließend mit Tannen bepflanzt und als Tannenpark bekannt. Im Jahr 1804 begannen die schottischen Tannen im Park zu sterben und wurden hauptsächlich durch Ulmen und Weiden ersetzt. Das Gebiet wurde zu einem viktorianischen Park und Arboretum. 1825 wurde im Fir Park der Grundstein für das John Knox-Denkmal gelegt.
+'''),
+    "design" : MessageLookupByLibrary.simpleMessage('''Das Design für die Nekropole von Glasgow
+'''),
+    "designText1" : MessageLookupByLibrary.simpleMessage('''Im Jahr 1831 schrieb John Strang, Chamberlain im Merchants 'House, "Necropolis Glasguensis" oder "Gedanken über Tod und moralischen Anreiz" und kommentierte:
+'''),
+    "designTextItalics" : MessageLookupByLibrary.simpleMessage('''"Der Tannenpark scheint bewundernswert für ein Pere la Chaise geeignet zu sein, das sich wunderbar in die angrenzende Landschaft einfügt und einen feierlichen und angemessenen Anhang zu der ehrwürdigen Struktur (der Kathedrale) darstellt, vor der sich eine begehrte Unterkunft bietet Für die höheren Klassen würde gleichzeitig ein unproduktives Eigentum in eine allgemeine und lukrative Gewinnquelle umgewandelt, in eine gemeinnützige Einrichtung. Es sollte „respektvoll gegenüber den Toten, sicher und hygienisch gegenüber den Lebenden sein, die dem Genie von gewidmet sind Erinnerung und religiöses und moralisches Gefühl zu erweitern."
+'''),
+    "designText2" : MessageLookupByLibrary.simpleMessage('''Das Merchants 'House bat den Architekten David Hamilton, Stuart Murray, Kurator des Botanischen Gartens, und James Clelland, Superintendent für öffentliche Arbeiten, eine Machbarkeitsstudie für die Bildung der Nekropole von Glasgow zu erstellen, und 1828 stimmte das Komitee der Direktoren für Land und Steinbrüche zu der Antrag. 1831 wurde in den Zeitungen ein Wettbewerb für die Umwandlung des Tannenparks in einen Friedhof mit 5 Preisen von 10 bis 50 Pfund ausgeschrieben. 16 Pläne gingen ein und wurden in den Ausstellungsräumen der Dilettante Society in Argyll Arcade ausgestellt. David Bryce aus Edinburgh gewann den ersten Preis und sein Bruder John Bryce aus Glasgow den zweiten. Die Richter entschieden jedoch, dass die Arbeit am besten von einem Landschaftsgärtner ausgeführt werden sollte. Infolgedessen wurde George Mylne zum Superintendent und Chefgärtner ernannt, und die Arbeit begann.
+'''),
+    "victorian" : MessageLookupByLibrary.simpleMessage('''Die viktorianische Nekropole von Glasgow
+'''),
+    "victorianText" : MessageLookupByLibrary.simpleMessage('''Diese Grabstätte sollte immer konfessionsübergreifend sein, und die erste Beerdigung im Jahr 1832 war die eines Juden, Joseph Levi, eines Juweliers. 1833 wurde Elizabeth Miles, die Stiefmutter des Superintendenten George Mylne, zum ersten Mal christlich beerdigt. Nach 1860 sollten die ersten Erweiterungen nach Osten und Süden den Ladywell-Steinbruch aufnehmen, und 1877 und 1892/3 wurden die letzten Erweiterungen nach Norden und Südosten gebaut, wodurch sich die Größe des Friedhofs verdoppelte. Die Nekropole ist jetzt 15 ha groß.
+
+50.000 Bestattungen fanden in der Nekropole statt und die meisten von 3.500 Gräbern wurden bis zu 14 Fuß tief mit Steinmauern und Ziegelwänden errichtet. Auf der Spitze der Nekropole wurden Gräber aus der Felswand gesprengt. 1877 wurde der Molendinar Burn, der unter der Seufzerbrücke verlief, durchlöchert. Diese Verbrennung, bei der St. Mungo angeblich nach Lachs gefischt haben soll, befindet sich jetzt unter der Erde auf dem Weg zum Clyde.
+
+Die Nekropole war einer der wenigen Friedhöfe, auf denen Aufzeichnungen über die Toten geführt wurden, einschließlich Beruf, Alter, Geschlecht und Todesursache. Im Juli 1878 zeigt das Gästebuch, dass 13.733 Menschen die Nekropole von Glasgow besuchten - 12.400 Bürger und 1.333 andere Besucher.
+
+1966 übergab das Merchants 'House die Nekropole an den Stadtrat von Glasgow, der sie nun verwaltet und unterhält. Die Bänke und die Grabumrandung wurden entfernt und der größte Teil der Fläche zu Wartungszwecken auf Gras gelegt. Hier gibt es Denkmäler, die von bedeutenden Architekten und Bildhauern der damaligen Zeit entworfen wurden, darunter Alexander ‘Greek’ Thomson, Charles Rennie Macintosh und JT Rochead, in jedem Baustil, der für die prominenten und wohlhabenden Unternehmer der „Second City of the Empire“ geschaffen wurde.
+
+Die Nekropole von Glasgow hat immer noch eine wundervolle Atmosphäre und zieht immer noch viele Besucher sowohl vor Ort als auch aus der ganzen Welt an.'''),
+    "you" : MessageLookupByLibrary.simpleMessage('''Du bist da'''),
 
   };
 }
