@@ -82,8 +82,7 @@ class LastPage extends StatelessWidget {
                   ],
                 ),
                 onPressed: () async {
-                  const urlBooks =
-                      'https://www.glasgownecropolis.org/books-guides/';
+                  const urlBooks = 'https://www.glasgownecropolis.org/books-guides/';
                   if (await canLaunch(urlBooks)) {
                     await launch(urlBooks, forceWebView: true);
                   } else {

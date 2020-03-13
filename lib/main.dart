@@ -20,6 +20,8 @@ class Home extends StatelessWidget {
         Locale('es', ""),
         Locale('ja', ""),
         Locale('de', ""),
+        Locale('fr', ""),
+
       ],
       onGenerateTitle: (BuildContext context) =>
           AppLocalizations.of(context).title,

@@ -32,7 +32,6 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Walk through the gates and onto the bridge...'),
     "back" : MessageLookupByLibrary.simpleMessage("Back"),
     "next" : MessageLookupByLibrary.simpleMessage("Next"),
-    "seeMore" : MessageLookupByLibrary.simpleMessage("See more"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("The Bridge Of Sighs 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Straight on and facing you...'),
@@ -65,11 +64,12 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "byFoot" : MessageLookupByLibrary.simpleMessage("By Foot"),
     "byPublic" : MessageLookupByLibrary.simpleMessage("By Public Transport"),
     "byCar" : MessageLookupByLibrary.simpleMessage("By Car"),
-    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. 
+    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from '''),
+    "location2" : MessageLookupByLibrary.simpleMessage('''daily. 
                            
 The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
                            
-The Postcode of the Necropolis is G4 0UZ.'''),
+The Postcode of the Necropolis is '''),
     "carDirections" : MessageLookupByLibrary.simpleMessage('''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral. 
 
 Pay-and-display car parks are available in the vicinity.'''),
@@ -99,12 +99,12 @@ Dogs must be kept on a leash.
 There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.'''),
     "welcome" : MessageLookupByLibrary.simpleMessage('''Welcome to the Tour'''),
     "ogilvie" : MessageLookupByLibrary.simpleMessage('Reverend Alexander Ogilvie Beattie Monument 1858'),
-    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is buried in Glasgow's Southern Necropolis.
 The monument consists of an obelisk and urn, with a tomb chest on a base. '''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Turn right and first left up a curved avenue. On the left...'''),
     "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan of Dowanhill Monument 1844"),
     "dowanhillText" : MessageLookupByLibrary.simpleMessage('''Designed by architect James Brown. Sculptor James Shanks
-Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod. '''),
+Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod.'''),
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Keep going up. Next on the left...'''),
     "hutchison" : MessageLookupByLibrary.simpleMessage('Hutchison Family Mausoleum'),
     "hutchisonText" : MessageLookupByLibrary.simpleMessage('''An imposing structure with interesting Moorish motif on the cast iron gates.
@@ -117,7 +117,7 @@ An octagonal form Moorish style, similar to monuments in Palestine. 27ft high an
 
 William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
 
-He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+He went east to recover from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
 
 He died in London but is burried here. '''),
     "raeWilsonInstructions" : MessageLookupByLibrary.simpleMessage('''Next monument...'''),
@@ -128,7 +128,7 @@ On the right Charity carrying a child and on the left Hope with an anchor. Insid
                    
 John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. '''),
     "houldsworthInstructions" : MessageLookupByLibrary.simpleMessage('''Turn right down the grassy pathand turn right back on to the main path. Continue straight through and turn left down towards the mausoleum. Before you reach it, take the first right. On your right...'''),
-    "dalmoak" : MessageLookupByLibrary.simpleMessage('Hutchison Family Mausoleum'),
+    "dalmoak" : MessageLookupByLibrary.simpleMessage('Aiken of Dalmoak Mausoleum'),
     "dalmoakText" : MessageLookupByLibrary.simpleMessage('''Designed by architect James Hamilton.
 
 This mausoleum is the largest in the cemetery. Restoration works were carried out in 2017. '''),

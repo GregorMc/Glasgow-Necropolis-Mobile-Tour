@@ -32,7 +32,6 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Camina por las puertas y hacia el puente...'),
     "back" : MessageLookupByLibrary.simpleMessage("atrás"),
     "next" : MessageLookupByLibrary.simpleMessage("Próxima"),
-    "seeMore" : MessageLookupByLibrary.simpleMessage("Ver más"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("El puente de los suspiros 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton diseñó el puente sobre Molindinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco lo suficientemente ancho para caballo y carro y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill. \ n Continúa por el puente y mira de frente"),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Directamente y frente a ti...'),
@@ -64,11 +63,12 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
     "byFoot" : MessageLookupByLibrary.simpleMessage("A pie"),
     "byPublic" : MessageLookupByLibrary.simpleMessage("Por transporte público"),
     "byCar" : MessageLookupByLibrary.simpleMessage("En coche"),
-    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis se encuentra en el extremo este del centro de la ciudad de Glasgow y está abierto todos los días de 7.00 a.m. a 4:30 p.m.
+    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis se encuentra en el extremo este del centro de la ciudad de Glasgow y está abierto todos los días de '''),
+    "location2" : MessageLookupByLibrary.simpleMessage('''
                            
 Las puertas principales se encuentran detrás del Museo de Arte y Vida Religiosa de San Mungo, y adyacente a la Catedral de Glasgow. Sin embargo, hay una puerta en la calle Wishart y una entrada a la calle John Knox frente al hotel Cathedral House.
                            
-El código postal de la necrópolis es G4 0UZ.'''),
+El código postal de la necrópolis es '''),
     "carDirections" : MessageLookupByLibrary.simpleMessage('''Salga de la M8 en la salida 15 y siga las indicaciones hacia la Catedral de Glasgow.
 
 Los aparcamientos de pago y exhibición están disponibles en las cercanías.'''),

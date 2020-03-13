@@ -32,7 +32,6 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Walk through the gates and onto the bridge...'),
     "back" : MessageLookupByLibrary.simpleMessage("Back"),
     "next" : MessageLookupByLibrary.simpleMessage("Next"),
-    "seeMore" : MessageLookupByLibrary.simpleMessage("See more"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("The Bridge Of Sighs 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Straight on and facing you...'),
@@ -65,11 +64,12 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "byFoot" : MessageLookupByLibrary.simpleMessage("By Foot"),
     "byPublic" : MessageLookupByLibrary.simpleMessage("By Public Transport"),
     "byCar" : MessageLookupByLibrary.simpleMessage("By Car"),
-    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. 
+    "location" : MessageLookupByLibrary.simpleMessage('''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from '''),
+    "location2" : MessageLookupByLibrary.simpleMessage('''daily. 
                            
 The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
                            
-The Postcode of the Necropolis is G4 0UZ.'''),
+The Postcode of the Necropolis is '''),
     "carDirections" : MessageLookupByLibrary.simpleMessage('''Exit the M8 at junction 15 and follow the signs for Glasgow Cathedral. 
 
 Pay-and-display car parks are available in the vicinity.'''),

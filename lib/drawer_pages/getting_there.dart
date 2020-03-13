@@ -13,7 +13,8 @@ class GettingThere extends StatelessWidget {
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).gettingThere),
         actions: <Widget>[
-          BackIconButton(),
+          MapIconButton(),
+          BackIconButton()
         ],
       ),
       body: ListView(
@@ -22,7 +23,17 @@ class GettingThere extends StatelessWidget {
           Card(
             child: Padding(
               padding: EdgeInsets.all(8),
-              child: Text(AppLocalizations.of(context).location),
+                child: RichText(
+                    text: TextSpan(
+                        style: TextStyle(color: Colors.black, fontSize: 16),
+                        children: <TextSpan>[
+                          TextSpan(text: AppLocalizations.of(context).location),
+                          TextSpan(text: '7.00am - 4.30pm ', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue)),
+                          TextSpan(text: AppLocalizations.of(context).location2),
+                          TextSpan(text: 'G4 0UZ.', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue))
+                        ]
+                    ),
+                  ),
             ),
           ),
           Card(
@@ -32,8 +43,9 @@ class GettingThere extends StatelessWidget {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(Icons.directions_walk),
-                      Text(AppLocalizations.of(context).byFoot)
+                      Icon(Icons.directions_walk, color: Colors.blue),
+                      Text(AppLocalizations.of(context).byFoot,
+                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue))
                     ],
                   ),
                   SizedBox(height: 8),
@@ -51,8 +63,9 @@ class GettingThere extends StatelessWidget {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(Icons.directions_railway),
-                      Text(AppLocalizations.of(context).byPublic)
+                      Icon(Icons.directions_railway, color: Colors.blue),
+                      Text(AppLocalizations.of(context).byPublic,
+                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue))
                     ],
                   ),
                   SizedBox(height: 8),
@@ -70,8 +83,9 @@ class GettingThere extends StatelessWidget {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Icon(Icons.directions_car),
-                      Text(AppLocalizations.of(context).byCar)
+                      Icon(Icons.directions_car, color: Colors.blue),
+                      Text(AppLocalizations.of(context).byCar,
+                          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue))
                     ],
                   ),
                   SizedBox(height: 8),

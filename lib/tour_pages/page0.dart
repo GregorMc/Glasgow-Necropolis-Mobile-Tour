@@ -13,7 +13,7 @@ class Page0 extends StatelessWidget {
         drawer: new DrawerOnly(),
         appBar: AppBar(
           title: Text(AppLocalizations.of(context).welcome,
-            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
           actions: <Widget>[
             MapIconButton(),
             BackIconButton(),

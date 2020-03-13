@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:glasgow_necropolis_tour/l10n/messages_all.dart';
 
-
 class AppLocalizations {
   static Future<AppLocalizations> load(Locale locale) {
     final String name =
@@ -107,14 +106,6 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
       'Next',
       name: 'next',
       desc: 'next heading',
-    );
-  }
-
-  String get seeMore {
-    return Intl.message(
-      'See more',
-      name: 'seeMore',
-      desc: 'see more button',
     );
   }
 
@@ -368,12 +359,20 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get location {
     return Intl.message(
-      '''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from 7.00am till 4:30pm daily. 
+      '''Glasgow Necropolis is located on the eastern edge of Glasgow City Centre and is open from ''',
+      name: 'location',
+      desc: 'location text',
+    );
+  }
+
+  String get location2 {
+    return Intl.message(
+      '''daily. 
                            
 The main gates lie behind St Mungo’s Museum of Religious Life and Art, and adjacent to Glasgow Cathedral. However there is a gate at Wishart Street and an entrance off John Knox Street opposite Cathedral House Hotel.
                            
-The Postcode of the Necropolis is G4 0UZ.''',
-      name: 'location',
+The Postcode of the Necropolis is ''',
+      name: 'location2',
       desc: 'location text',
     );
   }
@@ -758,7 +757,7 @@ class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
 
   @override
   bool isSupported(Locale locale) {
-    return ['en', 'es', 'ja', 'de'].contains(locale.languageCode);
+    return ['en', 'es', 'ja', 'de', 'fr'].contains(locale.languageCode);
   }
 
   @override

@@ -79,13 +79,6 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "placeholders": {}
   },
 
-  "seeMore": "Mehr sehen",
-  "@seeMore": {
-    "description": "see more button",
-    "type": "text",
-    "placeholders": {}
-  },
-
   "bridgeSighs": "Die Seufzerbrücke 1834",
   "@bridgeSighs": {
     "description": "The Bridge Of Sighs 1834 heading",
@@ -311,16 +304,19 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
           "placeholders": {}
           },
 
-           "location": '''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von 7.00 bis 16.30 Uhr geöffnet.
-                                                     
-Die Haupttore befinden sich hinter dem St. Mungo Museum für religiöses Leben und Kunst und neben der Kathedrale von Glasgow. Es gibt jedoch ein Tor in der Wishart Street und einen Eingang in der John Knox Street gegenüber dem Cathedral House Hotel.
-                                                     
-Die Postleitzahl der Nekropole lautet G4 0UZ.''',
+           "location": '''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von ''',
                     "@location": {
                     "description": "location text",
                     "type": "text",
                     "placeholders": {}
                     },
+
+        "location2": '''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von ''',
+                    "@location2": {
+                    "description": "location text",
+                    "type": "text",
+                    "placeholders": {}
+                     },
 
 "carDirections": '''Verlassen Sie die M8 an der Ausfahrt 15 und folgen Sie den Schildern zur Kathedrale von Glasgow.
 
@@ -433,7 +429,7 @@ Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf e
       "placeholders": {}
     },
 
-     "dowanhill": "Buchanan of Dowanhill Monument 1844",
+     "dowanhill": "Buchanan von Dowanhill Monument 1844",
           "@dowanhill": {
             "description": "dowanhill heading",
             "type": "text",

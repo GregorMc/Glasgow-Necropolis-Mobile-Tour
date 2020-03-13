@@ -27,7 +27,6 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Gehe durch die Tore und auf die Brücke...'),
     "back" : MessageLookupByLibrary.simpleMessage("Zurück"),
     "next" : MessageLookupByLibrary.simpleMessage("Nächster"),
-    "seeMore" : MessageLookupByLibrary.simpleMessage("Mehr sehen"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("Die Seufzerbrücke 1834"),
     "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen. Fahren Sie weiter über die Brücke und schauen Sie geradeaus"),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Geradeaus und dir zugewandt...'),
@@ -58,12 +57,13 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Anreise"),
     "byFoot" : MessageLookupByLibrary.simpleMessage("Zu Fuß"),
     "byPublic" : MessageLookupByLibrary.simpleMessage("Mit öffentlichen Verkehrsmitteln"),
-    "byPublic" : MessageLookupByLibrary.simpleMessage("Mit dem Auto"),
-    "location" : MessageLookupByLibrary.simpleMessage('''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von 7.00 bis 16.30 Uhr geöffnet.
+    "byCar" : MessageLookupByLibrary.simpleMessage("Mit dem Auto"),
+    "location" : MessageLookupByLibrary.simpleMessage('''Die Glasgow Necropolis befindet sich am östlichen Rand des Stadtzentrums von Glasgow und ist täglich von '''),
+    "location2" : MessageLookupByLibrary.simpleMessage(''' Uhr geöffnet.
                              
 Die Haupttore befinden sich hinter dem St. Mungo Museum für religiöses Leben und Kunst und neben der Kathedrale von Glasgow. Es gibt jedoch ein Tor in der Wishart Street und einen Eingang in der John Knox Street gegenüber dem Cathedral House Hotel.
                              
-Die Postleitzahl der Nekropole lautet G4 0UZ.'''),
+Die Postleitzahl der Nekropole lautet '''),
     "carDirections" : MessageLookupByLibrary.simpleMessage('''Verlassen Sie die M8 an der Ausfahrt 15 und folgen Sie den Schildern zur Kathedrale von Glasgow.
 
 In der Nähe stehen kostenpflichtige Parkplätze zur Verfügung.'''),
@@ -97,7 +97,7 @@ Außer dem nahe gelegenen St. Mungo Museum gibt es keine Toiletten. Das Cathedra
     "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Pfarrer der St. Vincent St UP Church. Thomson ist in Glasgows südlicher Nekropole begraben.
 Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf einem Sockel.'''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Biegen Sie rechts und zuerst links in eine kurvenreiche Straße ab. Links...'''),
-    "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan of Dowanhill Monument 1844"),
+    "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan von Dowanhill Monument 1844"),
     "dowanhillText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten James Brown. Bildhauer James Shanks
 Basierend auf dem Denkmal des Lysikrates - eines von vielen in der Nekropole. Der obere Teil besteht aus sechs korinthischen Säulen, die ein festes Zentrum umgeben. Die unteren Spalten sind korinthisch vereinfacht. Die Oberseite wird von Schriftrollen abgedeckt, die ein Stativ tragen sollen.'''),
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Steigen weiter an. Weiter links...'''),

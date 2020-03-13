@@ -21,7 +21,7 @@ class DrawerOnly extends StatelessWidget {
                   ListTile(
                     title: Text(AppLocalizations.of(context).title,
                       textAlign: TextAlign.center,
-                        style: TextStyle(color: Colors.blue))
+                        style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold, fontSize: 17))
                   ),
 
                   ListTile(
@@ -29,6 +29,14 @@ class DrawerOnly extends StatelessWidget {
                     leading: Icon(Icons.home),
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
+                    },
+                  ),
+
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).history),
+                    leading: Icon(Icons.library_books),
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => History()));
                     },
                   ),
 
@@ -49,18 +57,23 @@ class DrawerOnly extends StatelessWidget {
                   ),
 
                   ListTile(
-                    title: Text(AppLocalizations.of(context).history),
-                    leading: Icon(Icons.library_books),
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => History()));
-                    },
-                  ),
-
-                  ListTile(
                     title: Text(AppLocalizations.of(context).gettingThere),
                     leading: Icon(Icons.departure_board),
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => GettingThere()));
+                    },
+                  ),
+
+                  ListTile(
+                    title: Text(AppLocalizations.of(context).books),
+                    leading: Icon(Icons.library_books),
+                    onTap: () async {
+                      const urlBooks = 'https://www.glasgownecropolis.org/books-guides/';
+                      if (await canLaunch(urlBooks)) {
+                        await launch(urlBooks, forceWebView: true);
+                      } else {
+                        throw 'Error loading $urlBooks';
+                      }
                     },
                   ),
 

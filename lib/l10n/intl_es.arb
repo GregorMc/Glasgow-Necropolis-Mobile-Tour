@@ -79,13 +79,6 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
     "placeholders": {}
   },
 
-  "seeMore": "Ver más",
-  "@seeMore": {
-    "description": "see more button",
-    "type": "text",
-    "placeholders": {}
-  },
-
   "bridgeSighs": "El puente de los suspiros 1834",
   "@bridgeSighs": {
     "description": "The Bridge Of Sighs 1834 heading",
@@ -310,16 +303,23 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
           "placeholders": {}
           },
 
-  "location": '''Glasgow Necropolis se encuentra en el extremo este del centro de la ciudad de Glasgow y está abierto todos los días de 7.00 a.m. a 4:30 p.m.
-                                            
-Las puertas principales se encuentran detrás del Museo de Arte y Vida Religiosa de San Mungo, y adyacente a la Catedral de Glasgow. Sin embargo, hay una puerta en la calle Wishart y una entrada a la calle John Knox frente al hotel Cathedral House.
-                                            
-El código postal de la necrópolis es G4 0UZ.''',
+  "location": '''Glasgow Necropolis se encuentra en el extremo este del centro de la ciudad de Glasgow y está abierto todos los días de ''',
                     "@location": {
                     "description": "location text",
                     "type": "text",
                     "placeholders": {}
                     },
+
+   "location2": '''
+                                             
+ Las puertas principales se encuentran detrás del Museo de Arte y Vida Religiosa de San Mungo, y adyacente a la Catedral de Glasgow. Sin embargo, hay una puerta en la calle Wishart y una entrada a la calle John Knox frente al hotel Cathedral House.
+                                             
+ El código postal de la necrópolis es ''',
+                     "@location2": {
+                     "description": "location text",
+                     "type": "text",
+                     "placeholders": {}
+                     },
 
 "carDirections": '''Salga de la M8 en la salida 15 y siga las indicaciones hacia la Catedral de Glasgow.
 
