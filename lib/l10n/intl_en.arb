@@ -51,7 +51,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "placeholders": {}
   },
 
-  "entranceText": "The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto. \n Walk through the gates and onto the bridge",
+  "entranceText": "The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto.",
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",

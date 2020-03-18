@@ -18,9 +18,10 @@ class Home extends StatelessWidget {
       supportedLocales: [
         Locale('en', ""),
         Locale('es', ""),
-        Locale('ja', ""),
         Locale('de', ""),
         Locale('fr', ""),
+        Locale('nl', ""),
+
 
       ],
       onGenerateTitle: (BuildContext context) =>

@@ -4,7 +4,7 @@ import 'package:glasgow_necropolis_tour/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:glasgow_necropolis_tour/widgets/button_classes.dart';
-import'package:glasgow_necropolis_tour/tour_pages/page1.dart';
+import 'package:glasgow_necropolis_tour/tour_pages/page1.dart';
 
 class Page0 extends StatelessWidget {
   @override

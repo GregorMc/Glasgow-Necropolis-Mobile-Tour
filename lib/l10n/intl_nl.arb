@@ -1,0 +1,653 @@
+{
+  "@@last_modified": "2019-11-25T17:11:59.469405",
+  "title": "Glasgow Necropolis",
+  "@title": {
+    "description": "Title for the Glasgow Necropolis",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "takeTheTour": "Neem de Tour",
+  "@takeTheTour": {
+    "description": "Take the Tour heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "home": "Huis",
+  "@home": {
+    "description": "home heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntro": "Introductie van de tour",
+  "@tourIntro": {
+    "description": "tour intro heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntroText": '''De Glasgow Necropolis ligt zeer dicht bij de kathedraal van Glasgow en bevindt zich op een van de hoogste heuvels met een prachtig uitzicht over de stad Glasgow.
+
+De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met deze app 30 van de meest bijzondere monumenten en mausolea zien. Als je meer wilt zien, neem dan contact op met de Friends of Glasgow Necropolis om een begeleide wandeling te regelen -  ''',
+  "@tourIntroText": {
+    "description": "tour intro text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "start": "Begin",
+  "@start": {
+    "description": "start",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entrance": "De toegangspoorten 1838",
+  "@entrance": {
+    "description": "entrance gates heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceText": "De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Edlington in gietijzer. De poorten hebben het Merchants 'House-symbool (een klipper bovenop de wereld) en het motto.",
+  "@entranceText": {
+    "description": "entrance gates text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceInstructions": '''Loop door de poorten en de brug op...''',
+    "@entranceInstructions": {
+      "description": "entrance gates instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "back": "Terug",
+  "@back": {
+    "description": "back",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "next": "De volgende",
+  "@next": {
+    "description": "next",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighs": "De Brug der Zuchten 1834",
+  "@bridgeSighs": {
+    "description": "The Bridge Of Sighs 1834 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsText": "D & J Hamilton ontwierp de brug over de Molindinar Burn die nu onder Wishart St. loopt. De eerste steen en de tijdcapsule werden op de begraafplaatszijde van de brug gelegd, die uit drie bogen bestaat: een hoofdboog van 60 meter boven de rivier en vervolgens een boog genoeg voor paard en wagen en de kleine, derde boog, die het millrace toeliet om Subdean Mill te bereiken.",
+  "@bridgeSighsText": {
+    "description": "The Bridge Of Sighs 1834 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsInstructions": "Rechtdoor en naar je toe gericht...",
+    "@bridgeSighsInstructions": {
+      "description": "The Bridge Of Sighs 1834 instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "entranceFacade": "De entree gevel 1836",
+  "@entranceFacade": {
+    "description": "The Entrance facade 1836 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeText": "Ontworpen door architect John Bryce. De beoogde toegang tot catacomben die door de Necropolis zouden lopen. Toen de Anatomiewet in 1832 werd aangenomen, werd het idee voor catacomben opgegeven.",
+  "@entranceFacadeText": {
+    "description": "The Entrance facade 1836 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeInstructions": "Sla linksaf en volg het hoofdpad",
+    "@entranceFacadeInstructions": {
+      "description": 'Turn left and follow the main path...',
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "williamMiller": "William Miller Memorial 1872",
+  "@williamMiller": {
+    "description": "William Miller Memorial 1872 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMillerText": "Dit werd opgericht naar de auteur van het beroemde kinderliedje 'Wee Willie Winkie'. Hij stierf in 1872 en werd begraven op de begraafplaats van Tollcross.",
+  "@williamMillerText": {
+    "description": "William Miller Memorial 1872 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+   "williamMillerInstructions": "Veer naar links - volg dit pad tot je een trap bereikt die naar rechts en naar links leidt...",
+    "@williamMillerInstructions": {
+      "description": "William Miller Memorial 1872 instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "allInfo": "Alle informatie",
+  "@allInfo": {
+    "description": "all info",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "map": "Kaart",
+  "@map": {
+    "description": "map",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "donate": "Doneer",
+  "@donate": {
+    "description": "donate",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhart": "Lockhart Monument 1842",
+  "@lockhart": {
+    "description": "lockhart",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartText": "Ontworpen door de Londense architect J Wallace. Hij was de broer van mevrouw Lockhart. Een van de vele gotische monumenten in de Necropolis met voor- en achterkant cherubijnen.",
+  "@lockhartText": {
+    "description": "lockhart text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartInstructions": '''Kijk links bovenaan de trap...''',
+    "@lockhartInstructions": {
+      "description": "lockhart Instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "robertBlack": "Robert Black Mausoleum 1837",
+  "@robertBlack": {
+    "description": "robert black heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackText": "Het eerste mausoleum dat op de begraafplaats werd opgericht. Robert Black van Black and Wingate, kooplieden in Kelvinhaugh, bouwde dit voor zijn dochter Catherine, die op 12-jarige leeftijd stierf. Vijf van zijn kinderen stierven vóór de leeftijd van 21 jaar.",
+  "@robertBlackText": {
+    "description": "robert black text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackInstructions": "Blijf doorgaan en kijk naar links...",
+    "@robertBlackInstructions": {
+      "description": "robert black instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "johnKing": "John king Monument 1875",
+  "@johnKing": {
+    "description": "john king heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingText": "Een imposante familiegewelf met gepolijste Peterhead granieten zuilen en gietijzeren poorten. John King of Campsie en Leverhome was partner in Alum Works bij Glasgow en de uiteindelijke eigenaar van Cudbear Works in Glasgow. Hij was ook directeur van het Merchants 'House en de Glasgow Chamber of Commerce.",
+  "@johnKingText": {
+    "description": "john king text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingInstructions": "Ga verder op het pad...",
+    "@johnKingInstructions": {
+      "description": "john king instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "archie": "Major Archibald Douglas Monteath Mausoleum 1842",
+  "@archie": {
+    "description": "archie heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieText": "Ontworpen door architect David Cousin. Het Mausoleum met een diameter van 30 voet wordt door sommigen verondersteld te zijn gebaseerd op de kerk van St Sepulcher in Cambridge. Er zijn groteske gezichten (nu ernstig geërodeerd) op de deuropening en onder de dakrand en elk raamontwerp op het lagere niveau is anders. Majoor Douglas Monteath was bij de Oost-Indische Compagnie en stierf in Helensburgh. De broer van Monteath werd hier ook begraven in de kelder beneden in 1850.",
+  "@archieText": {
+    "description": "archie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieInstructions": "Vervolg het pad en neem de eerste links en vervolgens de eerste rechts. Aan je linkerkant...",
+    "@archieInstructions": {
+      "description": "archie instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "johnKnox": "John Knox Monument 1825",
+  "@johnKnox": {
+    "description": "john knox heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnoxText": "Designer W Warren, architect Thomas Hamilton, beeldhouwer Robert Forrest. Een 30 meter hoog beeld van John Knox, met een bijbel in zijn linkerhand op een 58 meter hoge Dorische zuil. Dit monument werd gebouwd door James Carmichael op dit land dat bekend staat als (Fir Park) voordat de begraafplaats werd gebouwd. Deze kolom is te zien vanaf bijna elk deel van de Necropolis. John Knox ging naar de St Andrews University, waar hij religieuze orders opnam en in Edinburgh begraven ligt.",
+  "@johnKnoxText": {
+    "description": "john Knox text",
+    "type": "text",
+    "placeholders": {}
+  }
+
+    "johnKnoxInstructions": "Vervolg het pad...",
+    "@johnKnoxInstructions": {
+      "description": "john knox instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+   "startTour": "Start rondleiding",
+    "@startTour": {
+      "description": "start tour",
+      "type": "text",
+      "placeholders": {}
+    },
+
+     "gettingThere": "Hoe kom ik daar?",
+        "@gettingThere": {
+         "description": "getting there",
+         "type": "text",
+         "placeholders": {}
+        },
+
+     "byFoot": "Te voet",
+        "@byFoot": {
+        "description": "by foot",
+        "type": "text",
+        "placeholders": {}
+         },
+
+     "byPublic": "Met het openbaar vervoer",
+         "@byPublic": {
+           "description": "public transport",
+           "type": "text",
+           "placeholders": {}
+         },
+
+     "byCar": "Met de auto",
+          "@byCar": {
+          "description": "by car",
+          "type": "text",
+          "placeholders": {}
+          },
+
+     "location": '''Glasgow Necropolis ligt aan de oostelijke rand van het stadscentrum van Glasgow en is geopend vanaf ''',
+          "@location": {
+          "description": "location text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+     "location2": '''dagelijks.
+
+De belangrijkste poorten liggen achter het St Mungo’s Museum voor Religieus Leven en Kunst en grenzend aan de kathedraal van Glasgow. Er is echter een poort aan Wishart Street en een ingang aan John Knox Street tegenover het Cathedral House Hotel.
+
+De postcode van de Necropolis is ''',
+          "@location2": {
+          "description": "location text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+       "carDirections": '''Verlaat de M8 bij knooppunt 15 en volg de borden naar Glasgow Cathedral.
+
+In de buurt zijn betaalde parkeergarages beschikbaar.''',
+               "@carDirections": {
+               "description": "car Directions",
+               "type": "text",
+               "placeholders": {}
+               },
+
+               "walkDirections": '''Ga vanaf George Square in noordelijke richting langs de zijde van Queen Street Station tot je bij High Street komt.
+
+Sla bij de verkeerslichten linksaf en volg de borden naar de kathedraal van Glasgow tot de volgende verkeerslichten.
+
+Steek de weg over bij de kruising met Castle Street. Zoek naar de prachtige gietijzeren poorten - de ingang van de Glasgow Necropolis net rechts van de kathedraal van Glasgow.''',
+                              "@walkDirections": {
+                              "description": "walk Directions",
+                              "type": "text",
+                              "placeholders": {}
+                              },
+
+                "publicDirections": '''Het dichtstbijzijnde treinstation is Glasgow High Street - een halte verwijderd van Queen Street Station.
+Sla rechtsaf het station uit en loop in noordelijke richting via High Street naar de Glasgow Cathedral in Cathedral Precinct.
+
+De Hop on Hop off toeristenbus stopt bij de kathedraal en er zijn een aantal bussen die vanuit het stadscentrum vertrekken die vlakbij de kathedraal passeren.
+
+U kunt informatie over bussen en treinen verkrijgen via de website of app van Traveline Scotland, First Bus Glasgow of National Rail Inquiries.''',
+                                              "@publicDirections": {
+                                              "description": "public Directions",
+                                              "type": "text",
+                                              "placeholders": {}
+                                              },
+
+"history": "Geschiedenis",
+          "@history": {
+          "description": "history heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"tourComplete": "Tour voltooid",
+          "@tourComplete": {
+          "description": "tour complete",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jews": "Jewish Enclosure 1836",
+          "@jews": {
+          "description": "jews heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsText": '''Ontworpen door architect John Bryce en geïnspireerd op de pilaar van Absalom, Jeruzalem. Er zijn verschillende inscripties (fragmenten uit de Schrift, Lord Byron's 'Hebrew Melodies') en symbolen.
+De eerste begrafenis was Joseph Levi in 1832.''',
+          "@jews": {
+          "description": "jews text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsInstructions": '''Volg het pad en ga de trap rechts op. Kijk bovenaan de trap naar rechts...''',
+          "@jews": {
+          "description": "jews instructions",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"disclaimer": '''In de wintermaanden (of elk moment van het jaar) kan het weer onvoorspelbaar zijn, dus draag kleding en schoenen die geschikt zijn voor sommige oneffen en steile paden.
+
+Als je moet rusten, gebruik dan een paar lage muren om op te zitten. Klim alsjeblieft niet op de gedenktekens en blijf op de paden.
+
+Honden moeten aangelijnd zijn.
+
+Behalve het nabijgelegen St Mungo’s Museum zijn er geen toiletten. Cathedral House Hotel is vlakbij.''',
+          "@disclaimer": {
+          "description": "disclaimer",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"welcome": '''Welkom bij de Tour''',
+          "@welcome": {
+          "description": "welcome",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"ogilvie": "Dominee Alexander Ogilvie Beattie Monument 1858",
+  "@ogilvie": {
+    "description": "Ogilvie",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "ogilvieText": '''Ontworpen door de beroemde architect Alexander 'Greek' Thomson uit Glasgow voor een predikant van St Vincent St UP Church. Thomson ligt begraven in de zuidelijke necropolis van Glasgow.
+                    Het monument bestaat uit een obelisk en een urn, met een grafkist op een sokkel.''',
+  "@ogilvieText": {
+    "description": "Ogilvie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "ogilvieInstructions": '''Sla rechtsaf en eerste links een gebogen laan op. Aan je linker kant...''',
+    "@ogilvieInstructions": {
+      "description": "Ogilvie Instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+    "dowanhill": "Buchanan van Dowanhill Monument 1844",
+                "@dowanhill": {
+                  "description": "dowanhill heading",
+                  "type": "text",
+                  "placeholders": {}
+                },
+
+                "dowanhillText": '''Ontworpen door architect James Brown. Beeldhouwer James Shanks
+Gebaseerd op het Monument van Lysicrates - een van de vele in de Necropolis. Het bovenste gedeelte bestaat uit zes Corinthische zuilen die een stevig midden omringen. De onderste kolommen zijn vereenvoudigd Corinthisch. De bovenkant is afgedekt met rollen die bedoeld zijn om een statief te ondersteunen.''',
+                "@dowanhillText": {
+                  "description": "dowanhill text",
+                  "type": "text",
+                  "placeholders": {}
+                },
+
+                "dowanhillInstructions": "Blijf doorgaan. Volgende aan de linkerkant...",
+                  "@dowanhillInstructions": {
+                    "description": "dowanhill instructions",
+                    "type": "text",
+                    "placeholders": {}
+                  },
+
+"hutchison": "Hutchison Family Mausoleum",
+      "@hutchison": {
+        "description": "hutchison heading",
+        "type": "text",
+        "placeholders": {}
+      },
+
+      "hutchisonText": '''Een imposante structuur met interessant Moors motief op de gietijzeren poorten.
+                          De eerste begrafenis was in 1849, maar een interessante zittende is Francis Hay Thomson, MD, die op 26 april 1870 werd begraven.''',
+      "@hutchisonText": {
+        "description": "hutchison text",
+        "type": "text",
+        "placeholders": {}
+      },
+
+      "hutchisonInstructions": "Ga verder op het pad en rechts in de hoek...",
+        "@hutchisonInstructions": {
+          "description": "hutchison instructions",
+          "type": "text",
+          "placeholders": {}
+        },
+
+  "raeWilson": 'William Rae Wilson Monument 1849',
+  "@raeWilson": {
+    "description": "raeWilson heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "raeWilsonText": '''Ontworpen door architect J A Bell.
+
+Een achthoekige vorm in Moorse stijl, vergelijkbaar met monumenten in Palestina. 27ft hoog en gemaakt van levergesteente uit de Binnie-steengroeve. In de verborgen voegen is geen hout, ijzer of lood gebruikt.
+
+William Rae oefende als advocaat en nam de naam Wilson aan toen hij erfde van zijn oom John Wilson.
+
+Hij ging naar het oosten om te herstellen van de dood van zijn vrouw, die 18 maanden na hun huwelijk stierf, en schreef het boek 'Reizen door het Heilige Land'. Hij schreef ook andere bewonderde reisboeken.
+
+Hij stierf in Londen, maar ligt hier begraven.''',
+  "@raeWilsonText": {
+    "description": "raeWilson text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "raeWilsonInstructions": "Volgend monument...",
+    "@raeWilsonInstructions": {
+      "description": "raeWilson instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+ "houldsworth": 'John Houldsworth Family Mausoleum 1845',
+  "@houldsworth": {
+    "description": "houldsworth heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "houldsworthText": '''Ontworpen door architect en beeldhouwer John Thomas.
+
+Rechts Charity met een kind en links Hope met een anker. Binnenin staan drie marmeren figuren - Faith in het midden met aan elke kant een engel.
+
+John Houldsworth richtte de Anderston Foundry Company op en was een senior Baille van de stad Glasgow.''',
+  "@houldsworthText": {
+    "description": "houldsworth text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "houldsworthInstructions": '''Sla rechtsaf het met gras begroeide pad af en sla weer rechtsaf naar het hoofdpad. Ga rechtdoor en sla linksaf naar het mausoleum. Voordat je het bereikt, neem je de eerste rechts. Rechts van je...''',
+    "@houldsworthInstructions": {
+      "description": "houldsworth instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+"dalmoak": 'Aiken van Dalmoak Mausoleum',
+  "@dalmoak": {
+    "description": "dalmoak heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "dalmoakText": '''Ontworpen door architect James Hamilton.
+
+Dit mausoleum is het grootste op de begraafplaats. In 2017 zijn restauratiewerken uitgevoerd.''',
+  "@dalmoakText": {
+    "description": "dalmoak text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"completionText": '''Bedankt voor het voltooien van de Glasgow Necropolis Mobile Tour!
+
+Als je de tour leuk vond, overweeg dan om een donatie achter te laten.
+
+Alle donaties zijn van harte welkom en we vragen wel of u vrijgevig kunt zijn, aangezien alle donaties volledig naar het behoud en herstel van de Glasgow Necropolis gaan.''',
+  "@completionText": {
+    "description": "completion Text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"books": 'Boeken en gidsen',
+  "@books": {
+    "description": "books heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"booksText": '''Als je meer informatie wilt over een van de monumenten die je vandaag hebt gezien, ga dan naar onze pagina Boeken en gidsen''',
+  "@booksText": {
+    "description": "books text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+
+"firPark": '''Fir Park – Nu Glasgow Necropolis
+''',
+  "@firPark": {
+    "description": "firPark heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "firParkText": '''In 1650 kocht het Koopmanshuis het land, een deel van het landgoed van Wester Craigs, nu bekend als de Glasgow Necropolis. Omdat de westkant rotsachtig was en niet kon worden ontwikkeld, werd het vervolgens beplant met sparren en werd het bekend als Fir Park. In 1804 begonnen de grove sparren in het park echter te sterven en werden vervangen door voornamelijk iepen en wilgen, en het gebied werd een Victoriaans park en arboretum. In 1825 werd in Fir Park de eerste steen van het John Knox-monument gelegd.
+''',
+    "@firParkText": {
+      "description": "firPark text",
+      "type": "text",
+      "placeholders": {}
+    },
+
+"design": '''Het ontwerp voor Glasgow Necropolis
+''',
+  "@design": {
+    "description": "design heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designText1": '''In 1831 schreef John Strang, Chamberlain in het Merchants 'House, "Necropolis Glasguensis" of "Gedachten over de dood en morele stimulans" en zei:
+''',
+  "@designText1": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designTextItalics": '''“Het Fir Park lijkt bewonderenswaardig aangepast voor een Pere la Chaise, die prachtig zou harmoniëren met het aangrenzende landschap en een plechtig en passend aanhangsel zou vormen van de eerbiedwaardige structuur (de kathedraal) ervoor, terwijl het een zeer gewilde accommodatie zal veroorloven. voor de hogere klassen, zou tegelijkertijd een onproductief bezit omzetten in een algemene en lucratieve bron van winst, in een liefdadigheidsinstelling ”zou het zijn“ respectvol zijn voor de doden, veilig en gezond voor de levenden, toegewijd aan het Genie van Herinnering en om religieus en moreel gevoel uit te breiden. ”
+''',
+  "@designTextItalics": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designText2": '''The Merchants 'House vroeg architect David Hamilton, Stuart Murray, curator van de botanische tuinen en James Clelland, hoofdinspecteur van openbare werken, om een haalbaarheidsstudie te maken voor de vorming van de Glasgow Necropolis en in 1828 stemde het comité van directeuren van landerijen en steengroeven ermee in het voorstel. In 1831 werd in de kranten een wedstrijd uitgeschreven voor het ombouwen van het Fir Park tot een begraafplaats met 5 prijzen van £ 10 - £ 50. Zestien plannen werden ontvangen en ze werden tentoongesteld in de tentoonstellingsruimten van de Dilettante Society in Argyll Arcade. David Bryce uit Edinburgh won de eerste prijs en zijn broer John Bryce uit Glasgow tweede. De jury besloot echter dat het werk het beste zou worden uitgevoerd door een tuinarchitect. Als gevolg hiervan werd George Mylne hoofdinspecteur en tuinman en begon het werk.
+''',
+  "@designText2": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"victorian": '''De Victoriaanse Necropolis van Glasgow
+''',
+  "@victorian": {
+    "description": "victorian heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"victorianText": '''Deze begraafplaats was altijd bedoeld om interkerkelijk te zijn en de eerste begrafenis in 1832 was die van een jood, Joseph Levi, een juwelier. In 1833 was de eerste christelijke begrafenis van Elizabeth Miles, stiefmoeder van de hoofdinspecteur, George Mylne. Na 1860 zouden de eerste uitbreidingen naar het oosten en het zuiden de Ladywell-steengroeve in beslag nemen en in 1877 en 1892/3 werden de laatste uitbreidingen naar het noorden en zuidoosten gebouwd, waardoor de begraafplaats verdubbelde. De Necropolis is nu 15 hectare groot.
+
+50.000 begrafenissen hebben plaatsgevonden op de Necropolis en de meeste van 3.500 graven zijn tot 14 voet diep gebouwd, met stenen muren en bakstenen muren. Op de top van de Necropolis werden graven uit de rotswand gestraald. In 1877 werd de Molendinar Burn, die onder de Brug der Zuchten liep, doorkruist. Deze brandwond waarin St. Mungo op zalm zou hebben gevist, bevindt zich nu ondergronds op weg naar de Clyde.
+
+De Necropolis was een van de weinige begraafplaatsen die de doden bijhield, waaronder beroep, leeftijd, geslacht en doodsoorzaak. In juli 1878 laat het bezoekersboek zien dat 13.733 mensen de Glasgow Necropolis bezochten - 12.400 burgers en 1.333 andere bezoekers.
+
+In 1966 schonk het Merchants 'House de Necropolis aan de gemeenteraad van Glasgow, die het nu beheert en onderhoudt. De banken en de grafrand zijn verwijderd en het grootste deel van het gebied is voor onderhoud bestemd. Er zijn hier monumenten ontworpen door grote architecten en beeldhouwers uit die tijd, waaronder Alexander ‘Greek’ Thomson, Charles Rennie Macintosh en JT Rochead, in elke architectonische stijl, gemaakt voor de prominente en rijke ondernemers van de ‘Second City of the Empire’.
+
+De Glasgow Necropolis heeft nog steeds een geweldige sfeer en trekt nog steeds veel bezoekers, zowel lokaal als van over de hele wereld.''',
+  "@victorianText": {
+    "description": "victorian text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"you": '''Je bevindt je hier''',
+  "@you": {
+    "description": "your location",
+    "type": "text",
+    "placeholders": {}
+  },
