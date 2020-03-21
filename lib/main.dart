@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:glasgow_necropolis_tour/locale/locales.dart';
+import 'package:glasgow_necropolis_tour/internationalisation/locale/locales.dart';
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 
 void main() => runApp(Home());
@@ -21,8 +21,7 @@ class Home extends StatelessWidget {
         Locale('de', ""),
         Locale('fr', ""),
         Locale('nl', ""),
-
-
+        Locale('pt', ""),
       ],
       onGenerateTitle: (BuildContext context) =>
           AppLocalizations.of(context).title,
@@ -31,8 +30,11 @@ class Home extends StatelessWidget {
         primaryColor: Colors.white,
         accentColor: Colors.blue,
         textTheme: TextTheme(
+          /// Text style used for bodies of text
           body1: TextStyle(fontSize: 16),
-          subtitle: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)
+          /// Text style used for sub headings
+          subtitle: TextStyle(fontSize: 14,
+              fontWeight: FontWeight.bold)
         )
       ),
       home: MyHomePage(

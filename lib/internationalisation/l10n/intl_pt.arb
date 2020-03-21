@@ -1,0 +1,653 @@
+{
+  "@@last_modified": "2019-11-25T17:11:59.469405",
+  "title": "Glasgow Necropolis",
+  "@title": {
+    "description": "Title for the Glasgow Necropolis",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "takeTheTour": "Faça o passeio",
+  "@takeTheTour": {
+    "description": "Take the Tour heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "home": "Casa",
+  "@home": {
+    "description": "home heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntro": "Introdução ao Tour",
+  "@tourIntro": {
+    "description": "tour intro heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "tourIntroText": '''A Necrópole de Glasgow está localizada muito perto da Catedral de Glasgow e fica em uma das colinas mais altas, com excelentes vistas sobre a cidade de Glasgow.
+
+                      A Necrópole de Glasgow cobre 15 hectares (15 hectares) e, se você tiver tempo limitado, poderá ver 30 dos monumentos e mausoléus mais especiais com este aplicativo. Se quiser ver mais informações, entre em contato com a Necrópole de Friends of Glasgow para organizar um passeio a pé guiado -  ''',
+  "@tourIntroText": {
+    "description": "tour intro text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "start": "Começar",
+  "@start": {
+    "description": "start",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entrance": "Os portões de entrada 1838",
+  "@entrance": {
+    "description": "entrance gates heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceText": "Os portões de entrada de 1838 projetados pelo arquiteto David Hamilton e feitos por Edlington em ferro fundido. Os portões têm o símbolo da Casa dos Comerciantes (um cortador no topo do mundo) e o lema.",
+  "@entranceText": {
+    "description": "entrance gates text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceInstructions": '''Atravesse os portões e entre na ponte...''',
+    "@entranceInstructions": {
+      "description": "entrance gates instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "back": "para trás",
+  "@back": {
+    "description": "back",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "next": "Próximo",
+  "@next": {
+    "description": "next",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighs": "A ponte dos suspiros 1834",
+  "@bridgeSighs": {
+    "description": "The Bridge Of Sighs 1834 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsText": "A D&J Hamilton projetou a ponte sobre o Molindinar Burn, que agora passa por Wishart St. cavalo e carroça e o pequeno arco terceiro, que permitiu que a corrida chegasse ao Subdean Mill.",
+  "@bridgeSighsText": {
+    "description": "The Bridge Of Sighs 1834 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "bridgeSighsInstructions": "Direto e de frente para você...",
+    "@bridgeSighsInstructions": {
+      "description": "The Bridge Of Sighs 1834 instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "entranceFacade": "Fachada da entrada 1836",
+  "@entranceFacade": {
+    "description": "The Entrance facade 1836 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeText": "Projetado pelo arquiteto John Bryce. A entrada pretendida para as catacumbas que atravessariam a Necrópole. Quando a Lei da Anatomia foi aprovada em 1832, a idéia de catacumba foi abandonada.",
+  "@entranceFacadeText": {
+    "description": "The Entrance facade 1836 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "entranceFacadeInstructions": "Vire à esquerda e siga o caminho principal",
+    "@entranceFacadeInstructions": {
+      "description": 'Turn left and follow the main path...',
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "williamMiller": "Memorial William Miller 1872",
+  "@williamMiller": {
+    "description": "William Miller Memorial 1872 heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "williamMillerText": "Isto foi erguido para o autor da famosa canção de ninar 'Wee Willie Winkie'. Ele morreu em 1872 e foi enterrado no cemitério de Tollcross.",
+  "@williamMillerText": {
+    "description": "William Miller Memorial 1872 text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+   "williamMillerInstructions": "Vire para a esquerda - siga este caminho até chegar às etapas que levam à direita e à esquerda...",
+    "@williamMillerInstructions": {
+      "description": "William Miller Memorial 1872 instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "allInfo": "Todas as informações",
+  "@allInfo": {
+    "description": "all info",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "map": "Mapa",
+  "@map": {
+    "description": "map",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "donate": "Doar",
+  "@donate": {
+    "description": "donate",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhart": "Lockhart Monument 1842",
+  "@lockhart": {
+    "description": "lockhart",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartText": "Projetado pelo arquiteto londrino J Wallace. Ele era o irmão da sra. Lockhart. Um dos muitos monumentos góticos da necrópole, com querubins à frente e atrás.",
+  "@lockhartText": {
+    "description": "lockhart text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "lockhartInstructions": '''Olhe para a esquerda na parte superior das etapas...''',
+    "@lockhartInstructions": {
+      "description": "lockhart Instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "robertBlack": "Mausoléu de Robert Black 1837",
+  "@robertBlack": {
+    "description": "robert black heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackText": "O primeiro mausoléu erguido no cemitério. Robert Black, da Black and Wingate, comerciantes em Kelvinhaugh, construiu isso para sua filha Catherine, que morreu aos 12 anos. Cinco de seus filhos morreram antes dos 21 anos.",
+  "@robertBlackText": {
+    "description": "robert black text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "robertBlackInstructions": "Continue indo e olhe para a esquerda...",
+    "@robertBlackInstructions": {
+      "description": "robert black instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "johnKing": "John king Monumento 1875",
+  "@johnKing": {
+    "description": "john king heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingText": "Um cofre familiar imponente com colunas de granito polido de Peterhead e portões de ferro fundido. John, rei do acampamento, e Leverhome eram sócios da Alum Works, perto de Glasgow, e eventual proprietário da Cudbear Works, em Glasgow. Ele também foi diretor da Merchants 'House e da Câmara de Comércio de Glasgow.",
+  "@johnKingText": {
+    "description": "john king text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKingInstructions": "Continue no caminho...",
+    "@johnKingInstructions": {
+      "description": "john king instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "archie": "Major Archibald Douglas Monteath Mausoleum 1842",
+  "@archie": {
+    "description": "archie heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieText": "Projetado pelo arquiteto David Cousin. Alguns consideram que o mausoléu de 30 pés de diâmetro é baseado na igreja de St. Sepulcher em Cambridge. Há rostos grotescos (agora muito corroídos) na porta e embaixo dos beirais, e todo design de janela no nível mais baixo é diferente. O major Douglas Monteath estava na Companhia das Índias Orientais e morreu em Helensburgh. O irmão de Monteath também foi enterrado aqui no cofre abaixo em 1850.",
+  "@archieText": {
+    "description": "archie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "archieInstructions": "Continue ao longo do caminho e vire na primeira à esquerda e depois na primeira à direita. À sua esquerda...",
+    "@archieInstructions": {
+      "description": "archie instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+  "johnKnox": "John Knox Monument 1825",
+  "@johnKnox": {
+    "description": "john knox heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "johnKnoxText": "Designer W Warren, arquiteto Thomas Hamilton, escultor Robert Forrest. Uma estátua de John Knox de 12 pés de altura, segurando uma bíblia na mão esquerda em uma coluna dórica de 58 pés de altura. Este monumento foi construído por James Carmichael nesta terra conhecida como (Fir Park) antes da construção do cemitério. Essa coluna é vista em quase todas as partes da necrópole. John Knox foi para a Universidade de St Andrews, onde recebeu ordens religiosas e é sepultado em Edimburgo.",
+  "@johnKnoxText": {
+    "description": "john Knox text",
+    "type": "text",
+    "placeholders": {}
+  }
+
+    "johnKnoxInstructions": "Continue ao longo do caminho...",
+    "@johnKnoxInstructions": {
+      "description": "john knox instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+   "startTour": "Começar a turnê",
+    "@startTour": {
+      "description": "start tour",
+      "type": "text",
+      "placeholders": {}
+    },
+
+     "gettingThere": "Chegando la",
+        "@gettingThere": {
+         "description": "getting there",
+         "type": "text",
+         "placeholders": {}
+        },
+
+     "byFoot": "A pé",
+        "@byFoot": {
+        "description": "by foot",
+        "type": "text",
+        "placeholders": {}
+         },
+
+     "byPublic": "De transporte público",
+         "@byPublic": {
+           "description": "public transport",
+           "type": "text",
+           "placeholders": {}
+         },
+
+     "byCar": "De carro",
+          "@byCar": {
+          "description": "by car",
+          "type": "text",
+          "placeholders": {}
+          },
+
+     "location": '''A Necrópole de Glasgow está localizada na extremidade leste do centro da cidade de Glasgow e está aberta a partir de ''',
+          "@location": {
+          "description": "location text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+     "location2": '''diariamente.
+                                                
+Os portões principais ficam atrás do Museu de Vida e Arte Religiosa de St Mungo e ao lado da Catedral de Glasgow. No entanto, há um portão na rua Wishart e uma entrada na rua John Knox, em frente ao Cathedral House Hotel.
+                                                
+O Código Postal da Necrópole é ''',
+          "@location2": {
+          "description": "location text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+       "carDirections": '''Saia da M8 no cruzamento 15 e siga as indicações para a Catedral de Glasgow.
+
+Existem parques de estacionamento pago e de exposição nas proximidades.''',
+               "@carDirections": {
+               "description": "car Directions",
+               "type": "text",
+               "placeholders": {}
+               },
+
+               "walkDirections": '''Da George Square, vá para o norte ao longo da estação da Queen Street até chegar à High Street.
+
+Nos semáforos, vire à esquerda e siga as indicações para a Catedral de Glasgow até o próximo conjunto de luzes.
+
+Atravesse a rua no cruzamento com a Castle Street. Procure os magníficos portões de ferro fundido - a entrada da necrópole de Glasgow, à direita da catedral de Glasgow.''',
+                              "@walkDirections": {
+                              "description": "walk Directions",
+                              "type": "text",
+                              "placeholders": {}
+                              },
+
+                "publicDirections": '''The nearest train station is Glasgow High Street – one stop from Queen Street Station.
+Turn right out of the station and walk north up High Street to Glasgow Cathedral in Cathedral Precinct.
+
+The Hop on Hop off Tourist Bus stops at the Cathedral and there are a number of buses which leave from the city centre that pass near to the Cathedral.
+
+You can obtain information on buses and trains from Traveline Scotland’s website or app, First Bus Glasgow or National Rail Enquiries.''',
+                                              "@publicDirections": {
+                                              "description": "public Directions",
+                                              "type": "text",
+                                              "placeholders": {}
+                                              },
+
+"history": "História",
+          "@history": {
+          "description": "history heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"tourComplete": "Tour Completo",
+          "@tourComplete": {
+          "description": "tour complete",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jews": "Recinto Judaico 1836",
+          "@jews": {
+          "description": "jews heading",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsText": '''Projetado pelo arquiteto John Bryce. O projeto foi inspirado no pilar de Absalão, em Jerusalém. Existem várias inscrições (trechos das escrituras, 'Melodias Hebraicas' de Lord Byron) e símbolos.
+O primeiro enterro foi Joseph Levi em 1832.''',
+          "@jews": {
+          "description": "jews text",
+          "type": "text",
+          "placeholders": {}
+          },
+
+"jewsInstructions": '''Siga o caminho e suba as etapas à direita. Perto do topo das etapas, olhe para a direita...''',
+          "@jews": {
+          "description": "jews instructions",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"disclaimer": '''Nos meses de inverno (ou em qualquer época do ano), o clima pode ser imprevisível; portanto, use roupas e calçados adequados para alguns dos caminhos irregulares e íngremes.
+
+Se você precisar descansar, use algumas das paredes baixas para sentar. Por favor, não suba nos memoriais e siga os caminhos.
+
+Os cães devem ser mantidos na coleira.
+
+Não há instalações sanitárias além do Museu St Mungo, nas proximidades. Cathedral House Hotel fica nas proximidades.''',
+          "@disclaimer": {
+          "description": "disclaimer",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"welcome": '''Bem-vindo ao Tour''',
+          "@welcome": {
+          "description": "welcome",
+          "type": "text",
+          "placeholders": {}
+          },
+}
+
+"ogilvie": "Reverend Alexander Ogilvie Beattie Monument 1858",
+  "@ogilvie": {
+    "description": "Ogilvie",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "ogilvieText": '''Projetado pelo famoso arquiteto de Glasgow Alexander 'Greek' Thomson para um ministro da Igreja St. Vincent St UP. Thomson está enterrado na necrópole do sul de Glasgow.
+                    O monumento consiste em um obelisco e uma urna, com um baú na base.''',
+  "@ogilvieText": {
+    "description": "Ogilvie text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "ogilvieInstructions": '''Vire à direita e primeiro à esquerda por uma avenida curva. À esquerda...''',
+    "@ogilvieInstructions": {
+      "description": "Ogilvie Instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+    "dowanhill": "Monumento de Buchanan de Dowanhill 1844",
+                "@dowanhill": {
+                  "description": "dowanhill heading",
+                  "type": "text",
+                  "placeholders": {}
+                },
+
+                "dowanhillText": '''Projetado pelo arquiteto James Brown. Escultor James Shanks
+Baseado no Monumento de Lisicrates - um dos muitos na Necrópole. A seção superior consiste em seis colunas coríntias que circundam um centro sólido. As colunas inferiores são coríntias simplificadas. A parte superior é coberta por pergaminhos destinados a suportar um tripé. ''',
+                "@dowanhillText": {
+                  "description": "dowanhill text",
+                  "type": "text",
+                  "placeholders": {}
+                },
+
+                "dowanhillInstructions": "Continue subindo. Próximo à esquerda...",
+                  "@dowanhillInstructions": {
+                    "description": "dowanhill instructions",
+                    "type": "text",
+                    "placeholders": {}
+                  },
+
+"hutchison": "Mausoléu da família Hutchison",
+      "@hutchison": {
+        "description": "hutchison heading",
+        "type": "text",
+        "placeholders": {}
+      },
+
+      "hutchisonText": '''Uma estrutura imponente com interessante motivo mourisco nos portões de ferro fundido.
+O primeiro enterro foi em 1849, mas um representante interessante é Francis Hay Thomson, MD, que foi enterrado em 26 de abril de 1870. ''',
+      "@hutchisonText": {
+        "description": "hutchison text",
+        "type": "text",
+        "placeholders": {}
+      },
+
+      "hutchisonInstructions": "Continue pelo caminho e à direita no canto...",
+        "@hutchisonInstructions": {
+          "description": "hutchison instructions",
+          "type": "text",
+          "placeholders": {}
+        },
+
+  "raeWilson": 'Monumento a William Rae Wilson 1849',
+  "@raeWilson": {
+    "description": "raeWilson heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "raeWilsonText": '''Projetado pelo arquiteto J A Bell.
+
+Uma forma octogonal, estilo mourisco, semelhante aos monumentos da Palestina. 27 pés de altura e feitos de pedra de fígado da pedreira de Binnie. Não foi utilizada madeira, ferro ou chumbo nas juntas ocultas.
+
+William Rae atuou como advogado e adotou o nome Wilson quando herdou do tio John Wilson.
+
+Ele foi para o leste para se recuperar da morte de sua esposa, que morreu 18 meses após o casamento, e escreveu o livro 'Viagens pela Terra Santa'. Ele também escreveu outros livros de viagem admirados.
+
+Ele morreu em Londres, mas é enterrado aqui.''',
+  "@raeWilsonText": {
+    "description": "raeWilson text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "raeWilsonInstructions": "Próximo monumento...",
+    "@raeWilsonInstructions": {
+      "description": "raeWilson instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+ "houldsworth": 'Mausoléu da família John Houldsworth 1845',
+  "@houldsworth": {
+    "description": "houldsworth heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "houldsworthText": '''Projetado pelo arquiteto e escultor John Thomas.
+                                             
+À direita, Charity, carregando um filho, e à esquerda, Hope com uma âncora. No interior, existem três figuras de mármore - Fé no centro com um anjo de cada lado.
+                                           
+John Houldsworth estabeleceu a Anderston Foundry Company e era um Baille sênior da cidade de Glasgow.''',
+  "@houldsworthText": {
+    "description": "houldsworth text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "houldsworthInstructions": '''Vire à direita no caminho gramado e vire à direita no caminho principal. Continue em frente e vire à esquerda em direção ao mausoléu. Antes de alcançá-lo, vire na primeira à direita. À sua direita...''',
+    "@houldsworthInstructions": {
+      "description": "houldsworth instructions",
+      "type": "text",
+      "placeholders": {}
+    },
+
+"dalmoak": 'Aiken do Mausoléu de Dalmoak',
+  "@dalmoak": {
+    "description": "dalmoak heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "dalmoakText": '''Projetado pelo arquiteto James Hamilton.
+
+Este mausoléu é o maior do cemitério. Obras de restauração foram realizadas em 2017.''',
+  "@dalmoakText": {
+    "description": "dalmoak text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"completionText": '''Obrigado por concluir o tour móvel pela necrópole de Glasgow!
+                                           
+Se você gostou do passeio, considere deixar uma doação.
+
+Todas as doações são muito bem-vindas e perguntamos se você pode ser generoso, pois todas as doações se destinam inteiramente à conservação e restauração da necrópole de Glasgow.''',
+  "@completionText": {
+    "description": "completion Text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"books": 'Livros e Guias',
+  "@books": {
+    "description": "books heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"booksText": '''Se você quiser obter mais informações sobre qualquer um dos monumentos que você viu hoje, consulte nossa página Livros e guias.''',
+  "@booksText": {
+    "description": "books text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+
+"firPark": '''Fir Park - Agora Glasgow Necropolis
+''',
+  "@firPark": {
+    "description": "firPark heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+  "firParkText": '''Em 1650, a Casa dos Comerciantes comprou a terra, parte da propriedade de Wester Craigs, agora conhecida como Necrópole de Glasgow. Como o lado oeste era rochoso e incapaz de ser desenvolvido, foi posteriormente plantado com pinheiros e ficou conhecido como Fir Park. No entanto, em 1804, os abetos escoceses no parque começaram a morrer e foram substituídos principalmente por olmos e salgueiros, e a área se tornou um parque e arboreto vitoriano. Em 1825, a pedra fundamental do monumento John Knox foi colocada em Fir Park.
+''',
+    "@firParkText": {
+      "description": "firPark text",
+      "type": "text",
+      "placeholders": {}
+    },
+
+"design": '''O Design Para Glasgow Necropolis
+''',
+  "@design": {
+    "description": "design heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designText1": '''Em 1831, John Strang, Chamberlain da Casa dos Mercadores, escreveu "Necropolis Glasguensis", ou "Pensamentos sobre a morte e o estímulo moral" e comentou:
+''',
+  "@designText1": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designTextItalics": '''“O Fir Park parece admiravelmente adaptado para um Pere la Chaise, que se harmonizaria lindamente com o cenário adjacente, e constituiria um apêndice solene e apropriado à venerável estrutura (a Catedral) em frente à qual, enquanto proporcionará uma acomodação muito procurada para as classes mais altas, converteria ao mesmo tempo uma propriedade improdutiva em uma fonte geral e lucrativa de lucro, em uma instituição de caridade ”, seria“ respeitoso com os mortos, seguro e sanitário para os vivos, dedicado ao gênio da Memória e estender o sentimento religioso e moral. ”
+''',
+  "@designTextItalics": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"designText2": '''A Casa dos Comerciantes pediu ao arquiteto David Hamilton, Stuart Murray, Curador do Jardim Botânico, e James Clelland, Superintendente de Obras Públicas, que produzissem um estudo de viabilidade para a formação da necrópole de Glasgow e, em 1828, o comitê de diretores de terras e pedreiras concordou em a proposta. Em 1831, um concurso para converter o Fir Park em um cemitério com 5 prêmios de 10 a 50 libras foi anunciado nos jornais. Dezesseis planos foram recebidos e expostos nas salas de exposições da Sociedade Diletante em Argyll Arcade. David Bryce, de Edimburgo, ganhou o primeiro prêmio e seu irmão John Bryce, de Glasgow, o segundo. Os juízes decidiram, no entanto, que o trabalho seria melhor realizado por um jardineiro. Como resultado, George Mylne foi nomeado superintendente e jardineiro e o trabalho começou.
+''',
+  "@designText2": {
+    "description": "design text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"victorian": '''O Victorian Glasgow Necropolis
+''',
+  "@victorian": {
+    "description": "victorian heading",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"victorianText": ''seu cemitério sempre teve a intenção de ser interdenominacional e o primeiro enterro em 1832 foi o de um judeu, Joseph Levi, um joalheiro. Em 1833, o primeiro enterro cristão foi de Elizabeth Miles, madrasta do superintendente George Mylne. Depois de 1860, as primeiras extensões leste e sul deveriam ocupar a pedreira de Ladywell e, em 1877 e 1892/3, foram construídas as extensões finais para o norte e sudeste, dobrando o tamanho do cemitério. A Necrópole agora tem 15 hectares.
+                                    
+50.000 enterros foram realizados na Necrópole e a maioria dos 3.500 túmulos foram construídos com até 4 metros de profundidade, com paredes de pedra e paredes de tijolos. No topo das tumbas da necrópole foram explodidas as rochas. Em 1877, o Molendinar Burn, correndo sob a Ponte dos Suspiros, foi atingido. Esta queimadura na qual se dizia que St. Mungo pescava salmão está agora no subsolo, a caminho de Clyde.
+                                    
+A Necrópole foi um dos poucos cemitérios a manter registros dos mortos, incluindo profissão, idade, sexo e causa da morte. Em julho de 1878, o livro de visitantes mostra que 13.733 pessoas visitaram a necrópole de Glasgow - 12.400 cidadãos e 1.333 outros visitantes.
+                                    
+Em 1966, a Casa dos Comerciantes entregou a Necrópole ao Conselho da Cidade de Glasgow, que agora a administra e mantém. Os bancos e as cercas foram removidos e a maior parte da área foi plantada para fins de manutenção. Existem monumentos aqui projetados pelos principais arquitetos e escultores da época, incluindo Alexander 'Greek' Thomson, Charles Rennie Macintosh e JT Rochead, em todos os estilos arquitetônicos, criados para os empresários proeminentes e ricos da 'Segunda Cidade do Império'.
+                                    
+A necrópole de Glasgow ainda tem uma atmosfera maravilhosa e ainda atrai muitos visitantes localmente e de todo o mundo.''',
+  "@victorianText": {
+    "description": "victorian text",
+    "type": "text",
+    "placeholders": {}
+  },
+
+"you": '''Você está aqui''',
+  "@you": {
+    "description": "your location",
+    "type": "text",
+    "placeholders": {}
+  },
