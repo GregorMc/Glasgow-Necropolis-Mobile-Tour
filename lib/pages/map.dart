@@ -8,23 +8,23 @@ import 'package:glasgow_necropolis_tour/internationalisation/locale/locales.dart
 import 'package:glasgow_necropolis_tour/widgets/drawer.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page1.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page2.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page3.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page4.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page5.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page6.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page7.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page8.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page9.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page10.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page11.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page12.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page13.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page14.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page15.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page16.dart';
-import'package:glasgow_necropolis_tour/widgets/useful_buttons.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page1.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page2.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page3.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page4.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page5.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page6.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page7.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page8.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page9.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page10.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page11.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page12.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page13.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page14.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page15.dart';
+import 'package:glasgow_necropolis_tour/pages/tour_pages/page16.dart';
+import 'package:glasgow_necropolis_tour/widgets/useful_buttons.dart';
 
 class Map extends StatefulWidget {
   @override
@@ -34,21 +34,30 @@ class Map extends StatefulWidget {
 }
 
 class MyLocationState extends State<Map> with TickerProviderStateMixin {
+
   AnimationController _controller;
+  /// Direction faced by user
   double _direction;
-  double lat;
-  double long;
-  double necropolisLat;
-  double necropolisLong;
+
+  /// latitude and longitude coordinates of User
+  double userLat;
+  double userLong;
+
+  /// lat and long coordinates of Glasgow Necropolis
+  double necropolisLat = 55.863559;
+  double necropolisLong = -4.231027;
+
+  /// How zoomed in the map is for user when first loaded
   double _inZoom = 16.0;
   MapController mapController = new MapController();
   bool isMoving = false;
 
   final geolocator = Geolocator()..forceAndroidLocationManager = true;
+  /// Location accuracy set to best possible option, and distance moved before application is updated set to 0
   var locationOptions = LocationOptions(accuracy: LocationAccuracy.best, distanceFilter: 0);
   final GlobalKey<ScaffoldState> myKey = new GlobalKey<ScaffoldState>();
 
-  /// Alert box for User Permissions
+  /// Alert box for Location User Permissions
   void _showDialog(String body) {
     showDialog(
         context: context,
@@ -77,7 +86,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
 
   initState() {
     super.initState();
-    if (long == null || lat == null) {
+    if (userLong == null || userLat == null) {
       _checkGPS();
     } else {
       localize();
@@ -102,16 +111,18 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
 
   }
 
+/// Moves the Map on screen
   _moveCamera() {
     isMoving = true;
     mapController.move(LatLng(necropolisLat, necropolisLong), _inZoom);
   }
 
+  /// Checks the user has GPS permission and sets the values for their coordinates
   _checkGPS() async {
-    if (lat != null && long != null) {
+    if (userLat != null && userLong != null) {
       setState(() {
-        lat = lat;
-        long = long;
+        userLat = userLat;
+        userLong = userLong;
       });
     }
 
@@ -139,6 +150,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
   }
 
   void localize() {
+    /// Get live stream of user GPS Location
     geolocator.getPositionStream(locationOptions).listen((Position position) {
       /// To not call setState when this state is not active
       if (!mounted) {
@@ -146,10 +158,10 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
       }
       if (mounted) {
         setState(() {
-          this.lat = position.latitude;
-          this.long = position.longitude;
-          long = long;
-          lat = lat;
+          this.userLat = position.latitude;
+          this.userLong = position.longitude;
+          userLong = userLong;
+          userLat = userLat;
         });
       }
     });
@@ -158,18 +170,18 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     Widget _loadMap() {
-      ///[Position Found Render Marker]
-      if (lat != null && long != null) {
+      /// If Position Found, Render Markers
+      if (userLat != null && userLong != null) {
         return Expanded(
           child: new FlutterMap(
             mapController: mapController,
             options: new MapOptions(
-              ///centers map to Glasgow Necropolis GPS coordinates
-              center: new LatLng(55.862554, -4.231027),
+              center: new LatLng(necropolisLat, necropolisLong),
               zoom: _inZoom,
               plugins: [MarkerClusterPlugin()]
             ),
             layers: [
+              /// Access token required to use MapBox
               new TileLayerOptions(
                 urlTemplate: "https://api.tiles.mapbox.com/v4/"
                     "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
@@ -701,7 +713,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                     ),
                     child: Align(
                       alignment: Alignment.center,
-                      ///number of markers displayed inside Marker Cluster at the time
+                      /// Number of markers displayed inside Marker Cluster at the time
                       child: Text(markers.length.toString(),
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold))
@@ -710,16 +722,19 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                 }
               ),
 
-              ///Marker for user location
+              /// Marker for user location
               new MarkerLayerOptions(
                 markers: [
                   new Marker(
                     width: 50.0,
                     height: 50.0,
-                    point: new LatLng(lat, long),
+                    point: new LatLng(userLat, userLong),
                     builder: (ctx) => new Container(
-                      ///handles user changing direction
+                      alignment: Alignment.center,
+                      /// Handles user changing direction
                       child: new Transform.rotate(
+                        /// If no value for _direction is found, _direction is set to 0
+                        /// (3.14159265359 / 180) is used to convert _direction into degrees
                         angle: ((_direction ?? 0) * (3.14159265359 / 180)),
                         child: Column(
                           children: <Widget>[
@@ -733,6 +748,7 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                           ],
                         ),
                       ),
+                      /// Gives a background to the User Location marker
                       decoration: new BoxDecoration(
                         borderRadius: new BorderRadius.circular(30.0),
                         color: Colors.blue[100].withOpacity(0.7),
@@ -741,7 +757,6 @@ class MyLocationState extends State<Map> with TickerProviderStateMixin {
                   ),
                 ],
               ),
-
             ],
           ),
         );

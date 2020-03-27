@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:glasgow_necropolis_tour/pages/map.dart';
 import 'package:glasgow_necropolis_tour/internationalisation/locale/locales.dart';
 
+/// Icon Button taking user to Map page
 class MapIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -17,6 +18,7 @@ class MapIconButton extends StatelessWidget {
   }
 }
 
+/// Flat Button taking user to Map page
 class MapFlatButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -37,6 +39,7 @@ class MapFlatButton extends StatelessWidget {
   }
 }
 
+/// Takes user to previous page
 class BackIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -47,6 +50,7 @@ class BackIconButton extends StatelessWidget {
   }
 }
 
+/// Takes user to previous page
 class BackRaisedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -60,6 +64,7 @@ class BackRaisedButton extends StatelessWidget {
   }
 }
 
+/// Stop icon used in stop button
 class StopIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -71,6 +76,7 @@ class StopIcon extends StatelessWidget {
   }
 }
 
+/// Play icon used on play button
 class PlayIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
+      /// Supported languages: English, Spanish, German, French, Dutch, Portuguese
       supportedLocales: [
         Locale('en', ""),
         Locale('es', ""),
@@ -59,7 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       drawer: new DrawerOnly(),
       appBar: AppBar(
-          centerTitle: true, title: Text(AppLocalizations.of(context).title)),
+          centerTitle: true,
+          title: Text(AppLocalizations.of(context).title)),
       body: Stack(
         children: <Widget>[
           Container(
@@ -72,7 +74,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
       ),
-
     );
   }
 }

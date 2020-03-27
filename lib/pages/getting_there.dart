@@ -26,6 +26,8 @@ class GettingThere extends StatelessWidget {
                 child: RichText(
                     text: TextSpan(
                         style: TextStyle(color: Colors.black, fontSize: 16),
+                        /// Opening times and postcode written this way because they do not need to be translated and
+                        /// they have different weights and colours to the rest of the text
                         children: <TextSpan>[
                           TextSpan(text: AppLocalizations.of(context).location),
                           TextSpan(text: '7.00am - 4.30pm ', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue)),
@@ -49,6 +51,7 @@ class GettingThere extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 8),
+                  /// This text can be expanded and closed
                   ExpandText(AppLocalizations.of(context).walkDirections,
                     textAlign: TextAlign.justify,
                   ),
@@ -69,6 +72,7 @@ class GettingThere extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 8),
+                  /// This text can be expanded and closed
                   ExpandText(AppLocalizations.of(context).publicDirections,
                     textAlign: TextAlign.justify,
                   ),
@@ -89,6 +93,7 @@ class GettingThere extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 8),
+                  /// This text can be expanded and closed
                   ExpandText(AppLocalizations.of(context).carDirections,
                     textAlign: TextAlign.justify,
                   ),

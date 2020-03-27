@@ -5,8 +5,9 @@ import 'package:glasgow_necropolis_tour/internationalisation/locale/locales.dart
 import 'package:url_launcher/url_launcher.dart';
 import 'package:glasgow_necropolis_tour/main.dart';
 import 'package:glasgow_necropolis_tour/pages/history.dart';
-import'package:glasgow_necropolis_tour/pages/tour_pages/page0.dart';
+import'package:glasgow_necropolis_tour/pages/tour_pages/intro_page.dart';
 
+/// Drawer only class is responsible for creating the side menu
 class DrawerOnly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,6 +16,7 @@ class DrawerOnly extends StatelessWidget {
         children: <Widget>[
           Expanded(
             flex: 2,
+            /// Every option in the side menu
             child: ListView(
                 children: [
 

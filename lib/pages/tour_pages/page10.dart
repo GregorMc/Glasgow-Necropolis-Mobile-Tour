@@ -5,6 +5,8 @@ import 'package:glasgow_necropolis_tour/widgets/useful_buttons.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import'package:glasgow_necropolis_tour/pages/tour_pages/page11.dart';
 
+/// *** See page1.dart for comments ***
+
 class Page10 extends StatefulWidget {
   @override
   Page10State createState() => Page10State();

@@ -32,6 +32,7 @@ class Page0 extends StatelessWidget {
                   children: <Widget>[
                     Text(AppLocalizations.of(context).tourIntroText,
                       style: Theme.of(context).textTheme.body1),
+                    /// Link to book a tour has been made to look like a hyperlink
                     InkWell(
                       child: Text('''tours@glasgownecropolis.org''',
                         style: TextStyle(fontSize: 16, color: Colors.blue, decoration: TextDecoration.underline)),

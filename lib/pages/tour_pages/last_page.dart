@@ -56,6 +56,7 @@ class LastPage extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
+              /// Button used to take users to donation page on FoGN website
               RaisedButton(
                 child: Row(
                   children: <Widget>[
@@ -63,10 +64,9 @@ class LastPage extends StatelessWidget {
                     Icon(Icons.attach_money)
                   ],
                 ),
+                /// Link to donations page on FoGN website
                 onPressed: () async {
-                  const urlDonate =
-                      'https://www.glasgownecropolis.org/donate/';
-
+                  const urlDonate = 'https://www.glasgownecropolis.org/donate/';
                   if (await canLaunch(urlDonate)) {
                     await launch(urlDonate, forceWebView: true);
                   } else {
@@ -74,6 +74,7 @@ class LastPage extends StatelessWidget {
                   }
                 },
               ),
+              /// Button used to take users to books and guides page on FoGN website
               RaisedButton(
                 child: Row(
                   children: <Widget>[
@@ -81,6 +82,7 @@ class LastPage extends StatelessWidget {
                     Icon(Icons.library_books)
                   ],
                 ),
+                /// Link to books and guides page on FoGN website
                 onPressed: () async {
                   const urlBooks = 'https://www.glasgownecropolis.org/books-guides/';
                   if (await canLaunch(urlBooks)) {
