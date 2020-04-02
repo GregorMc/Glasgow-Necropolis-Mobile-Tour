@@ -51,7 +51,8 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "placeholders": {}
   },
 
-  "entranceText": "Die Eingangstore wurden 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Die Tore sind mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen.",
+  "entranceText": '''Die Eingangstore 1838 wurden vom Architekten David Hamilton entworfen und von Thomas Edington and Sons aus Gusseisen hergestellt.
+                  Die Tore haben das Merchants House-Symbol (ein Clipper oben auf der Welt) und das Motto. ''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
@@ -86,7 +87,7 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "placeholders": {}
   },
 
-  "bridgeSighsText": "D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen.",
+  "bridgeSighsText": "D & J Hamilton entwarf die Brücke über den Molendinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf der Friedhofsseite der Brücke gelegt, die aus 3 Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem breiten Bogen genug für Pferdewagen und den kleinen dritten Bogen, der es der Mühlenterrasse ermöglichte, zur Subdean-Mühle zu gelangen. ",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
@@ -212,7 +213,7 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "placeholders": {}
   },
 
-  "johnKingText": "Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und schließlich Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce.",
+  "johnKingText": "Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und später Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce.",
   "@johnKingText": {
     "description": "john king text",
     "type": "text",
@@ -254,7 +255,7 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "placeholders": {}
   },
 
-  "johnKnoxText": "Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, der eine Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule hält. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist.",
+  "johnKnoxText": "Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, dem Vater der Reformation in Schottland, mit einer Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist.",
   "@johnKnoxText": {
     "description": "john Knox text",
     "type": "text",
@@ -369,7 +370,7 @@ Biegen Sie an der Ampel links ab und folgen Sie den Schildern zur Kathedrale von
           "placeholders": {}
           },
 
-"jewsText": '''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszüge aus der Schrift, Lord Byrons 'Hebräische Melodien') und Symbole.
+"jewsText": '''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszug aus den heiligen Schriften, Lord Byrons 'Hebräische Melodien') und Symbole.
 Die erste Beerdigung war Joseph Levi im Jahre 1832.''',
           "@jews": {
           "description": "jews text",
@@ -414,7 +415,7 @@ Außer dem nahe gelegenen St. Mungo Museum gibt es keine Toiletten. Das Cathedra
     "placeholders": {}
   },
 
-  "ogilvieText": '''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Pfarrer der St. Vincent St UP Church. Thomson ist in Glasgows südlicher Nekropole begraben.
+  "ogilvieText": '''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Minister, der den Bau der St. Vincent St UP Church initiierte. Thomson ist in Glasgows südlicher Nekropole begraben.
 Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf einem Sockel.''',
   "@ogilvieText": {
     "description": "Ogilvie text",
@@ -458,8 +459,8 @@ Basierend auf dem Denkmal des Lysikrates - eines von vielen in der Nekropole. De
         "placeholders": {}
       },
 
-      "hutchisonText": '''Eine imposante Struktur mit interessantem maurischen Motiv auf den gusseisernen Toren.
-Die erste Beerdigung fand 1849 statt, aber ein interessanter Amtsinhaber ist Dr. Francis Hay Thomson, der am 26. April 1870 beerdigt wurde.''',
+      "hutchisonText": '''Eine imposante Struktur mit interessanten maurischen Motiven auf den gusseisernen Toren.
+Die erste Beerdigung fand 1849 statt. Ein interessanter Amtsinhaber ist Dr. Francis Hay Thomson, der am 26. April 1870 hier beigesetzt wurde.''',
       "@hutchisonText": {
         "description": "hutchison text",
         "type": "text",

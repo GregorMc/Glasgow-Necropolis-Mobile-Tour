@@ -28,12 +28,13 @@ class MessageLookup extends MessageLookupByLibrary {
 De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met deze app 30 van de meest bijzondere monumenten en mausolea zien. Als je meer wilt zien, neem dan contact op met de Friends of Glasgow Necropolis om een begeleide wandeling te regelen -  '''),
     "start" : MessageLookupByLibrary.simpleMessage("Begin"),
     "entrance" : MessageLookupByLibrary.simpleMessage("De toegangspoorten 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Edlington in gietijzer. De poorten hebben het Merchants 'House-symbool (een klipper bovenop de wereld) en het motto."),
+    "entranceText" : MessageLookupByLibrary.simpleMessage('''De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Thomas Edington and Sons in gietijzer.
+  De poorten hebben het Merchants House-symbool (een klipper bovenop de wereld) en het motto. '''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Loop door de poorten en de brug op...'),
     "back" : MessageLookupByLibrary.simpleMessage("Terug"),
     "next" : MessageLookupByLibrary.simpleMessage("De volgende"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("De Brug der Zuchten 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton ontwierp de brug over de Molindinar Burn die nu onder Wishart St. loopt. De eerste steen en de tijdcapsule werden op de begraafplaatszijde van de brug gelegd, die uit drie bogen bestaat: een hoofdboog van 60 meter boven de rivier en vervolgens een boog genoeg voor paard en wagen en de kleine, derde boog, die het millrace toeliet om Subdean Mill te bereiken."),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton ontwierp de brug over de Molendinar Burn die nu onder Wishart St. loopt. De eerste steen en de tijdcapsule werden op de begraafplaatszijde van de brug gelegd, die uit drie bogen bestaat: een hoofdboog van 60 m boven de rivier en vervolgens een boog breed genoeg voor paard en wagen en de kleine, derde boog, die het millrace toeliet om Subdean Mill te bereiken."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Rechtdoor en naar je toe gericht...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("De entree gevel 1836"),
     "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Ontworpen door architect John Bryce. De beoogde toegang tot catacomben die door de Necropolis zouden lopen. Toen de Anatomiewet in 1832 werd aangenomen, werd het idee voor catacomben opgegeven."),
@@ -51,13 +52,13 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "robertBlackText" : MessageLookupByLibrary.simpleMessage("Het eerste mausoleum dat op de begraafplaats werd opgericht. Robert Black van Black and Wingate, kooplieden in Kelvinhaugh, bouwde dit voor zijn dochter Catherine, die op 12-jarige leeftijd stierf. Vijf van zijn kinderen stierven vóór de leeftijd van 21 jaar."),
     "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Blijf doorgaan en kijk naar links..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("John king Monument 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("Een imposante familiegewelf met gepolijste Peterhead granieten zuilen en gietijzeren poorten. John King of Campsie en Leverhome was partner in Alum Works bij Glasgow en de uiteindelijke eigenaar van Cudbear Works in Glasgow. Hij was ook directeur van het Merchants 'House en de Glasgow Chamber of Commerce."),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage("Een imposante familiegewelf met gepolijste Peterhead granieten zuilen en gietijzeren poorten. John King van Campsie en Leverhome was een partner in Alum Works bij Glasgow en de uiteindelijke eigenaar van Cudbear Works in Glasgow. Hij was ook directeur van het Merchants 'House en de Glasgow Chamber of Commerce."),
     "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Ga verder op het pad..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Major Archibald Douglas Monteath Mausoleum 1842"),
     "archieText" : MessageLookupByLibrary.simpleMessage("Ontworpen door architect David Cousin. Het Mausoleum met een diameter van 30 voet wordt door sommigen verondersteld te zijn gebaseerd op de kerk van St Sepulcher in Cambridge. Er zijn groteske gezichten (nu ernstig geërodeerd) op de deuropening en onder de dakrand en elk raamontwerp op het lagere niveau is anders. Majoor Douglas Monteath was bij de Oost-Indische Compagnie en stierf in Helensburgh. De broer van Monteath werd hier ook begraven in de kelder beneden in 1850."),
     "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Vervolg het pad en neem de eerste links en vervolgens de eerste rechts. Aan je linkerkant...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Monument 1825"),
-    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, architect Thomas Hamilton, beeldhouwer Robert Forrest. Een 30 meter hoog beeld van John Knox, met een bijbel in zijn linkerhand op een 58 meter hoge Dorische zuil. Dit monument werd gebouwd door James Carmichael op dit land dat bekend staat als (Fir Park) voordat de begraafplaats werd gebouwd. Deze kolom is te zien vanaf bijna elk deel van de Necropolis. John Knox ging naar de St Andrews University, waar hij religieuze orders opnam en in Edinburgh begraven ligt."),
+    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, architect Thomas Hamilton, beeldhouwer Robert Forrest. Een 30 meter hoog standbeeld van John Knox, de vader van de Reformatie in Schotland, met een bijbel in zijn linkerhand op een 58 meter hoge Dorische zuil. Dit monument werd gebouwd door James Carmichael op dit land dat bekend staat als (Fir Park) voordat de begraafplaats werd gebouwd. Deze kolom is te zien vanaf bijna elk deel van de Necropolis. John Knox ging naar de St Andrews University, waar hij religieuze orders opnam en in Edinburgh begraven ligt."),
     "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Vervolg het pad..."),
     "startTour" : MessageLookupByLibrary.simpleMessage("Start rondleiding"),
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Hoe kom ik daar?"),
@@ -87,7 +88,7 @@ U kunt informatie over bussen en treinen verkrijgen via de website of app van Tr
     "history" : MessageLookupByLibrary.simpleMessage("Geschiedenis"),
     "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour voltooid"),
     "jews" : MessageLookupByLibrary.simpleMessage("Jewish Enclosure 1836"),
-    "jewsText" : MessageLookupByLibrary.simpleMessage('''Ontworpen door architect John Bryce en geïnspireerd op de pilaar van Absalom, Jeruzalem. Er zijn verschillende inscripties (fragmenten uit de Schrift, Lord Byron's 'Hebrew Melodies') en symbolen.
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Ontworpen door architect John Bryce en geïnspireerd op de pilaar van Absalom, Jeruzalem. Er zijn verschillende inscripties (uittreksel uit de Schriften, Lord Byron's 'Hebrew Melodies') en symbolen.
 De eerste begrafenis was Joseph Levi in 1832.'''),
     "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Volg het pad en ga de trap rechts op. Kijk bovenaan de trap naar rechts...'''),
     "disclaimer" : MessageLookupByLibrary.simpleMessage('''In de wintermaanden (of elk moment van het jaar) kan het weer onvoorspelbaar zijn, dus draag kleding en schoenen die geschikt zijn voor sommige oneffen en steile paden.
@@ -99,7 +100,7 @@ Honden moeten aangelijnd zijn.
 Behalve het nabijgelegen St Mungo’s Museum zijn er geen toiletten. Cathedral House Hotel is vlakbij.'''),
     "welcome" : MessageLookupByLibrary.simpleMessage('''Welkom bij de Tour'''),
     "ogilvie" : MessageLookupByLibrary.simpleMessage('Dominee Alexander Ogilvie Beattie Monument 1858'),
-    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Ontworpen door de beroemde architect Alexander 'Greek' Thomson uit Glasgow voor een predikant van St Vincent St UP Church. Thomson ligt begraven in de zuidelijke necropolis van Glasgow.
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Ontworpen door de beroemde architect Alexander 'Greek' Thomson uit Glasgow voor een predikant die de bouw van de St. Vincent St. UP-kerk initieerde. Thomson ligt begraven in de zuidelijke necropolis van Glasgow.
 Het monument bestaat uit een obelisk en een urn, met een grafkist op een sokkel.'''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Sla rechtsaf en eerste links een gebogen laan op. Aan je linker kant...'''),
     "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan van Dowanhill Monument 1844"),
@@ -107,8 +108,8 @@ Het monument bestaat uit een obelisk en een urn, met een grafkist op een sokkel.
 Gebaseerd op het Monument van Lysicrates - een van de vele in de Necropolis. Het bovenste gedeelte bestaat uit zes Corinthische zuilen die een stevig midden omringen. De onderste kolommen zijn vereenvoudigd Corinthisch. De bovenkant is afgedekt met rollen die bedoeld zijn om een statief te ondersteunen.'''),
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Blijf doorgaan. Volgende aan de linkerkant...'''),
     "hutchison" : MessageLookupByLibrary.simpleMessage('Hutchison Family Mausoleum'),
-    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Een imposante structuur met interessant Moors motief op de gietijzeren poorten.
-De eerste begrafenis was in 1849, maar een interessante zittende is Francis Hay Thomson, MD, die op 26 april 1870 werd begraven.'''),
+    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Een imposante structuur met interessante Moorse motieven op de gietijzeren poorten.
+De eerste begrafenis was in 1849. Een interessante zittende is Francis Hay Thomson, MD, die hier op 26 april 1870 werd begraven.'''),
     "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage('''Ga verder op het pad en rechts in de hoek...'''),
     "raeWilson" : MessageLookupByLibrary.simpleMessage("William Rae Wilson Monument 1849"),
     "raeWilsonText" : MessageLookupByLibrary.simpleMessage('''Ontworpen door architect J A Bell.

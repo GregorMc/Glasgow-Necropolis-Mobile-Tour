@@ -51,7 +51,8 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "placeholders": {}
   },
 
-  "entranceText": "De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Edlington in gietijzer. De poorten hebben het Merchants 'House-symbool (een klipper bovenop de wereld) en het motto.",
+  "entranceText": '''De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Thomas Edington and Sons in gietijzer.
+De poorten hebben het Merchants House-symbool (een klipper bovenop de wereld) en het motto. ''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
@@ -86,7 +87,7 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "placeholders": {}
   },
 
-  "bridgeSighsText": "D & J Hamilton ontwierp de brug over de Molindinar Burn die nu onder Wishart St. loopt. De eerste steen en de tijdcapsule werden op de begraafplaatszijde van de brug gelegd, die uit drie bogen bestaat: een hoofdboog van 60 meter boven de rivier en vervolgens een boog genoeg voor paard en wagen en de kleine, derde boog, die het millrace toeliet om Subdean Mill te bereiken.",
+  "bridgeSighsText": "D & J Hamilton ontwierp de brug over de Molendinar Burn die nu onder Wishart St. loopt. De eerste steen en de tijdcapsule werden op de begraafplaatszijde van de brug gelegd, die uit drie bogen bestaat: een hoofdboog van 60 m boven de rivier en vervolgens een boog breed genoeg voor paard en wagen en de kleine, derde boog, die het millrace toeliet om Subdean Mill te bereiken.",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
@@ -212,7 +213,7 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "placeholders": {}
   },
 
-  "johnKingText": "Een imposante familiegewelf met gepolijste Peterhead granieten zuilen en gietijzeren poorten. John King of Campsie en Leverhome was partner in Alum Works bij Glasgow en de uiteindelijke eigenaar van Cudbear Works in Glasgow. Hij was ook directeur van het Merchants 'House en de Glasgow Chamber of Commerce.",
+  "johnKingText": "Een imposante familiegewelf met gepolijste Peterhead granieten zuilen en gietijzeren poorten. John King van Campsie en Leverhome was een partner in Alum Works bij Glasgow en de uiteindelijke eigenaar van Cudbear Works in Glasgow. Hij was ook directeur van het Merchants 'House en de Glasgow Chamber of Commerce.",
   "@johnKingText": {
     "description": "john king text",
     "type": "text",
@@ -254,7 +255,7 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "placeholders": {}
   },
 
-  "johnKnoxText": "Designer W Warren, architect Thomas Hamilton, beeldhouwer Robert Forrest. Een 30 meter hoog beeld van John Knox, met een bijbel in zijn linkerhand op een 58 meter hoge Dorische zuil. Dit monument werd gebouwd door James Carmichael op dit land dat bekend staat als (Fir Park) voordat de begraafplaats werd gebouwd. Deze kolom is te zien vanaf bijna elk deel van de Necropolis. John Knox ging naar de St Andrews University, waar hij religieuze orders opnam en in Edinburgh begraven ligt.",
+  "johnKnoxText": "Designer W Warren, architect Thomas Hamilton, beeldhouwer Robert Forrest. Een 30 meter hoog standbeeld van John Knox, de vader van de Reformatie in Schotland, met een bijbel in zijn linkerhand op een 58 meter hoge Dorische zuil. Dit monument werd gebouwd door James Carmichael op dit land dat bekend staat als (Fir Park) voordat de begraafplaats werd gebouwd. Deze kolom is te zien vanaf bijna elk deel van de Necropolis. John Knox ging naar de St Andrews University, waar hij religieuze orders opnam en in Edinburgh begraven ligt.",
   "@johnKnoxText": {
     "description": "john Knox text",
     "type": "text",
@@ -374,7 +375,7 @@ U kunt informatie over bussen en treinen verkrijgen via de website of app van Tr
           "placeholders": {}
           },
 
-"jewsText": '''Ontworpen door architect John Bryce en geïnspireerd op de pilaar van Absalom, Jeruzalem. Er zijn verschillende inscripties (fragmenten uit de Schrift, Lord Byron's 'Hebrew Melodies') en symbolen.
+"jewsText": '''Ontworpen door architect John Bryce en geïnspireerd op de pilaar van Absalom, Jeruzalem. Er zijn verschillende inscripties (uittreksel uit de Schriften, Lord Byron's 'Hebrew Melodies') en symbolen.
 De eerste begrafenis was Joseph Levi in 1832.''',
           "@jews": {
           "description": "jews text",
@@ -419,7 +420,7 @@ Behalve het nabijgelegen St Mungo’s Museum zijn er geen toiletten. Cathedral H
     "placeholders": {}
   },
 
-  "ogilvieText": '''Ontworpen door de beroemde architect Alexander 'Greek' Thomson uit Glasgow voor een predikant van St Vincent St UP Church. Thomson ligt begraven in de zuidelijke necropolis van Glasgow.
+  "ogilvieText": '''Ontworpen door de beroemde architect Alexander 'Greek' Thomson uit Glasgow voor een predikant die de bouw van de St. Vincent St. UP-kerk initieerde. Thomson ligt begraven in de zuidelijke necropolis van Glasgow.
                     Het monument bestaat uit een obelisk en een urn, met een grafkist op een sokkel.''',
   "@ogilvieText": {
     "description": "Ogilvie text",
@@ -463,8 +464,8 @@ Gebaseerd op het Monument van Lysicrates - een van de vele in de Necropolis. Het
         "placeholders": {}
       },
 
-      "hutchisonText": '''Een imposante structuur met interessant Moors motief op de gietijzeren poorten.
-                          De eerste begrafenis was in 1849, maar een interessante zittende is Francis Hay Thomson, MD, die op 26 april 1870 werd begraven.''',
+      "hutchisonText": '''Een imposante structuur met interessante Moorse motieven op de gietijzeren poorten.
+De eerste begrafenis was in 1849. Een interessante zittende is Francis Hay Thomson, MD, die hier op 26 april 1870 werd begraven.''',
       "@hutchisonText": {
         "description": "hutchison text",
         "type": "text",

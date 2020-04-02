@@ -51,7 +51,8 @@
     "placeholders": {}
   },
 
-  "entranceText": "Os portões de entrada de 1838 projetados pelo arquiteto David Hamilton e feitos por Edlington em ferro fundido. Os portões têm o símbolo da Casa dos Comerciantes (um cortador no topo do mundo) e o lema.",
+  "entranceText": '''Os portões de entrada de 1838 projetados pelo arquiteto, David Hamilton, e feitos por Thomas Edington e Sons em ferro fundido.
+Os portões têm o símbolo da Merchants House (uma tesoura no topo do mundo) e o lema.''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
@@ -86,7 +87,7 @@
     "placeholders": {}
   },
 
-  "bridgeSighsText": "A D&J Hamilton projetou a ponte sobre o Molindinar Burn, que agora passa por Wishart St. cavalo e carroça e o pequeno arco terceiro, que permitiu que a corrida chegasse ao Subdean Mill.",
+  "bridgeSighsText": "A D&J Hamilton projetou a ponte sobre o Molendinar Burn, que agora passa por Wishart St. A pedra fundamental e a cápsula do tempo foram colocadas no lado do cemitério da ponte, que compreende 3 arcos - um arco principal de 60m sobre o rio e depois um arco largo o suficiente para o cavalo, a carroça e o pequeno arco terceiro, o que permitiu que a corrida chegasse ao Subdean Mill.",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
@@ -212,7 +213,7 @@
     "placeholders": {}
   },
 
-  "johnKingText": "Um cofre familiar imponente com colunas de granito polido de Peterhead e portões de ferro fundido. John, rei do acampamento, e Leverhome eram sócios da Alum Works, perto de Glasgow, e eventual proprietário da Cudbear Works, em Glasgow. Ele também foi diretor da Merchants 'House e da Câmara de Comércio de Glasgow.",
+  "johnKingText": "Um cofre familiar imponente com colunas de granito polido de Peterhead e portões de ferro fundido. John King, da Campsie, e Leverhome eram sócios da Alum Works, perto de Glasgow, e eventual proprietário da Cudbear Works, em Glasgow. Ele também foi diretor da Merchants 'House e da Câmara de Comércio de Glasgow.",
   "@johnKingText": {
     "description": "john king text",
     "type": "text",
@@ -254,7 +255,7 @@
     "placeholders": {}
   },
 
-  "johnKnoxText": "Designer W Warren, arquiteto Thomas Hamilton, escultor Robert Forrest. Uma estátua de John Knox de 12 pés de altura, segurando uma bíblia na mão esquerda em uma coluna dórica de 58 pés de altura. Este monumento foi construído por James Carmichael nesta terra conhecida como (Fir Park) antes da construção do cemitério. Essa coluna é vista em quase todas as partes da necrópole. John Knox foi para a Universidade de St Andrews, onde recebeu ordens religiosas e é sepultado em Edimburgo.",
+  "johnKnoxText": "Designer W Warren, arquiteto Thomas Hamilton, escultor Robert Forrest. Uma estátua de John Knox, o pai da Reforma na Escócia, com 12 pés de altura, segurando uma Bíblia na mão esquerda em uma coluna dórica de 58 pés de altura. Este monumento foi construído por James Carmichael nesta terra conhecida como (Fir Park) antes da construção do cemitério. Essa coluna é vista em quase todas as partes da necrópole. John Knox foi para a Universidade de St Andrews, onde recebeu ordens religiosas e é sepultado em Edimburgo.",
   "@johnKnoxText": {
     "description": "john Knox text",
     "type": "text",
@@ -374,7 +375,7 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
           "placeholders": {}
           },
 
-"jewsText": '''Projetado pelo arquiteto John Bryce. O projeto foi inspirado no pilar de Absalão, em Jerusalém. Existem várias inscrições (trechos das escrituras, 'Melodias Hebraicas' de Lord Byron) e símbolos.
+"jewsText": '''Projetado pelo arquiteto John Bryce. O projeto foi inspirado no pilar de Absalão, em Jerusalém. Existem várias inscrições (extrato das escrituras, 'Melodias Hebraicas' de Lord Byron) e símbolos.
 O primeiro enterro foi Joseph Levi em 1832.''',
           "@jews": {
           "description": "jews text",
@@ -419,7 +420,7 @@ Não há instalações sanitárias além do Museu St Mungo, nas proximidades. Ca
     "placeholders": {}
   },
 
-  "ogilvieText": '''Projetado pelo famoso arquiteto de Glasgow Alexander 'Greek' Thomson para um ministro da Igreja St. Vincent St UP. Thomson está enterrado na necrópole do sul de Glasgow.
+  "ogilvieText": '''Projetado pelo famoso arquiteto de Glasgow Alexander 'Greek' Thomson para um ministro que instigou a construção da Igreja de São Vicente St UP. Thomson está enterrado na necrópole do sul de Glasgow.
                     O monumento consiste em um obelisco e uma urna, com um baú na base.''',
   "@ogilvieText": {
     "description": "Ogilvie text",
@@ -463,8 +464,8 @@ Baseado no Monumento de Lisicrates - um dos muitos na Necrópole. A seção supe
         "placeholders": {}
       },
 
-      "hutchisonText": '''Uma estrutura imponente com interessante motivo mourisco nos portões de ferro fundido.
-O primeiro enterro foi em 1849, mas um representante interessante é Francis Hay Thomson, MD, que foi enterrado em 26 de abril de 1870. ''',
+      "hutchisonText": '''Uma estrutura imponente com motivos mouros interessantes nos portões de ferro fundido.
+O primeiro enterro foi em 1849. Um titular interessante é Francis Hay Thomson, MD, que foi enterrado aqui em 26 de abril de 1870.''',
       "@hutchisonText": {
         "description": "hutchison text",
         "type": "text",

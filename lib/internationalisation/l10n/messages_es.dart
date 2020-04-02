@@ -28,12 +28,13 @@ class MessageLookup extends MessageLookupByLibrary {
 La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo limitado, puede ver 30 de los monumentos y mausoleas más especiales con esta aplicación. Si desea ver más, comuníquese con la Necrópolis de Friends of Glasgow para organizar una visita guiada a pie - '''),
     "start" : MessageLookupByLibrary.simpleMessage("comienzo"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Edlington en hierro fundido. Las puertas tienen el símbolo de la Casa de los Comerciantes (un clipper en la cima del mundo) y el lema."),
+    "entranceText" : MessageLookupByLibrary.simpleMessage('''Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Thomas Edington and Sons en hierro fundido.
+        Las puertas tienen el símbolo de la Casa de los Comerciantes (un cortaúñas en la cima del mundo) y el lema.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Camina por las puertas y hacia el puente...'),
     "back" : MessageLookupByLibrary.simpleMessage("atrás"),
     "next" : MessageLookupByLibrary.simpleMessage("Próxima"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("El puente de los suspiros 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton diseñó el puente sobre Molindinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco lo suficientemente ancho para caballo y carro y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill. \ n Continúa por el puente y mira de frente"),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton diseñó el puente sobre Molendinar Burn, que ahora se encuentra debajo de Wishart St. La primera piedra y la cápsula del tiempo se colocaron en el lado del cementerio del puente que consta de 3 arcos: un arco principal de 60 metros sobre el río, luego un arco ancho suficiente para caballos y carretas y el pequeño tercer arco, que permitió que la carrera llegara a Subdean Mill."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Directamente y frente a ti...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("La fachada de entrada 1836"),
     "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Gira a la izquierda y sigue el camino principal..."),
@@ -50,13 +51,13 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
     "robertBlackText" : MessageLookupByLibrary.simpleMessage("El primer mausoleo erigido en el cementerio. Robert Black de Black and Wingate, comerciantes en Kelvinhaugh, construyó esto para su hija, Catherine, quien murió a los 12 años. Cinco de sus hijos murieron antes de los 21 años."),
     "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Sigue y mira a tu izquierda..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("Monumento a John King 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("Una imponente bóveda familiar con columnas de granito pulido Peterhead y puertas de hierro fundido. John, rey del campamento y Leverhome, fue socio de Alum Works cerca de Glasgow y eventual propietario de Cudbear Works en Glasgow. También fue director de la Merchants 'House y de la Cámara de Comercio de Glasgow."),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage("Una imponente bóveda familiar con columnas de granito pulido Peterhead y puertas de hierro fundido. John King de Campsie y Leverhome fue socio de Alum Works cerca de Glasgow y eventual propietario de Cudbear Works en Glasgow. También fue director de la Merchants 'House y de la Cámara de Comercio de Glasgow."),
     "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Continúa por el camino..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Mayor Archibald Douglas Mausoleo Monteath 1842"),
     "archieText" : MessageLookupByLibrary.simpleMessage("Diseñado por el arquitecto David Cousin. Algunos piensan que el Mausoleo de 30 pies de diámetro está basado en la iglesia de San Sepulcro en Cambridge. Hay caras grotescas (ahora muy erosionadas) en la puerta y debajo de los aleros y cada diseño de ventana en el nivel inferior es diferente. El mayor Douglas Monteath estaba con la East India Company y murió en Helensburgh. El hermano de Monteath también fue enterrado aquí en la bóveda de abajo en 1850."),
     "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Continúa por el camino y toma la primera izquierda y luego la primera a la derecha. A tu izquierda...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("Monumento a John Knox 1825"),
-    "johnKnoxText" : MessageLookupByLibrary.simpleMessage('''Diseñador W Warren, Arquitecto Thomas Hamilton, Escultor Robert Forrest. Una estatua de John Knox de 12 pies de altura, sosteniendo una biblia en su mano izquierda sobre una columna dórica de 58 pies de altura. Este monumento fue construido por James Carmichael en esta tierra conocida como (Fir Park) antes de que se construyera el cementerio. Esta columna se ve desde casi todas partes de la necrópolis. John Knox fue a la Universidad St Andrews, donde recibió órdenes religiosas y fue enterrado en Edimburgo.'''),
+    "johnKnoxText" : MessageLookupByLibrary.simpleMessage('''Diseñador W Warren, Arquitecto Thomas Hamilton, Escultor Robert Forrest. Una estatua de 12 pies de altura de John Knox, el Padre de la Reforma en Escocia, sosteniendo una biblia en su mano izquierda sobre una columna dórica de 58 pies de altura. Este monumento fue construido por James Carmichael en esta tierra conocida como (Fir Park) antes de que se construyera el cementerio. Esta columna se ve desde casi todas partes de la necrópolis. John Knox fue a la Universidad St Andrews, donde recibió órdenes religiosas y fue enterrado en Edimburgo.'''),
     "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Continúa por el camino..."),
     "startTour" : MessageLookupByLibrary.simpleMessage("Comience el recorrido"),
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Llegar allí"),
@@ -86,7 +87,8 @@ Puede obtener información sobre autobuses y trenes en el sitio web o aplicació
     "history" : MessageLookupByLibrary.simpleMessage("Historia"),
     "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour completo"),
     "jews" : MessageLookupByLibrary.simpleMessage("Recinto judío 1836"),
-    "jewsText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el arquitecto John Bryce. El diseño se inspiró en el pilar de Absalón, Jerusalén. Hay varias inscripciones (extractos de las escrituras, 'Melodías hebreas' de Lord Byron) y símbolos.
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el arquitecto John Bryce. El diseño se inspiró en el pilar de Absalón, Jerusalén. Hay varias inscripciones 
+ y símbolos.
 El primer entierro fue Joseph Levi en 1832.'''),
     "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Sigue el camino y sube los escalones de la derecha. Cerca de la parte superior de los escalones, mira a la derecha...'''),
     "disclaimer" : MessageLookupByLibrary.simpleMessage('''En los meses de invierno (o en cualquier época del año) el clima puede ser impredecible, por lo tanto, use ropa y calzado adecuados para algunos de los caminos irregulares y empinados.
@@ -99,7 +101,7 @@ No hay instalaciones sanitarias aparte del cercano Museo de San Mungo. Cathedral
     "welcome" : MessageLookupByLibrary.simpleMessage('''Bienvenida al tour'''),
     "lockhartInstructions" : MessageLookupByLibrary.simpleMessage('''Mira a la izquierda en la parte superior de los pasos...'''),
     "ogilvie" : MessageLookupByLibrary.simpleMessage('Reverendo Alexander Ogilvie Beattie Monument 1858'),
-    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el famoso arquitecto de Glasgow Alexander 'Greek' Thomson para un ministro de la Iglesia St Vincent St UP. Thomson está enterrado en la necrópolis del sur de Glasgow.
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el famoso arquitecto de Glasgow Alexander 'Greek' Thomson para un ministro que instigó la construcción de la Iglesia St Vincent St UP. Thomson está enterrado en la necrópolis del sur de Glasgow.
 El monumento consiste en un obelisco y una urna, con un cofre en una base.'''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Gire a la derecha y primero a la izquierda en una avenida curva. A la izquierda...'''),
     "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan of Dowanhill Monumento 1844"),
@@ -108,7 +110,7 @@ Basado en el Monumento a los Lisicrados, uno de los muchos en la Necrópolis. La
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Sigue mejorando. Siguiente a la izquierda...'''),
     "hutchison" : MessageLookupByLibrary.simpleMessage('Mausoleo de la familia Hutchison'),
     "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Una imponente estructura con interesantes motivos moriscos en las puertas de hierro fundido.
-El primer entierro fue en 1849, pero un titular interesante es Francis Hay Thomson, MD, quien fue enterrado el 26 de abril de 1870.'''),
+El primer entierro fue en 1849. Un titular interesante es Francis Hay Thomson, MD, quien fue enterrado aquí el 26 de abril de 1870.'''),
     "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage('''Siga por el camino y a la derecha en la esquina...'''),
     "raeWilson" : MessageLookupByLibrary.simpleMessage("Monumento a William Rae Wilson 1849"),
     "raeWilsonText" : MessageLookupByLibrary.simpleMessage('''Diseñado por el arquitecto J A Bell.

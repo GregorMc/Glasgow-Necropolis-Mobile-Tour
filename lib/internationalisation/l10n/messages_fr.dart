@@ -28,13 +28,14 @@ class MessageLookup extends MessageLookupByLibrary {
   La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un temps limité, vous pouvez voir 30 des monuments et des mausolées les plus spéciaux avec cette application. Si vous voulez en savoir plus, contactez les Amis de la nécropole de Glasgow pour organiser une visite guidée à pied - '''),
     "start" : MessageLookupByLibrary.simpleMessage("Début"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Les portes d'entrée 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Edlington en fonte. Les portes ont le symbole de la maison des marchands (une tondeuse au sommet du monde) et la devise."),
+    "entranceText" : MessageLookupByLibrary.simpleMessage('''Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Thomas Edington and Sons en fonte.
+  Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Traversez les portes et sur le pont...'),
     "back" : MessageLookupByLibrary.simpleMessage("Retour "),
     "next" : MessageLookupByLibrary.simpleMessage("Prochain "),
     "seeMore" : MessageLookupByLibrary.simpleMessage("voir plus "),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("Le pont des soupirs 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton a conçu le pont sur le Molindinar Burn qui passe maintenant sous la rue Wishart. La pierre de fondation et la capsule temporelle ont été posées sur le côté du cimetière du pont qui comprend 3 arches - une arche principale de 60 m au-dessus de la rivière, puis une arche suffisamment large pour cheval et charrette et la petite troisième arche, qui permettait à la race de se rendre au Moulin Subdean."),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton a conçu le pont sur le Molendinar Burn qui passe maintenant sous Wishart St. assez pour le cheval et la charrette et la petite troisième arche, qui a permis à la millrace de se rendre à Subdean Mill."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Tout droit et face à toi...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("La façade d'entrée 1836"),
     "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Conçu par l'architecte John Bryce. L'entrée prévue pour les catacombes qui devaient traverser la nécropole. Lorsque la loi sur l'anatomie a été adoptée en 1832, l'idée des catacombes a été abandonnée."),
@@ -58,7 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
   "archieText" : MessageLookupByLibrary.simpleMessage("Conçu par l'architecte David Cousin. Certains pensent que le mausolée de 30 pieds de diamètre est basé sur l'église Saint-Sépulcre de Cambridge. Il y a des visages grotesques (maintenant fortement érodés) sur la porte et sous les avant-toits et chaque conception de fenêtre au niveau inférieur est différente. Le major Douglas Monteath faisait partie de la Compagnie des Indes orientales et est décédé à Helensburgh. Le frère de Monteath a également été enterré ici dans la voûte en dessous en 1850."),
   "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Continuez le long du chemin et prenez la première à gauche puis la première à droite. À ta gauche...'''),
   "johnKnox" : MessageLookupByLibrary.simpleMessage("Monument de John Knox 1825"),
-  "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, architecte Thomas Hamilton, sculpteur Robert Forrest. Une statue de 12 pieds de haut de John Knox, tenant une bible dans sa main gauche sur une colonne dorique de 58 pieds de haut. Ce monument a été construit par James Carmichael sur ce terrain connu sous le nom de (Fir Park) avant la construction du cimetière. Cette colonne est vue de presque chaque partie de la nécropole. John Knox est allé à l'Université St Andrews où il a pris des ordres religieux et est enterré à Édimbourg."),
+  "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, architecte Thomas Hamilton, sculpteur Robert Forrest. Une statue de 12 pieds de haut de John Knox, le père de la Réforme en Écosse, tenant une bible dans sa main gauche sur une colonne dorique de 58 pieds de haut. Ce monument a été construit par James Carmichael sur ce terrain connu sous le nom de (Fir Park) avant la construction du cimetière. Cette colonne est vue de presque chaque partie de la nécropole. John Knox est allé à l'Université St Andrews où il a pris des ordres religieux et est enterré à Édimbourg."),
   "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Continuez le long du chemin..."),
   "startTour" : MessageLookupByLibrary.simpleMessage("Tour initial "),
   "gettingThere" : MessageLookupByLibrary.simpleMessage("S'y Rendre "),
@@ -89,7 +90,7 @@ Vous pouvez obtenir des informations sur les bus et les trains sur le site Web o
   "history" : MessageLookupByLibrary.simpleMessage("Histoire"),
   "tourComplete" : MessageLookupByLibrary.simpleMessage("Visite terminée"),
   "jews" : MessageLookupByLibrary.simpleMessage("Enceinte juive 1836"),
-  "jewsText" : MessageLookupByLibrary.simpleMessage(''' Conçu par l'architecte John Bryce, le design a été inspiré par le pilier d'Absalom, Jérusalem. Il existe diverses inscriptions (extraits des Écritures, «Mélodies hébraïques» de Lord Byron) et des symboles.
+  "jewsText" : MessageLookupByLibrary.simpleMessage(''' Conçu par l'architecte John Bryce, le design a été inspiré par le pilier d'Absalom, Jérusalem. Il existe diverses inscriptions (extrait des Écritures, «Mélodies hébraïques» de Lord Byron) et des symboles.
 Le premier enterrement fut Joseph Levi en 1832. '''),
   "jewsInstructions" : MessageLookupByLibrary.simpleMessage(''' Suivez le chemin et montez les marches à droite. Près du haut des marches, regardez à droite...'''),
   "disclaimer" : MessageLookupByLibrary.simpleMessage(''' Pendant les mois d'hiver (ou à tout moment de l'année), le temps peut être imprévisible, veuillez donc porter des vêtements et des chaussures adaptés à certains des chemins inégaux et escarpés.
@@ -101,7 +102,7 @@ Les chiens doivent être tenus en laisse.
 Il n'y a pas de toilettes en dehors du musée St Mungo à proximité. Le Cathedral House Hotel est à proximité.'''),
   "welcome" : MessageLookupByLibrary.simpleMessage(''' Bienvenue sur le Tour'''),
   "ogilvie" : MessageLookupByLibrary.simpleMessage('Révérend Alexander Ogilvie Beattie Monument 1858'),
-  "ogilvieText" : MessageLookupByLibrary.simpleMessage(''' Conçu par le célèbre architecte de Glasgow Alexander «Greek» Thomson pour un ministre de l'église St Vincent St UP. Thomson est enterré dans la Nécropole du Sud de Glasgow.
+  "ogilvieText" : MessageLookupByLibrary.simpleMessage(''' Conçu par le célèbre architecte de Glasgow Alexander «Greek» Thomson pour un ministre qui a incité la construction de l'église St Vincent St UP. Thomson est enterré dans la Nécropole du Sud de Glasgow.
 Le monument se compose d'un obélisque et d'une urne, avec un tombeau sur une base.'''),
   "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage(''' Tournez à droite et première à gauche dans une avenue incurvée. À gauche...'''),
   "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan de Dowanhill Monument 1844"),
@@ -109,8 +110,8 @@ Le monument se compose d'un obélisque et d'une urne, avec un tombeau sur une ba
 Basé sur le monument de Lysicrates - l'un des nombreux de la nécropole. La section supérieure se compose de six colonnes corinthiennes qui entourent un centre solide. Les colonnes inférieures sont corinthiennes simplifiées. Le sommet est coiffé de parchemins destinés à supporter un trépied. '''),
   "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage(''' Continuez à monter. Suivant à gauche...'''),
   "hutchison" : MessageLookupByLibrary.simpleMessage('Mausolée de la famille Hutchison'),
-  "hutchisonText" : MessageLookupByLibrary.simpleMessage(''' Une structure imposante avec un motif mauresque intéressant sur les portes en fonte.
-Le premier enterrement a eu lieu en 1849, mais un titulaire intéressant est Francis Hay Thomson, MD qui a été enterré le 26 avril 1870.'''),
+  "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Une structure imposante avec d'intéressants motifs mauresques sur les portes en fonte.
+Le premier enterrement a eu lieu en 1849. Un titulaire historique intéressant est Francis Hay Thomson, MD, qui a été enterré ici le 26 avril 1870.'''),
   "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage(''' Continuez sur le chemin et à droite dans le coin...'''),
   "raeWilson" : MessageLookupByLibrary.simpleMessage("Monument William Rae Wilson 1849"),
   "raeWilsonText" : MessageLookupByLibrary.simpleMessage(''' Conçu par l'architecte J A Bell.

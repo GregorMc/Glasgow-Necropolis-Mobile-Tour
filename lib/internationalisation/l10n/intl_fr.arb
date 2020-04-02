@@ -51,7 +51,8 @@ La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un tem
     "placeholders": {}
   },
 
-  "entranceText": "Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Edlington en fonte. Les portes ont le symbole de la maison des marchands (une tondeuse au sommet du monde) et la devise. \ n Traversez les portes et sur le pont.",
+  "entranceText": '''Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Thomas Edington and Sons en fonte.
+                  Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise. ''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
@@ -93,7 +94,7 @@ La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un tem
     "placeholders": {}
   },
 
-  "bridgeSighsText": "D & J Hamilton a conçu le pont sur le Molindinar Burn qui passe maintenant sous la rue Wishart. La pierre de fondation et la capsule temporelle ont été posées sur le côté du cimetière du pont qui comprend 3 arches - une arche principale de 60 m au-dessus de la rivière, puis une arche suffisamment large pour cheval et charrette et la petite troisième arche, qui permettait à la race de se rendre au Moulin Subdean.",
+  "bridgeSighsText": "D & J Hamilton a conçu le pont sur le Molendinar Burn qui passe maintenant sous Wishart St. assez pour le cheval et la charrette et la petite troisième arche, qui a permis à la millrace de se rendre à Subdean Mill.",
   "@bridgeSighsText": {
     "description": "The Bridge Of Sighs 1834 text",
     "type": "text",
@@ -219,7 +220,7 @@ La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un tem
     "placeholders": {}
   },
 
-  "johnKingText": "Une imposante voûte familiale avec des colonnes de granit Peterhead polies et des portes en fonte. John King of Campsie et Leverhome était associé chez Alum Works près de Glasgow et propriétaire éventuel de Cudbear Works à Glasgow. Il a également été directeur de la Merchants 'House et de la Glasgow Chamber of Commerce.",
+  "johnKingText": "Une imposante voûte familiale avec des colonnes de granit Peterhead polies et des portes en fonte. John King de Campsie et Leverhome était associé chez Alum Works près de Glasgow et propriétaire éventuel de Cudbear Works à Glasgow. Il a également été directeur de la Merchants 'House et de la Glasgow Chamber of Commerce.",
   "@johnKingText": {
     "description": "john king text",
     "type": "text",
@@ -261,7 +262,7 @@ La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un tem
     "placeholders": {}
   },
 
-  "johnKnoxText": "Designer W Warren, architecte Thomas Hamilton, sculpteur Robert Forrest. Une statue de 12 pieds de haut de John Knox, tenant une bible dans sa main gauche sur une colonne dorique de 58 pieds de haut. Ce monument a été construit par James Carmichael sur ce terrain connu sous le nom de (Fir Park) avant la construction du cimetière. Cette colonne est vue de presque chaque partie de la nécropole. John Knox est allé à l'Université St Andrews où il a pris des ordres religieux et est enterré à Édimbourg.",
+  "johnKnoxText": "Designer W Warren, architecte Thomas Hamilton, sculpteur Robert Forrest. Une statue de 12 pieds de haut de John Knox, le père de la Réforme en Écosse, tenant une bible dans sa main gauche sur une colonne dorique de 58 pieds de haut. Ce monument a été construit par James Carmichael sur ce terrain connu sous le nom de (Fir Park) avant la construction du cimetière. Cette colonne est vue de presque chaque partie de la nécropole. John Knox est allé à l'Université St Andrews où il a pris des ordres religieux et est enterré à Édimbourg.",
   "@johnKnoxText": {
     "description": "john Knox text",
     "type": "text",
@@ -375,7 +376,7 @@ Vous pouvez obtenir des informations sur les bus et les trains sur le site Web o
           "placeholders": {}
           },
 
-"jewsText": '''Conçu par l'architecte John Bryce, le design a été inspiré par le pilier d'Absalom, Jérusalem. Il existe diverses inscriptions (extraits des Écritures, «Mélodies hébraïques» de Lord Byron) et des symboles.
+"jewsText": '''Conçu par l'architecte John Bryce, le design a été inspiré par le pilier d'Absalom, Jérusalem. Il existe diverses inscriptions (extrait des Écritures, «Mélodies hébraïques» de Lord Byron) et des symboles.
 Le premier enterrement fut Joseph Levi en 1832.''',
           "@jews": {
           "description": "jews text",
@@ -420,7 +421,7 @@ Il n'y a pas de toilettes en dehors du musée St Mungo à proximité. Le Cathedr
     "placeholders": {}
   },
 
-  "ogilvieText": '''Conçu par le célèbre architecte de Glasgow Alexander «Greek» Thomson pour un ministre de l'église St Vincent St UP. Thomson est enterré dans la Nécropole du Sud de Glasgow.
+  "ogilvieText": '''Conçu par le célèbre architecte de Glasgow Alexander «Greek» Thomson pour un ministre qui a incité la construction de l'église St Vincent St UP. Thomson est enterré dans la Nécropole du Sud de Glasgow.
 Le monument se compose d'un obélisque et d'une urne, avec un tombeau sur une base.
 ''',
   "@ogilvieText": {
@@ -465,8 +466,8 @@ Le monument se compose d'un obélisque et d'une urne, avec un tombeau sur une ba
         "placeholders": {}
       },
 
-      "hutchisonText": '''Une structure imposante avec un motif mauresque intéressant sur les portes en fonte.
-Le premier enterrement a eu lieu en 1849, mais un titulaire intéressant est Francis Hay Thomson, MD qui a été enterré le 26 avril 1870.''',
+      "hutchisonText": '''Une structure imposante avec d'intéressants motifs mauresques sur les portes en fonte.
+Le premier enterrement a eu lieu en 1849. Un titulaire historique intéressant est Francis Hay Thomson, MD, qui a été enterré ici le 26 avril 1870.''',
       "@hutchisonText": {
         "description": "hutchison text",
         "type": "text",

@@ -1,5 +1,5 @@
 name: glasgow_necropolis_tour
-description: A new Flutter application.
+description: A mobile tour guide of the Glasgow Necropolis.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -31,10 +31,10 @@ dependencies:
   flutter_map_marker_cluster: any
   flutter_tts: any
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  test: any
   flutter_launcher_icons: "^0.7.3"
 
 flutter_icons:

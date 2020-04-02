@@ -28,36 +28,37 @@ class MessageLookup extends MessageLookupByLibrary {
 The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited time you can see 30 of the most special monuments and mausolea with this app. If you want to see more contact the Friends of Glasgow Necropolis to arrange a guided walking tour -  '''),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("The Entrance Gates 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants' House symbol (a clipper on top of the world) and motto."),
+    "entranceText" : MessageLookupByLibrary.simpleMessage('''The entrance gates 1838 designed by architect, David Hamilton, and made by Thomas Edington and Sons in cast iron. 
+The gates have the Merchants House symbol (a clipper on top of the world) and motto.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Walk through the gates and onto the bridge...'),
     "back" : MessageLookupByLibrary.simpleMessage("Back"),
     "next" : MessageLookupByLibrary.simpleMessage("Next"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("The Bridge Of Sighs 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Straight on and facing you...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("The Entrance Facade 1836"),
     "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned."),
     "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Turn left and follow the main path..."),
     "williamMiller" : MessageLookupByLibrary.simpleMessage("William Miller Memorial 1872"),
-    "williamMillerText" : MessageLookupByLibrary.simpleMessage("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was burried in Tollcross cemetery."),
+    "williamMillerText" : MessageLookupByLibrary.simpleMessage("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was buried in Tollcross cemetery."),
     "williamMillerInstructions" : MessageLookupByLibrary.simpleMessage("Veer down left - follow this path until you reach steps leading up right and down left..."),
     "allInfo" : MessageLookupByLibrary.simpleMessage("All Information"),
     "map" : MessageLookupByLibrary.simpleMessage("Map"),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
     "lockhart" : MessageLookupByLibrary.simpleMessage("Lockhart Monument 1842"),
-    "lockhartText" : MessageLookupByLibrary.simpleMessage("Designed by London architect J Wallace. He was Mrs Lockhart's brother. One of many Gothic monuments in the Necropolis with cherubs front and back."),
+    "lockhartText" : MessageLookupByLibrary.simpleMessage("Designed by London architect J Wallace who was Mrs Lockhart's brother. One of many Gothic monuments in the Necropolis with cherubs front and back."),
     "lockhartInstructions" : MessageLookupByLibrary.simpleMessage('''Look left at the top of the steps...'''),
     "robertBlack" : MessageLookupByLibrary.simpleMessage("Robert Black mausoleum 1837"),
     "robertBlackText" : MessageLookupByLibrary.simpleMessage("The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21."),
     "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Keep going and look to your left..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("John king Monument 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants' House and The Glasgow Chamber of Commerce."),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage("An imposing family vault with polished Peterhead granite columns and cast iron gates. John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants' House and The Glasgow Chamber of Commerce."),
     "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Continue on up the path..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Major Archibald Douglas Monteath Mausoleum 1842"),
-    "archieText" : MessageLookupByLibrary.simpleMessage("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850."),
+    "archieText" : MessageLookupByLibrary.simpleMessage("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850."),
     "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Continue along the path and take the first left then the first right. On your left...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Monument 1825"),
-    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religous orders and is burried in Edinburgh."),
+    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, the Father of the Reformation in Scotland, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost every part of the Necropolis. John Knox went to St Andrews University where he took religous orders and is buried in Edinburgh."),
     "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Continue along the path..."),
     "startTour" : MessageLookupByLibrary.simpleMessage("Start Tour"),
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Getting There"),
@@ -87,7 +88,7 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
     "history" : MessageLookupByLibrary.simpleMessage("History"),
     "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour Complete"),
     "jews" : MessageLookupByLibrary.simpleMessage("Jewish Enclosure 1836"),
-    "jewsText" : MessageLookupByLibrary.simpleMessage('''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extract from the scriptures, Lord Byron's 'Hebrew Melodies') and symbols.
 The first burial was Joseph Levi in 1832.'''),
     "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Follow the path and go up the steps on the right. Near the top of the steps, look right...'''),
     "disclaimer" : MessageLookupByLibrary.simpleMessage('''In winter months (or any time of year) the weather can be unpredictable so please wear clothing and footwear suitable for some of the uneven and steep paths. 
@@ -99,7 +100,7 @@ Dogs must be kept on a leash.
 There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral House Hotel is nearby.'''),
     "welcome" : MessageLookupByLibrary.simpleMessage('''Welcome to the Tour'''),
     "ogilvie" : MessageLookupByLibrary.simpleMessage('Reverend Alexander Ogilvie Beattie Monument 1858'),
-    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is buried in Glasgow's Southern Necropolis.
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister who instigated the building of St Vincent St UP Church. Thomson is buried in Glasgow's Southern Necropolis.
 The monument consists of an obelisk and urn, with a tomb chest on a base. '''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Turn right and first left up a curved avenue. On the left...'''),
     "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan of Dowanhill Monument 1844"),
@@ -107,26 +108,26 @@ The monument consists of an obelisk and urn, with a tomb chest on a base. '''),
 Based on the Monument of Lysicrates - one of many in the Necropolis. The upper section consists of six Corinthian columns which surround a solid centre. The lower columns are simplified Corinthian. The top is capped by scrolls intended to support a tripod.'''),
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Keep going up. Next on the left...'''),
     "hutchison" : MessageLookupByLibrary.simpleMessage('Hutchison Family Mausoleum'),
-    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''An imposing structure with interesting Moorish motif on the cast iron gates.
-First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD who was buried 26th April 1870.'''),
+    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''An imposing structure with interesting Moorish motifs on the cast iron gates.
+The first burial was in 1849. An interesting incumbent is Francis Hay Thomson, MD, who was buried here on 26th April 1870.'''),
     "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage('''Carry on down the path and on the right in the corner...'''),
     "raeWilson" : MessageLookupByLibrary.simpleMessage("William Rae Wilson Monument 1849"),
     "raeWilsonText" : MessageLookupByLibrary.simpleMessage('''Designed by architect J A Bell.
 
 An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
 
-William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
+William Rae practiced as a solicitor and took the name Wilson when he inherited from his uncle John Wilson. 
 
-He went east to recover from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+He went east to recover from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels in the Holy Land' He also wrote other admired travel books. 
 
-He died in London but is burried here. '''),
+He died in London but is buried here. '''),
     "raeWilsonInstructions" : MessageLookupByLibrary.simpleMessage('''Next monument...'''),
     "houldsworth" : MessageLookupByLibrary.simpleMessage("John Houldsworth Family Mausoleum 1845"),
     "houldsworthText" : MessageLookupByLibrary.simpleMessage('''Designed by architect and sculptor John Thomas. 
                      
 On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
                    
-John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. '''),
+John Houldsworth established the Anderston Foundry Company and was a senior Baile of the City of Glasgow. '''),
     "houldsworthInstructions" : MessageLookupByLibrary.simpleMessage('''Turn right down the grassy path and turn right back on to the main path. Continue straight through and turn left down towards the mausoleum. Before you reach it, take the first right. On your right...'''),
     "dalmoak" : MessageLookupByLibrary.simpleMessage('Aiken of Dalmoak Mausoleum'),
     "dalmoakText" : MessageLookupByLibrary.simpleMessage('''Designed by architect James Hamilton.

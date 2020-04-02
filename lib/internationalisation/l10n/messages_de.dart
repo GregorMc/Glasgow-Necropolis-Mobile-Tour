@@ -23,12 +23,13 @@ class MessageLookup extends MessageLookupByLibrary {
 Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über eine begrenzte Zeit verfügen, können Sie mit dieser App 30 besonders herausragende Denkmäler und Mausoleen sehen. Wenn Sie mehr sehen möchten, kontaktieren Sie die Freunde der Nekropole von Glasgow, um einen Spaziergang mit Fuehrung zu arrangieren - '''),
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Das Eingangstor 1838"),
-    "entranceText" : MessageLookupByLibrary.simpleMessage("Das Eingangstor wurde 1838 vom Architekten David Hamilton entworfen und von Edlington aus Gusseisen gefertigt. Das Tor ist mit dem Symbol des Kaufmannshauses (ein Clipper über der Welt) und dem Motto versehen)."),
+    "entranceText" : MessageLookupByLibrary.simpleMessage('''Die Eingangstore 1838 wurden vom Architekten David Hamilton entworfen und von Thomas Edington and Sons aus Gusseisen hergestellt.
+  Die Tore haben das Merchants House-Symbol (ein Clipper oben auf der Welt) und das Motto. '''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Gehe durch das Tor und auf die Brücke...'),
     "back" : MessageLookupByLibrary.simpleMessage("Zurück"),
     "next" : MessageLookupByLibrary.simpleMessage("Nächste"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("Die Seufzerbrücke 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton entwarf die Brücke über den Molindinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf die Friedhofsseite der Brücke gelegt, die aus drei Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem Bogen, der breit genug ist für Pferdefuhrwerk und der kleine dritte Bogen, der es der Mühlrasse ermöglichte, zur Subdean-Mühle zu gelangen. Fahren Sie weiter über die Brücke und schauen Sie geradeaus"),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton entwarf die Brücke über den Molendinar Burn, der jetzt unter der Wishart Street verläuft. Der Grundstein und die Zeitkapsel wurden auf der Friedhofsseite der Brücke gelegt, die aus 3 Bögen besteht - einem 60 m langen Hauptbogen über dem Fluss und einem breiten Bogen genug für Pferdewagen und den kleinen dritten Bogen, der es der Mühlenterrasse ermöglichte, zur Subdean Mill zu gelangen."),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Geradeaus und dir zugewandt...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("Die Eingangsfassade 1836"),
     "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Biegen Sie links ab und folgen Sie dem Hauptweg..."),
@@ -45,13 +46,13 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
     "robertBlackText" : MessageLookupByLibrary.simpleMessage("Das erste auf dem Friedhof errichtete Mausoleum. Robert Black of Black und Wingate, Händler in Kelvinhaugh, bauten dies für seine Tochter Catherine, die im Alter von 12 Jahren starb. Fünf seiner Kinder starben vor dem 21. Lebensjahr."),
     "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Gehen Sie weiter und blicken Sie nach links..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("John King Denkmal 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und schließlich Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce."),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage("Ein imposantes Familiengewölbe mit polierten Peterhead-Granitsäulen und gusseisernen Toren. John King von Campsie und Leverhome war Partner bei Alum Works in der Nähe von Glasgow und später Eigentümer von Cudbear Works in Glasgow. Er war auch Direktor des Merchants 'House und der Glasgow Chamber of Commerce."),
     "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Folgen Sie dem Weg weiter..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Major Archibald Douglas Monteath Mausoleum 1842"),
     "archieText" : MessageLookupByLibrary.simpleMessage("Entworfen vom Architekten David Cousin. Einige vertreten die Ansicht, dass das 30ft Durchmesser Mausoleum auf der Kirche von St. Sepulchre in Cambridge basiert. Es gibt groteske Gesichter (jetzt stark erodiert) an der Tür und unter der Traufe und jedes Fensterdesign auf der unteren Ebene ist anders. Major Douglas Monteath war bei der East India Company und starb in Helensburgh. Monteaths Bruder wurde ebenfalls 1850 hier im darunter liegenden Gewölbe beigesetzt."),
     "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Pfad und nehmen Sie die erste Straße links und dann die erste Straße rechts. Zu Ihrer Linken...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Denkmal 1825"),
-    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, der eine Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule hält. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist."),
+    "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architekt Thomas Hamilton, Bildhauer Robert Forrest. Eine 12 Fuß hohe Statue von John Knox, dem Vater der Reformation in Schottland, mit einer Bibel in der linken Hand auf einer 58 Fuß hohen dorischen Säule. Dieses Denkmal wurde von James Carmichael auf dem als (Fir Park) bekannten Land erbaut, bevor der Friedhof gebaut wurde. Diese Säule ist von fast jedem Teil der Nekropole aus zu sehen. John Knox besuchte die St. Andrews University, wo er Ordensbriefe entgegennahm und in Edinburgh beerdigt ist."),
     "johnKnoxInstructions" : MessageLookupByLibrary.simpleMessage("Folgen Sie dem Weg weiter..."),
     "startTour" : MessageLookupByLibrary.simpleMessage("Tour starten"),
     "gettingThere" : MessageLookupByLibrary.simpleMessage("Anreise"),
@@ -81,7 +82,7 @@ Informationen zu Bussen und Bahnen erhalten Sie auf der Website oder App von Tra
     "history" : MessageLookupByLibrary.simpleMessage("Geschichte"),
     "tourComplete" : MessageLookupByLibrary.simpleMessage("Tour abgeschlossen"),
     "jews" : MessageLookupByLibrary.simpleMessage("Jüdische Anlage 1836"),
-    "jewsText" : MessageLookupByLibrary.simpleMessage('''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszüge aus der Schrift, Lord Byrons 'Hebräische Melodien') und Symbole.
+    "jewsText" : MessageLookupByLibrary.simpleMessage('''Entworfen von dem Architekten John Bryce. Der Entwurf wurde von Absaloms Säule Jerusalem inspiriert. Es gibt verschiedene Inschriften (Auszug aus den heiligen Schriften, Lord Byrons 'Hebräische Melodien') und Symbole.
 Die erste Beerdigung war Joseph Levi im Jahre 1832.'''),
     "jewsInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Pfad und gehen Sie die Stufen rechts hinauf. Schauen Sie rechts oben auf der Treppe nach rechts...'''),
     "disclaimer" : MessageLookupByLibrary.simpleMessage('''In den Wintermonaten (oder zu jeder Jahreszeit) kann das Wetter unvorhersehbar sein. Tragen Sie daher bitte Kleidung und Schuhe, die für einige der unebenen und steilen Wege geeignet sind.
@@ -94,7 +95,7 @@ Außer dem nahe gelegenen St. Mungo Museum gibt es keine Toiletten. Das Cathedra
     "welcome" : MessageLookupByLibrary.simpleMessage('''Willkommen zur Tour'''),
     "lockhartInstructions" : MessageLookupByLibrary.simpleMessage('''Schauen Sie oben links nach ...'''),
     "ogilvie" : MessageLookupByLibrary.simpleMessage('Reverend Alexander Ogilvie Beattie Denkmal 1858'),
-    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Pfarrer der St. Vincent St UP Church. Thomson ist in Glasgows südlicher Nekropole begraben.
+    "ogilvieText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom berühmten Glasgow-Architekten Alexander 'Greek' Thomson für einen Minister, der den Bau der St. Vincent St UP Church initiierte. Thomson ist in Glasgows südlicher Nekropole begraben.
 Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf einem Sockel.'''),
     "ogilvieInstructions" : MessageLookupByLibrary.simpleMessage('''Gehen Sie rechts und dann die erste links in eine kurvenreiche Straße. Links...'''),
     "dowanhill" : MessageLookupByLibrary.simpleMessage("Buchanan von Dowanhill Monument 1844"),
@@ -102,8 +103,8 @@ Das Denkmal besteht aus einem Obelisken und einer Urne mit einer Grabkiste auf e
 Basierend auf dem Denkmal des Lysikrates - eines von vielen in der Nekropole. Der obere Teil besteht aus sechs korinthischen Säulen, die ein festes Zentrum umgeben. Die unteren Spalten sind korinthisch vereinfacht. Die Oberseite wird von Schriftrollen abgedeckt, die ein Stativ tragen sollen.'''),
     "dowanhillInstructions" : MessageLookupByLibrary.simpleMessage('''Gehen Sie weiter nach oben. Als naechstes kommt links...'''),
     "hutchison" : MessageLookupByLibrary.simpleMessage('Mausoleum der Familie Hutchison'),
-    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Eine imposante Struktur mit interessantem maurischen Motiv auf den gusseisernen Toren.
-Die erste Beerdigung fand 1849 statt, aber ein interessanter Amtsinhaber ist Dr. Francis Hay Thomson, der am 26. April 1870 beerdigt wurde.'''),
+    "hutchisonText" : MessageLookupByLibrary.simpleMessage('''Eine imposante Struktur mit interessanten maurischen Motiven auf den gusseisernen Toren.
+Die erste Beerdigung fand 1849 statt. Ein interessanter Amtsinhaber ist Dr. Francis Hay Thomson, der am 26. April 1870 hier beigesetzt wurde.'''),
     "hutchisonInstructions" : MessageLookupByLibrary.simpleMessage('''Folgen Sie dem Weg  nach unten und rechts in der Ecke...'''),
     "raeWilson" : MessageLookupByLibrary.simpleMessage("William Rae Wilson Denkmal 1849"),
     "raeWilsonText" : MessageLookupByLibrary.simpleMessage('''Entworfen vom Architekten J A Bell.

@@ -79,8 +79,9 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get entranceText {
     return Intl.message(
-      'The entrance gates 1838 designed by architect, David Hamilton, and made by Edlington in cast iron. The gates have the Merchants House symbol (a clipper on top of the world) and motto.',
-      name: 'entranceText',
+      '''The entrance gates 1838 designed by architect, David Hamilton, and made by Thomas Edington and Sons in cast iron. 
+The gates have the Merchants House symbol (a clipper on top of the world) and motto.''',
+    name: 'entranceText',
       desc: 'entrance text',
     );
   }
@@ -119,7 +120,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get bridgeSighsText {
     return Intl.message(
-      'D & J Hamilton designed the bridge over the Molindinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of bridge which comprises 3 arches - a 60m main arch over the river, then an archwide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.',
+      'D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.',
       name: 'bridgeSighsText',
       desc: 'The Bridge Of Sighs 1834 text',
     );
@@ -167,7 +168,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get williamMillerText {
     return Intl.message(
-      'This was erected to the author of the famous nursery rhyme "Wee Willie Winkie". He died in 1872 and was burried in Tollcross cemetery.',
+      'This was erected to the author of the famous nursery rhyme "Wee Willie Winkie". He died in 1872 and was buried in Tollcross cemetery.',
       name: 'williamMillerText',
       desc: 'William Miller Memorial 1872 text',
     );
@@ -215,7 +216,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get lockhartText {
     return Intl.message(
-      'Designed by London architect J Wallace. He was Mrs Lockhart''s brother. One of many Gothic monuments in the Necropolis with cherubs front and back.',
+      'Designed by London architect J Wallace who was Mrs Lockhart''s brother. One of many Gothic monuments in the Necropolis with cherubs front and back.',
       name: 'lockhartText',
       desc: 'lockhart text',
     );
@@ -255,7 +256,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get johnKingText {
     return Intl.message(
-      'An imposing family vault with polished Peterhead granite columns and cast iron gates. John king of campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.',
+      'An imposing family vault with polished Peterhead granite columns and cast iron gates. John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.',
       name: 'johnKingText',
       desc: 'john King text',
     );
@@ -279,7 +280,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get archieText {
     return Intl.message(
-      'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the church of St Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.',
+      'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.',
       name: 'archieText',
       desc: 'archie text',
     );
@@ -303,7 +304,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
 
   String get johnKnoxText {
     return Intl.message(
-      'Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest A 12ft high statue of John Knox, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost everypart of the Necropolis. John Knox went to St Andrews University where he took religious orders and is burried in Edinburgh.',
+      'Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, the Father of the Reformation in Scotland, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost every part of the Necropolis. John Knox went to St Andrews University where he took religious orders and is buried in Edinburgh.',
       name: 'johnKnoxText',
       desc: 'john knox text',
     );
@@ -438,7 +439,7 @@ You can obtain information on buses and trains from Traveline Scotland’s websi
 
   String get jewsText {
     return Intl.message(
-      ''''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extracts from scripture, Lord Byron's 'Hebrew Melodies') and symbols.
+      ''''Designed by architect John Bryce.The design was inspired by Absalom's pillar, Jerusalem. There are various inscriptions (extract from the scriptures, Lord Byron's 'Hebrew Melodies') and symbols.
 The first burial was Joseph Levi in 1832.''',
       name: 'jewsText',
       desc: 'jews Text',
@@ -493,7 +494,7 @@ There are no toilet facilities apart from nearby St Mungo’s Museum. Cathedral 
 
   String get ogilvieText {
     return Intl.message(
-      '''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
+      '''Designed by the famous Glasgow architect Alexander 'Greek' Thomson for a minister who instigated the building of St Vincent St UP Church. Thomson is burried in Glasgow's Southern Necropolis.
 The monument consists of an obelisk and urn, with a tomb chest on a base. ''',
       name: 'ogilvieText',
       desc: 'ogilvie Text',
@@ -543,8 +544,8 @@ Based on the Monument of Lysicrates - one of many in the Necropolis. The upper s
 
   String get hutchisonText {
     return Intl.message(
-      '''An imposing structure with interesting Moorish motif on the cast iron gates.
-First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD who was buried 26th April 1870.''',
+      '''An imposing structure with interesting Moorish motifs on the cast iron gates.
+The first burial was in 1849. An interesting incumbent is Francis Hay Thomson, MD, who was buried here on 26th April 1870.''',
       name: 'hutchisonText',
       desc: 'hutchison text',
     );
@@ -572,11 +573,11 @@ First burial was in 1849 but an interesting incumbent is Francis Hay Thomson, MD
 
 An octagonal form Moorish style, similar to monuments in Palestine. 27ft high and made from liver-rock from the Binnie quarry. No wood, iron or lead has been used in the concealed joints.  
 
-William Rae practiced as a solicitor and tookthe name Wilson when he inherited from his uncle john Wilson. 
+William Rae practiced as a solicitor and took the name Wilson when he inherited from his uncle John Wilson. 
 
-He went east to recover  from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels by Holy Land' He also wrote other admired travel books. 
+He went east to recover from the death of his wife who died 18 months after their marriage, and wrote the book 'Travels in the Holy Land' He also wrote other admired travel books. 
 
-He died in London but is burried here. ''',
+He died in London but is buried here. ''',
       name: 'raeWilsonText',
       desc: 'raeWilson text',
     );
@@ -604,7 +605,7 @@ He died in London but is burried here. ''',
                      
 On the right Charity carrying a child and on the left Hope with an anchor. Inside there are three marble figures - Faith in the centre with an angel on each side. 
                    
-John Houldsworth established the Anderston Foundry Company and was a senior Baille of the city of Glasgow. ''',
+John Houldsworth established the Anderston Foundry Company and was a senior Baile of the City of Glasgow. ''',
       name: 'houldsworthText',
       desc: 'houldsworth text',
     );
