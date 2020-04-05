@@ -1,16 +1,23 @@
 # glasgow_necropolis_tour
 
-A new Flutter application.
+A Flutter mobile application that provides a tour of Glasgow Necropolis.
 
-## Getting Started
+glasgow_necropolis_tour app offers:
+    Translated for English, German, French, Dutch, Spanish, Portuguese. App language is set to the language set by the user's device.
+    Provides a map for users containing user location, monument markers, and compartment markers.
+    User location marker will move as the user moves and change direction as they change direction.
+    Offers a self guided tour for 16 monuments in the Necropolis.
+    Audio Tour also available for any of the supported languages listed above.
+    Offers other supporting pages such as History, Getting There, Donate, and Books & Guides
 
-This project is a starting point for a Flutter application.
+Installing Project:
+    Download the project from the following GitLab repository: : https://gitlab.cis.strath.ac.uk/ ntb16154/glasgownecropolisapp.git
+    For the project to run, the following must be installed:
+        •	Git
+        •	Flutter SDK
+        •	Dart SDK (should be included in the Flutter package)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run the Application:
+    Make sure you have a physical device connected or a suitable mobile phone emulator.
+    Run the main.dart file in Release Mode for a true performance values.
+    Run the main.dart file in Debug Mode when developing new code.

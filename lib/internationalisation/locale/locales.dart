@@ -80,6 +80,7 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
   String get entranceText {
     return Intl.message(
       '''The entrance gates 1838 designed by architect, David Hamilton, and made by Thomas Edington and Sons in cast iron. 
+
 The gates have the Merchants House symbol (a clipper on top of the world) and motto.''',
     name: 'entranceText',
       desc: 'entrance text',
@@ -120,7 +121,9 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
 
   String get bridgeSighsText {
     return Intl.message(
-      'D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.',
+      '''D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. 
+  
+The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.''',
       name: 'bridgeSighsText',
       desc: 'The Bridge Of Sighs 1834 text',
     );
@@ -144,7 +147,9 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
 
   String get entranceFacadeText {
     return Intl.message(
-      'Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.',
+      '''Designed by architect John Bryce. 
+      
+The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.''',
       name: 'entranceFacadeText',
       desc: 'The Entrance Facade 1836 text',
     );
@@ -256,7 +261,9 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
 
   String get johnKingText {
     return Intl.message(
-      'An imposing family vault with polished Peterhead granite columns and cast iron gates. John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.',
+      '''An imposing family vault with polished Peterhead granite columns and cast iron gates. 
+      
+John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.''',
       name: 'johnKingText',
       desc: 'john King text',
     );
@@ -280,7 +287,11 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
 
   String get archieText {
     return Intl.message(
-      'Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.',
+      '''Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. 
+      
+There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. 
+  
+Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.''',
       name: 'archieText',
       desc: 'archie text',
     );
@@ -304,7 +315,11 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
 
   String get johnKnoxText {
     return Intl.message(
-      'Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, the Father of the Reformation in Scotland, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost every part of the Necropolis. John Knox went to St Andrews University where he took religious orders and is buried in Edinburgh.',
+      '''Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. 
+      
+A 12ft high statue of John Knox, the Father of the Reformation in Scotland, holding a bible in his left hand on a 58ft high Doric column. 
+
+This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost every part of the Necropolis. John Knox went to St Andrews University where he took religious orders and is buried in Edinburgh.''',
       name: 'johnKnoxText',
       desc: 'john knox text',
     );

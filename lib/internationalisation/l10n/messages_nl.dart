@@ -29,7 +29,8 @@ De Glasgow Necropolis beslaat 15 hectare en als je weinig tijd hebt, kun je met 
     "start" : MessageLookupByLibrary.simpleMessage("Begin"),
     "entrance" : MessageLookupByLibrary.simpleMessage("De toegangspoorten 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage('''De toegangspoorten 1838 ontworpen door architect David Hamilton en gemaakt door Thomas Edington and Sons in gietijzer.
-  De poorten hebben het Merchants House-symbool (een klipper bovenop de wereld) en het motto. '''),
+
+De poorten hebben het Merchants House-symbool (een klipper bovenop de wereld) en het motto. '''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Loop door de poorten en de brug op...'),
     "back" : MessageLookupByLibrary.simpleMessage("Terug"),
     "next" : MessageLookupByLibrary.simpleMessage("De volgende"),

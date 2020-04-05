@@ -29,7 +29,8 @@ La necrópolis de Glasgow cubre 37 acres (15 hectáreas) y si tiene un tiempo li
     "start" : MessageLookupByLibrary.simpleMessage("comienzo"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Las puertas de entrada 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage('''Las puertas de entrada 1838 diseñadas por el arquitecto David Hamilton, y hechas por Thomas Edington and Sons en hierro fundido.
-        Las puertas tienen el símbolo de la Casa de los Comerciantes (un cortaúñas en la cima del mundo) y el lema.'''),
+        
+Las puertas tienen el símbolo de la Casa de los Comerciantes (un cortaúñas en la cima del mundo) y el lema.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Camina por las puertas y hacia el puente...'),
     "back" : MessageLookupByLibrary.simpleMessage("atrás"),
     "next" : MessageLookupByLibrary.simpleMessage("Próxima"),

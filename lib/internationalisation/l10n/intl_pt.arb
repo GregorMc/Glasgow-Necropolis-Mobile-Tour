@@ -52,6 +52,7 @@
   },
 
   "entranceText": '''Os portões de entrada de 1838 projetados pelo arquiteto, David Hamilton, e feitos por Thomas Edington e Sons em ferro fundido.
+
 Os portões têm o símbolo da Merchants House (uma tesoura no topo do mundo) e o lema.''',
   "@entranceText": {
     "description": "entrance gates text",

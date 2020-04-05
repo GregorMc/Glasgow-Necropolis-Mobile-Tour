@@ -29,15 +29,20 @@ The Glasgow Necropolis covers 37 acres (15 hectares) and if you have limited tim
     "start" : MessageLookupByLibrary.simpleMessage("Start"),
     "entrance" : MessageLookupByLibrary.simpleMessage("The Entrance Gates 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage('''The entrance gates 1838 designed by architect, David Hamilton, and made by Thomas Edington and Sons in cast iron. 
+
 The gates have the Merchants House symbol (a clipper on top of the world) and motto.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Walk through the gates and onto the bridge...'),
     "back" : MessageLookupByLibrary.simpleMessage("Back"),
     "next" : MessageLookupByLibrary.simpleMessage("Next"),
     "bridgeSighs" : MessageLookupByLibrary.simpleMessage("The Bridge Of Sighs 1834"),
-    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage("D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill."),
+    "bridgeSighsText" : MessageLookupByLibrary.simpleMessage('''D & J Hamilton designed the bridge over the Molendinar Burn which now runs under Wishart St. 
+  
+The foundation stone and time capsule were laid on the cemetery side of the bridge which comprises 3 arches - a 60m main arch over the river, then an arch wide enough for horse and cart and the small, third arch, which allowed the millrace to get to Subdean Mill.'''),
     "bridgeSighsInstructions" : MessageLookupByLibrary.simpleMessage('Straight on and facing you...'),
     "entranceFacade" : MessageLookupByLibrary.simpleMessage("The Entrance Facade 1836"),
-    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage("Designed by architect John Bryce. The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned."),
+    "entranceFacadeText" : MessageLookupByLibrary.simpleMessage('''Designed by architect John Bryce. 
+      
+The intended entrance to catacombs which were to run through the Necropolis. When the Anatomy Act was passed in 1832 the idea for catacombs was abandoned.'''),
     "entranceFacadeInstructions" : MessageLookupByLibrary.simpleMessage("Turn left and follow the main path..."),
     "williamMiller" : MessageLookupByLibrary.simpleMessage("William Miller Memorial 1872"),
     "williamMillerText" : MessageLookupByLibrary.simpleMessage("This was erected to the author of the famous nursery rhyme 'Wee Willie Winkie'. He died in 1872 and was buried in Tollcross cemetery."),
@@ -52,10 +57,16 @@ The gates have the Merchants House symbol (a clipper on top of the world) and mo
     "robertBlackText" : MessageLookupByLibrary.simpleMessage("The first Mausoleum erected in the cemetery. Robert Black of Black and Wingate, merchants in Kelvinhaugh, built this for his daughter, Catherine, who died aged 12. Five of his children died before the age of 21."),
     "robertBlackInstructions" : MessageLookupByLibrary.simpleMessage("Keep going and look to your left..."),
     "johnKing" : MessageLookupByLibrary.simpleMessage("John king Monument 1875"),
-    "johnKingText" : MessageLookupByLibrary.simpleMessage("An imposing family vault with polished Peterhead granite columns and cast iron gates. John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants' House and The Glasgow Chamber of Commerce."),
+    "johnKingText" : MessageLookupByLibrary.simpleMessage('''An imposing family vault with polished Peterhead granite columns and cast iron gates. 
+      
+John King of Campsie and Leverhome was a partner in Alum Works near Glasgow and eventual owner of Cudbear Works in Glasgow. He was also a director of the Merchants''House and The Glasgow Chamber of Commerce.'''),
     "johnKingInstructions" : MessageLookupByLibrary.simpleMessage("Continue on up the path..."),
     "archie" : MessageLookupByLibrary.simpleMessage("Major Archibald Douglas Monteath Mausoleum 1842"),
-    "archieText" : MessageLookupByLibrary.simpleMessage("Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath's brother was also buried here in the vault below in 1850."),
+    "archieText" : MessageLookupByLibrary.simpleMessage('''Designed by architect David Cousin. The 30ft diameter Mausoleum is thought by some to be based on the Church of the Holy Sepulchre at Cambridge. 
+      
+There are grotesque faces (now badly eroded) on the doorway and under the eaves and every window design on the lower level is different. 
+  
+Major Douglas Monteath was with the East India Company and died in Helensburgh. Monteath''s brother was also buried here in the vault below in 1850.'''),
     "archieInstructions" : MessageLookupByLibrary.simpleMessage('''Continue along the path and take the first left then the first right. On your left...'''),
     "johnKnox" : MessageLookupByLibrary.simpleMessage("John Knox Monument 1825"),
     "johnKnoxText" : MessageLookupByLibrary.simpleMessage("Designer W Warren, Architect Thomas Hamilton, Sculptor Robert Forrest. A 12ft high statue of John Knox, the Father of the Reformation in Scotland, holding a bible in his left hand on a 58ft high Doric column. This monument was built by James Carmichael on this land known as (Fir Park) before the cemetery was built. This column is seen from almost every part of the Necropolis. John Knox went to St Andrews University where he took religous orders and is buried in Edinburgh."),

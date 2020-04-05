@@ -157,7 +157,7 @@ class Page11State extends State<Page11> {
   }
 
   Widget playButton(BuildContext context) {
-    String audio = AppLocalizations.of(context).entranceText;
+    String audio = AppLocalizations.of(context).hutchisonText;
     return  FlatButton(
         onPressed: () {
           setState(() {

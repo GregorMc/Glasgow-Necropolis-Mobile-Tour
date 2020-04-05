@@ -29,7 +29,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "start" : MessageLookupByLibrary.simpleMessage("Début"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Les portes d'entrée 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage('''Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Thomas Edington and Sons en fonte.
-  Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise.'''),
+
+Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Traversez les portes et sur le pont...'),
     "back" : MessageLookupByLibrary.simpleMessage("Retour "),
     "next" : MessageLookupByLibrary.simpleMessage("Prochain "),

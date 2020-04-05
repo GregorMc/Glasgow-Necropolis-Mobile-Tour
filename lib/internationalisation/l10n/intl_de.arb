@@ -52,7 +52,8 @@ Die Nekropole von Glasgow erstreckt sich über 15 Hektar. Wenn Sie nur über ein
   },
 
   "entranceText": '''Die Eingangstore 1838 wurden vom Architekten David Hamilton entworfen und von Thomas Edington and Sons aus Gusseisen hergestellt.
-                  Die Tore haben das Merchants House-Symbol (ein Clipper oben auf der Welt) und das Motto. ''',
+
+Die Tore haben das Merchants House-Symbol (ein Clipper oben auf der Welt) und das Motto. ''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",

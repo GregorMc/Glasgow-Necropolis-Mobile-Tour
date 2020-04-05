@@ -29,7 +29,8 @@ A Necrópole de Glasgow cobre 15 hectares (15 hectares) e, se você tiver tempo 
     "start" : MessageLookupByLibrary.simpleMessage("Começar"),
     "entrance" : MessageLookupByLibrary.simpleMessage("Os portões de entrada 1838"),
     "entranceText" : MessageLookupByLibrary.simpleMessage('''Os portões de entrada de 1838 projetados pelo arquiteto, David Hamilton, e feitos por Thomas Edington e Sons em ferro fundido.
-  Os portões têm o símbolo da Merchants House (uma tesoura no topo do mundo) e o lema.'''),
+
+Os portões têm o símbolo da Merchants House (uma tesoura no topo do mundo) e o lema.'''),
     "entranceInstructions" : MessageLookupByLibrary.simpleMessage('Atravesse os portões e entre na ponte...'),
     "back" : MessageLookupByLibrary.simpleMessage("para trás"),
     "next" : MessageLookupByLibrary.simpleMessage("Próximo"),

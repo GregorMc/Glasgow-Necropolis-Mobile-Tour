@@ -52,7 +52,8 @@ La nécropole de Glasgow couvre 37 hectares (15 hectares) et si vous avez un tem
   },
 
   "entranceText": '''Les portes d'entrée 1838 conçues par l'architecte David Hamilton et réalisées par Thomas Edington and Sons en fonte.
-                  Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise. ''',
+
+Les portes ont le symbole Merchants House (une tondeuse au sommet du monde) et la devise. ''',
   "@entranceText": {
     "description": "entrance gates text",
     "type": "text",
